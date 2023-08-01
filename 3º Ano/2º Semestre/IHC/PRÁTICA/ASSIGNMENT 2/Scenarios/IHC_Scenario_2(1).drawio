@@ -1,0 +1,174 @@
+<mxfile host="app.diagrams.net" modified="2023-04-09T22:26:49.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="kfHuMYPl9imBNEWitMML" version="21.1.5" type="device">
+  <diagram name="Página-1" id="gIGC-u8JBBmO-DpGp33F">
+    <mxGraphModel dx="2074" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-5" target="kP4oTYKrpnJ1c_2pyYLp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-5" target="kP4oTYKrpnJ1c_2pyYLp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-5" target="kP4oTYKrpnJ1c_2pyYLp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-5" target="kP4oTYKrpnJ1c_2pyYLp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-5" target="kP4oTYKrpnJ1c_2pyYLp-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-5" value="2. Patient delivery " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="50" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-6" target="kP4oTYKrpnJ1c_2pyYLp-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-6" target="kP4oTYKrpnJ1c_2pyYLp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-6" value="2.1 Notify patient of transport&#39;s upcoming arrival" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="140" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-10" target="kP4oTYKrpnJ1c_2pyYLp-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="264" y="220" />
+              <mxPoint x="380" y="220" />
+              <mxPoint x="380" y="310" />
+              <mxPoint x="540" y="310" />
+              <mxPoint x="540" y="450" />
+              <mxPoint x="115" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-10" value="2.2 Receive patient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-12" target="kP4oTYKrpnJ1c_2pyYLp-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="280" />
+              <mxPoint x="550" y="280" />
+              <mxPoint x="550" y="540" />
+              <mxPoint x="454" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-12" value="&lt;div&gt;2.3. Notify informal caretaker(s) that patient&#39;s delivery is ongoing&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-14" target="kP4oTYKrpnJ1c_2pyYLp-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="520" />
+              <mxPoint x="710" y="520" />
+              <mxPoint x="710" y="630" />
+              <mxPoint x="454" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-14" value="2.4. Delivery of the patient at the hospital " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="140" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-36" value="Execute all plans in order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-38" value="2.5. Notify informal caretaker(s) of patient&#39;s arrival " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="659" y="140" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-40" target="kP4oTYKrpnJ1c_2pyYLp-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-40" target="kP4oTYKrpnJ1c_2pyYLp-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="111" y="340" />
+              <mxPoint x="285" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-40" target="kP4oTYKrpnJ1c_2pyYLp-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="111" y="340" />
+              <mxPoint x="454" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-40" value="2.1.1 Fireman updates transport schedule status of next patient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="250" width="147" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-42" value="2.1.2 Patient and informal caretaker(s) check for a &lt;b&gt;notification of the upcoming arrival&lt;/b&gt; on SMS/E-mail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-44" value="2.1.1.1 Select list of transport schedules on main interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="355" width="147" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-47" value="2.1.1.2 Select next patient&#39;s scheduled transport" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211.5" y="355" width="147" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-49" value="2.1.1.3 Update scheduled transport status to &quot;underway&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="355" width="147" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-52" value="2.2.1 Fireman checks patient&#39;s profile linked in schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="470" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-54" value="2.2.2 Fireman updates scheduled transport status to &quot;received&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="218.5" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-10" target="kP4oTYKrpnJ1c_2pyYLp-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274" y="190" as="sourcePoint" />
+            <mxPoint x="125" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="264" y="220" />
+              <mxPoint x="380" y="220" />
+              <mxPoint x="380" y="310" />
+              <mxPoint x="540" y="310" />
+              <mxPoint x="540" y="450" />
+              <mxPoint x="289" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-64" value="&lt;div&gt;2.3.1 Informal caretaker accesses scheduled transports of patient&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383.5" y="555" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-66" value="&lt;div&gt;2.3.1 Observe most recent scheduled transport status as &quot;received&quot;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="555" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kP4oTYKrpnJ1c_2pyYLp-12" target="kP4oTYKrpnJ1c_2pyYLp-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="210" as="sourcePoint" />
+            <mxPoint x="464" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="280" />
+              <mxPoint x="550" y="280" />
+              <mxPoint x="550" y="540" />
+              <mxPoint x="615" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-69" value="2.4.1. Select list of transport schedules with status &quot;received&quot; on main interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375.25" y="650" width="156.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-72" value="2.4.1. Update transport status of patients to &quot;delivered&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="650" width="156.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kP4oTYKrpnJ1c_2pyYLp-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kP4oTYKrpnJ1c_2pyYLp-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="200" as="sourcePoint" />
+            <mxPoint x="750" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="520" />
+              <mxPoint x="710" y="520" />
+              <mxPoint x="710" y="630" />
+              <mxPoint x="628" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

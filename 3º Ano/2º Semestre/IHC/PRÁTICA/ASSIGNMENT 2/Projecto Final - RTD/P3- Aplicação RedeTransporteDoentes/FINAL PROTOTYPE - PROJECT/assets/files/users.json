@@ -1,0 +1,46 @@
+{
+  "users" : [
+    {
+      "email": "paulo@bombeiro.pt",
+      "password": "12frangosassados",
+      "name": "Paulo Rodrigues Silva",
+      "age": 30,
+      "contact": "910123456",
+      "type": 0
+    },
+
+    {
+      "email": "geral@bombeiro.pt",
+      "password": "teste123",
+      "name": "Bombeiro Genérico",
+      "age": 50,
+      "contact": "910910910",
+      "type": 0
+    },
+
+    {
+      "email": "honorio@gmail.com",
+      "password": "ajuda123",
+      "name": "Honório Rodrigues",
+      "age": 82,
+      "contact": "Contacto: 910987654",
+      "type": 1
+    },
+    {
+      "email": "marialuisa@gmail.com",
+      "password": "teste123",
+      "name": "Paciente Genérico",
+      "age": 50,
+      "contact": "910910910",
+      "type": 1
+    },
+    {
+      "email": "paciente@gmail.com",
+      "password": "teste123",
+      "name": "Paciente Genérico",
+      "age": 50,
+      "contact": "910910910",
+      "type": 1
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" modified="2023-04-09T14:21:41.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="iOfv0MjnzF518dRuGhcH" version="21.1.5" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="2074" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-1" target="fz2Zorp6x9bmbX01ODAP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-1" target="fz2Zorp6x9bmbX01ODAP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-1" target="fz2Zorp6x9bmbX01ODAP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-1" target="fz2Zorp6x9bmbX01ODAP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-1" value="1. Schedule transport " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="50" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-2" value="1.1 Open App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-4" target="fz2Zorp6x9bmbX01ODAP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-4" target="fz2Zorp6x9bmbX01ODAP-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="210" />
+              <mxPoint x="190" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-4" target="fz2Zorp6x9bmbX01ODAP-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="210" />
+              <mxPoint x="474" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-4" value="1.2 Register user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-6" target="fz2Zorp6x9bmbX01ODAP-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="494" y="220" />
+              <mxPoint x="720" y="220" />
+              <mxPoint x="720" y="400" />
+              <mxPoint x="140" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-6" value="1.3 Request schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-9" target="fz2Zorp6x9bmbX01ODAP-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="654" y="220" />
+              <mxPoint x="720" y="220" />
+              <mxPoint x="720" y="500" />
+              <mxPoint x="617" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-9" value="1.4 Confirm schedule data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="594" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-11" value="1.2.1 Select register button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-12" value="1.2.2 Introduce user register data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-15" target="fz2Zorp6x9bmbX01ODAP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-15" target="fz2Zorp6x9bmbX01ODAP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-15" target="fz2Zorp6x9bmbX01ODAP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-15" target="fz2Zorp6x9bmbX01ODAP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-15" value="1.2.3 Confirm register data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-18" value="1.2.3.1 Await data validation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-20" value="1.2.3.2 Receive SMS/E-mail message with validation code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="320" width="176" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-23" value="1.2.3.3 Copy validation code to app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="320" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-25" value="1.2.3.4 Confirm and finalize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-27" value="1.3.1 Select scheduling button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71.5" y="420" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-30" value="1.3.2 Select user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="420" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-6" target="fz2Zorp6x9bmbX01ODAP-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="190" as="sourcePoint" />
+            <mxPoint x="312" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="494" y="220" />
+              <mxPoint x="720" y="220" />
+              <mxPoint x="720" y="400" />
+              <mxPoint x="296" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-33" value="1.3.3 Select appointment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="146" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fz2Zorp6x9bmbX01ODAP-33" source="fz2Zorp6x9bmbX01ODAP-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637.5" y="180" as="sourcePoint" />
+            <mxPoint x="540" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="494" y="220" />
+              <mxPoint x="720" y="220" />
+              <mxPoint x="720" y="400" />
+              <mxPoint x="453" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-38" value="1.3.4 Insert schedule data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="420" width="146" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-6" target="fz2Zorp6x9bmbX01ODAP-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="190" as="sourcePoint" />
+            <mxPoint x="463" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="494" y="220" />
+              <mxPoint x="720" y="220" />
+              <mxPoint x="720" y="400" />
+              <mxPoint x="617" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-40" value="1.4.1 Await schedule validation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.75" y="520" width="140.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-41" value="1.4.2 Receive schedule validation message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546.75" y="520" width="140.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2Zorp6x9bmbX01ODAP-9" target="fz2Zorp6x9bmbX01ODAP-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664" y="190" as="sourcePoint" />
+            <mxPoint x="627" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="654" y="220" />
+              <mxPoint x="720" y="220" />
+              <mxPoint x="720" y="500" />
+              <mxPoint x="453" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz2Zorp6x9bmbX01ODAP-44" value="Execute all plans in order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

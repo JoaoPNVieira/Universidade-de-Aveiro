@@ -1,0 +1,19 @@
+{
+  "contactos_bombeiros" : [
+    {
+      "name": "CMDT JOSÉ MARIA COSTA",
+      "type": "Comandante",
+      "number": "916487325"
+    },
+    {
+      "name": "2º CMDT ANTÓNIO SILVA",
+      "type": "2º Comandante",
+      "number": "967431587"
+    },
+    {
+      "name": "SALOC",
+      "type": "Quartel",
+      "number": "808456123"
+    }
+  ]
+}

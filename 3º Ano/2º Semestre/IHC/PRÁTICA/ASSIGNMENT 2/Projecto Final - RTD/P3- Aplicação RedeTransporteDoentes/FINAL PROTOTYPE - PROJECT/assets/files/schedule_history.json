@@ -1,0 +1,31 @@
+{
+  "history" : [
+    {
+      "treatment": "Fisioterapia",
+      "location": "Hospital da Luz, Aveiro",
+      "date": "30/05/2023",
+      "time": "12:53"
+    },
+
+    {
+      "treatment": "Vacinação COVID-19",
+      "location": "Hospital da Luz, Aveiro",
+      "date": "14/09/2020",
+      "time": "14:24"
+    },
+
+    {
+      "treatment": "Cardiologia",
+      "location": "Hospital da Luz, Aveiro",
+      "date": "03/02/2018",
+      "time": "10:00"
+    },
+    {
+      "treatment": "Consulta Rotina",
+      "location": "Hospital da Luz, Aveiro",
+      "date": "16/09/2017",
+      "time": "10:00"
+    }
+
+  ]
+}

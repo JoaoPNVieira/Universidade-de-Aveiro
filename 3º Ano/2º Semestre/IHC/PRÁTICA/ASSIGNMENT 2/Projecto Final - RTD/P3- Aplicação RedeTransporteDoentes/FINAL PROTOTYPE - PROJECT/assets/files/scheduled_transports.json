@@ -1,0 +1,10 @@
+{
+  "transportation" : [
+    {
+      "treatment": "Fisioterapia",
+      "location": "Hospital São João, Porto",
+      "date": "30/05/2023",
+      "time": "12:00"
+    }
+  ]
+}

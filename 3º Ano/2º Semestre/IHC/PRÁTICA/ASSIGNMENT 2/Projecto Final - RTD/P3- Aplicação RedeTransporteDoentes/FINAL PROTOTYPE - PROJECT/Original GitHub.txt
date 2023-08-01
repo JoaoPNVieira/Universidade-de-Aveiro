@@ -1,0 +1,15 @@
+# ihc-project
+GITHUB Original: 
+https://github.com/laramatos22/ihc_project
+
+
+Realizado por:
+
+João Pedro Nunes Vieira, NºMec.: 50458
+Lara Catarina da Silva Matos, NºMec.: 95228
+Vitor Manuel Santos: NºMEc.: 107186'
+
+
+
+
+RTD - Rede de Transporte de Doentes não Urgentes - Projeto de IHC (Interação Humano-Computador)

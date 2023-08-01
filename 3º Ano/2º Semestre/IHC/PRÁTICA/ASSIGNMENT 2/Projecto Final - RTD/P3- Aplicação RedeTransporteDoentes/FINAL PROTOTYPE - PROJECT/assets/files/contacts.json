@@ -1,0 +1,19 @@
+{
+  "contacts" : [
+    {
+      "name": "Maria Luísa Rodrigues",
+      "type": "Cuidadora Informal",
+      "number": "910123789"
+    },
+    {
+      "name": "Honório Rodrigues",
+      "type": "Utente",
+      "number": "915282282"
+    },
+    {
+      "name": "Bombeiros Velhos - Aveiro",
+      "type": "Quartel",
+      "number": "935951753"
+    }
+  ]
+}

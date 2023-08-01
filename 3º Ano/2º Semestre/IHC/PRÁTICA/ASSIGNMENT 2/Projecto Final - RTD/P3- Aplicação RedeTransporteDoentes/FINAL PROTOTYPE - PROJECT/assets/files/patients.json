@@ -1,0 +1,34 @@
+{
+  "patients" : [
+    {
+      "name": "Honório Rodrigues",
+      "age": 82,
+      "contact": "Contacto: 910123456"
+    },
+
+    {
+      "name": "Benedita do Carmo",
+      "age": 93,
+      "contact": "Contacto: 919876543"
+    },
+
+    {
+      "name": "Anibal C. Silva",
+      "age": 83,
+      "contact": "Contacto: 910666999"
+    },
+
+    {
+      "name": "Amália Rodrigues",
+      "age": 103,
+      "contact": "Contacto: 912256358"
+    },
+
+    {
+      "name": "Joaquim Alberto",
+      "age": 62,
+      "contact": "Contacto: 915254821"
+    }
+
+  ]
+}
