@@ -1,0 +1,122 @@
+-- ControlPanel Testbench
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all; 
+
+entity WashingFSM_Tb is 
+end WashingFSM_Tb;
+
+architecture Stimulus of WashingFSM_Tb is
+
+	signal s_clk, s_start, s_res, s_change, s_timeEn : std_logic;
+	signal s_valve, s_pump, s_rinse, s_spin, s_finish : std_logic;
+	signal s_jump, s_prog, s_repeat : std_logic_vector(1 downto 0);
+	signal s_timeReq : std_logic_vector(3 downto 0);
+	
+	begin
+	
+		uut : entity work.WashingFSM(Behavior)
+					port map(-- In --
+								clock 		=> s_clk,
+								enable		=>	s_start,
+								reset 		=>	s_res,
+								inData 		=>	s_prog, 	
+								change		=>	s_change, 	
+								jump			=>	s_jump,		
+								-- Out --
+								timerEn		=>	s_timeEn,  
+								timerReq		=> s_timeReq,		
+								water_valve => LEDR(0),
+								water_pump	=> LEDR(1),
+								rinse			=> LEDR(2),
+								spin			=> LEDR(3),
+								finish 		=> LEDG(8),
+								repeat		=> s_rep);
+								
+								
+										
+		clock_proc : process
+		begin
+			s_clk <= '0'; 
+			wait for 100 ns;
+			s_clk <= '1'; 
+			wait for 100 ns;
+		end process;
+		
+	--Process stim: ~3300 ns
+		stim_proc : process
+		begin
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "00";
+			
+			wait for 350 ns; -- Ideal Conditions: s_sel pass
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "01";
+			
+			wait for 350 ns; -- Ideal Test Conditions: s_sel pass
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns; -- Ideal Test Conditions: s_sel pass
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "11";
+			
+			wait for 350 ns; -- turnOn test
+			
+			s_ton		<= '0' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns; -- reset test
+			
+			s_ton		<= '1' ;
+			s_res		<= '1' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns; -- door test
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '0' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns; -- start test
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '0' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns; -- Ideal Test Conditions: s_sel pass
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns;
+		end process;
+end Stimulus;

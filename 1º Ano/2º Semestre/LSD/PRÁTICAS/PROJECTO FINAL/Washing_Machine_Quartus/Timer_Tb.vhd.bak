@@ -1,0 +1,58 @@
+-- Timer Testbench
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all; 
+
+entity Timer_Tb is 
+end Timer_Tb_Tb;
+
+architecture Stimulus of Timer_Tb is
+
+	-- In Signals
+	signal s_pulclk, s_res, s_timeEn : std_logic;
+	signal s_time : std_logic_vector(3 downto 0);
+
+	-- Out Signals --
+	signal s_change: std_logic;
+	signal s_units, s_doz : std_logic_vector(1 downto 0);
+
+	
+	begin
+	
+		uut :	entity work.Timer(Behavior)
+					port map(-- In --
+								clock 		=> s_pulclk,
+								reset 		=> s_res,
+								enable		=> s_timeEn,
+								inTime		=> s_time,
+								-- Out --
+								countUnit 	=> s_units,
+								countDoz		=> s_doz,
+								change		=> s_change);
+								
+								
+										
+		clock_proc : process
+		begin
+			s_pulclk <= '0'; 
+			wait for 50 ns;
+			s_pulclk <= '1'; 
+			wait for 50 ns;
+		end process;
+		
+		
+		
+	-- RTL Simulation: xxx ns
+		stim_proc : process
+		begin
+			
+			-- Ideal Conditions: s_sel pass
+			
+			s_reset	<= '0';
+			s_timeEn <= '1';
+			s_time	<= "0111" ;
+				
+			wait for 800 ns; -- Ideal Conditions: s_sel pass
+			
+		end process;
+end Stimulus;

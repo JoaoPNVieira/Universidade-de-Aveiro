@@ -1,0 +1,22 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Especificação: Requisitos funcionais}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Casos de Utilização}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Arquitetura do Sistema}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Implementação}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fase 1}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}\acf {i/o}}{5}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Fase 2}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Fase 3}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Fase 4}{6}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Fase 5}{6}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Fase 6}{6}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Fase 7}{6}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Validação}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Manual de Utilizador}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Programas de lavagem disponíveis}{8}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Interface}{8}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Display de Informação}{8}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Botões de Interação}{8}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Conclusão}{9}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusão}{9}{section.6.1}%

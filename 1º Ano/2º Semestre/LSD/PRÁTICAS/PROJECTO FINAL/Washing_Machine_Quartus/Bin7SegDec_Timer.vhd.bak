@@ -1,0 +1,27 @@
+-- Componente: Binary 7 Segment Decoder - Display Time
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+
+entity Bin7SegDec_Timer is 
+
+	port(	enable   : in  std_logic;
+			inMsb4   : in  std_logic_vector(3 downto 0) ;
+			inLsb4   : in  std_logic_vector(3 downto 0) ;			
+			decUnit	: out std_logic_vector(6 downto 0)); -- Display number of time in units
+			decDoz	: out std_logic_vector(6 downto 0)); -- Display number of time in dozens
+
+end Bin7SegDecProg; 
+
+
+architecture Behavior of Bin7SegDecProg is 
+	
+begin
+						
+		
+		decUnit	<= "1111111" when (enable   = '0' ) else 									-- Disable
+
+		
+		decDoz <=	"1111111" when (enable   = '0' ) 	else	-- Disable
+						
+end Behavior;

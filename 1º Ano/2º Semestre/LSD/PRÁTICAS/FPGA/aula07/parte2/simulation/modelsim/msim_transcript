@@ -1,0 +1,67 @@
+# Reading pref.tcl
+# do BinUDCntEnRst4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:46:00 on May 06,2022
+# vcom -reportprogress 300 -93 -work work D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BinUDCntEnRst4
+# -- Compiling architecture Behavioral of BinUDCntEnRst4
+# End time: 10:46:00 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:46:10 on May 06,2022
+# vcom -reportprogress 300 -work work D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BinUDCntEnRst4
+# -- Compiling architecture Behavioral of BinUDCntEnRst4
+# End time: 10:46:10 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:46:13 on May 06,2022
+# vcom -reportprogress 300 -work work D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BinUDCntEnRst4Tb
+# -- Compiling architecture Stimulus of BinUDCntEnRst4Tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity BinUDCntEnRst4
+# End time: 10:46:13 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.binudcntenrst4tb(stimulus)
+# vsim work.binudcntenrst4tb(stimulus) 
+# Start time: 10:46:20 on May 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.binudcntenrst4tb(stimulus)
+# Loading work.binudcntenrst4(behavioral)
+add wave -position end  sim:/binudcntenrst4tb/s_reset
+add wave -position end  sim:/binudcntenrst4tb/s_clk
+add wave -position end  sim:/binudcntenrst4tb/s_enable
+add wave -position end  sim:/binudcntenrst4tb/s_upDown_n
+add wave -position end  sim:/binudcntenrst4tb/s_cntOut
+run
+# End time: 10:46:51 on May 06,2022, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0

@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Universidade-de-Aveiro---LECI/UA/FPGA/aula04/parte3/simulation/qsim
+Ecounterdown4
+Z1 w1649411905
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 0
+R0
+Z10 8Counter_Demo.vho
+Z11 FCounter_Demo.vho
+l0
+L37 1
+VYV9D_iQL>Id?MAGOM>nQz3
+!s100 `9<ofX4c0]_3jChO19b860
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1649411907
+!i10b 1
+Z14 !s108 1649411907.000000
+Z15 !s90 -work|work|Counter_Demo.vho|
+Z16 !s107 Counter_Demo.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 12 counterdown4 0 22 YV9D_iQL>Id?MAGOM>nQz3
+!i122 0
+l67
+L44 203
+V_z<zllai5KSk85WN:9>MY3
+!s100 XJjNR7SiMjK8:_9W0ch?42
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Ecounterdown4_vhd_vec_tst
+Z19 w1649411904
+R7
+R8
+!i122 1
+R0
+Z20 8p3ex3.vwf.vht
+Z21 Fp3ex3.vwf.vht
+l0
+L32 1
+V;GC?2a[jnG6V5?CzHakgY0
+!s100 B?OO]3^Fh9CRc4R4aHA6H0
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|p3ex3.vwf.vht|
+Z23 !s107 p3ex3.vwf.vht|
+!i113 1
+R17
+R18
+Acounterdown4_arch
+R7
+R8
+DEx4 work 24 counterdown4_vhd_vec_tst 0 22 ;GC?2a[jnG6V5?CzHakgY0
+!i122 1
+l45
+L34 31
+VB=DFa_>eZ[gl>lBfkKOc@1
+!s100 4AWhl[Ha2UT_Al=iT6`?k2
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18
+vCounterUpDown4
+Z24 !s110 1649413647
+!i10b 1
+!s100 o:730n[0zzlF2=Z]o=ji`3
+Z25 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPzZZ<?0J@VcPe`Fb@@h;=1
+Z26 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649413646
+8Counter_Demo.vo
+FCounter_Demo.vo
+!i122 6
+L0 32 276
+Z27 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z28 !s108 1649413647.000000
+!s107 Counter_Demo.vo|
+!s90 -work|work|Counter_Demo.vo|
+!i113 1
+R17
+Z29 tCvgOpt 0
+n@counter@up@down4
+vCounterUpDown4_vlg_vec_tst
+R24
+!i10b 1
+!s100 eczVnJOQE;<W>4Y91bb_F0
+R25
+IP>cX?F1Y;HMO5>zJV0]R=3
+R26
+R0
+w1649413645
+8p3ex5.vwf.vt
+Fp3ex5.vwf.vt
+!i122 7
+L0 30 50
+R27
+r1
+!s85 0
+31
+R28
+!s107 p3ex5.vwf.vt|
+!s90 -work|work|p3ex5.vwf.vt|
+!i113 1
+R17
+R29
+n@counter@up@down4_vlg_vec_tst

@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/simulation/modelsim
+Ebinudcntenrst4
+Z1 w1651829810
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd
+Z6 FD:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd
+l0
+L5 1
+VEm<E3>OYRgBcXFG]iT3l]1
+!s100 DNfJXNBkd?_7iQ0?3:f]I2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1651830370
+!i10b 1
+Z9 !s108 1651830370.000000
+Z10 !s90 -reportprogress|300|-work|work|D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd|
+Z11 !s107 D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 14 binudcntenrst4 0 22 Em<E3>OYRgBcXFG]iT3l]1
+!i122 1
+l15
+L13 18
+V6KBHeT@HS07<;gLM4FCG?1
+!s100 CJ89h]UoHzgf2b[J;Y0DN2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ebinudcntenrst4tb
+Z15 w1651830326
+R3
+R4
+!i122 2
+R0
+Z16 8D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4Tb.vhd
+Z17 FD:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4Tb.vhd
+l0
+L5 1
+VS9Z;XZD1T_KK3eei@^f2n2
+!s100 <QE5L6k_9PWNDl5g4SDKd0
+R7
+32
+Z18 !s110 1651830373
+!i10b 1
+Z19 !s108 1651830373.000000
+Z20 !s90 -reportprogress|300|-work|work|D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4Tb.vhd|
+!s107 D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4Tb.vhd|
+!i113 1
+R12
+R13
+Astimulus
+R2
+R14
+R3
+R4
+DEx4 work 16 binudcntenrst4tb 0 22 S9Z;XZD1T_KK3eei@^f2n2
+!i122 2
+l17
+L9 45
+VN91fi<][B4oDETnazHc@J2
+!s100 =:O:LH5;ln2[S:l0SI9fV1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+Z21 !s107 D:/Universidade-de-Aveiro---LECI/UA/FPGA/aula07/parte2/BinUDCntEnRst4Tb.vhd|
+!i113 1
+R12
+R13

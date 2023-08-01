@@ -1,0 +1,15 @@
+|penc4_2
+inputport[0] => Equal0.IN3
+inputport[1] => outpuport.DATAA
+inputport[1] => Equal0.IN2
+inputport[2] => outpuport.OUTPUTSELECT
+inputport[2] => outpuport.DATAA
+inputport[2] => Equal0.IN1
+inputport[3] => outpuport.OUTPUTSELECT
+inputport[3] => outpuport.OUTPUTSELECT
+inputport[3] => Equal0.IN0
+outpuport[0] <= outpuport.DB_MAX_OUTPUT_PORT_TYPE
+outpuport[1] <= outpuport.DB_MAX_OUTPUT_PORT_TYPE
+validoutp <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

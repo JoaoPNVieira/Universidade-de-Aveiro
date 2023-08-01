@@ -1,0 +1,24 @@
+-- Componente: Descodificador binário de 7 segmentos para Programa selecionado
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+
+entity Bin7SegDecProg is 
+
+	port(	enable   : in  std_logic;
+			binInput : in  std_logic_vector(3 downto 0) ;   
+			decProg	: out std_logic_vector(6 downto 0) ; -- Display letter P for Program 
+			decOut_n : out std_logic_vector(6 downto 0)); -- Display number of program choosen
+
+end Bin7SegDecProg; 
+
+architecture Behavior of Bin7SegDecoder is 
+begin
+	
+	decProg 	<= "0001100"; -- P
+	decout_n <= "1111111" when (enable   = '0'   ) else 	-- Disable: Tudo apagado
+					"1111001" when (binInput = "0001") else 	-- 1 
+					"0100100" when (binInput = "0010") else 	-- 2
+					"0110000" when (binInput = "0011"); 		-- 3 
+					
+end Behavior;

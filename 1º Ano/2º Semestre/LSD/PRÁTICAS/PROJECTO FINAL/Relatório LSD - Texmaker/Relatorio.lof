@@ -1,0 +1,23 @@
+\babel@toc {portuguese}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Diagrama de Blocos da Arquitetura do Sistema \relax }}{4}{figure.caption.16}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama de Estados \relax }}{5}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3}{\ignorespaces \acf {mef} \relax }}{8}{figure.caption.20}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Sistema de controlo de tempo \relax }}{9}{figure.caption.21}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Componente ControlPanel \relax }}{10}{figure.caption.22}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Componente Decoder Binário de 7 Segmentos para Display de tempo. \relax }}{10}{figure.caption.23}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Componente Decoder Binário de 7 Segmentos para Display de programa selecionado. \relax }}{10}{figure.caption.24}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Representação bloco geral do Top-level desenvolvido em \ac {vhdl}. \relax }}{11}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9}{\ignorespaces Testbench do \textit {Control Panel}\relax }}{12}{figure.caption.27}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Testbench do \textit {Jump Register}\relax }}{12}{figure.caption.28}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Testbench do \textit {Timer}\relax }}{13}{figure.caption.29}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Testbench do \textit {Display} de 7 segmentos que demonstra o programa selecionado\relax }}{13}{figure.caption.30}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Testbench do \textit {Timer} exibido no \textit {Display} de 7 segmentos\relax }}{13}{figure.caption.31}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {14}{\ignorespaces Instruções: Programas de lavagem\relax }}{14}{figure.caption.32}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Luzes de aviso.\relax }}{16}{figure.caption.33}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Instruções: Botões Principais da \acf {mlr}\relax }}{17}{figure.caption.34}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Instruções: displays e sinais luminosos da \acf {mlr}\relax }}{18}{figure.caption.36}%
+\addvspace {10\p@ }

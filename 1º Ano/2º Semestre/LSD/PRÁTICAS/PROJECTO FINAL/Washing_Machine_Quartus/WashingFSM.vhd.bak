@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity WashingFSM is
+	port(	reset 	: in std_logic;
+			clk 		: in std_logic;
+			inData 	: in std_logic_vector(2 downto 0);
+			finish 	: out std_logic);
+end WashingFSM;
+
+architecture Behavioral of WashingFSM is
+	
+	type 		TState is (S0,S1,S2,S3,S5,S6,);
+	signal 	PState, NState: TState;
+
+begin
+	
+	sync_proc : process(clk)
+	begin
+		if (rising_edge(clk)) then
+			if (start = '0') then 	pState <= S0;
+			else							pState <= nState;
+			end if;
+		end if;
+	end process;
+	
+	comb_proc : process(pState, inData)
+	begin
+		case pState is
+			when S0; 
+			
+		
+			when S1; 
+		
+			when others => nState <= S0;
+		end case;
+end process;
+end Behavioral;
+	
+	

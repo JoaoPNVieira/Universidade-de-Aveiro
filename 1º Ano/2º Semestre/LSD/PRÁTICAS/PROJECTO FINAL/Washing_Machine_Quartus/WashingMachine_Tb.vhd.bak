@@ -1,0 +1,58 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all; 
+
+entity WashingMachine_Tb is 
+end WashingMachine_Tb;
+
+architecture Stimulus of WashingMachine_Tb is
+
+	-- In Signals
+	signal s_clk : std_logic;
+	signal s_sw	 : std_logic_vector(5 downto 0);
+
+	-- Out Signals --
+	signal s_ledg : std_logic_vector(8 downto 8);
+	signal s_ledr : std_logic_vector(3 downto 0);
+	signal s_hex4 : std_logic_vector(6 downto 0);
+	signal s_hex5 : std_logic_vector(6 downto 0);
+	signal s_hex6 : std_logic_vector(6 downto 0);
+	signal s_hex7 : std_logic_vector(6 downto 0);
+				
+	begin
+	
+		uut : entity work.ControlPanel(Behavior)
+					port map(-- In --
+								CLOCK_50 =>	s_clk,
+								SW			=> s_sw,  		
+								-- Out --
+								LEDG 		=> s_ledg,
+								LEDR 		=> s_ledr,
+								HEX4 		=> s_hex4,
+								HEX5 		=> s_hex5,
+								HEX6 		=> s_hex6,
+								HEX7 		=> s_hex7);
+								
+								
+										
+		clock_proc : process
+		begin
+			s_clk <= '0'; 
+			wait for 100 ns;
+			s_clk <= '1'; 
+			wait for 100 ns;
+		end process;
+		
+	-- RTL Simulation: 3500 ns
+		stim_proc : process
+		begin
+			
+			-- SW(0):
+			-- SW(1):
+			-- SW(2):		
+			-- SW(3):
+			-- SW(4):
+			-- SW(5):		
+			
+			wait for 500 ns;
+		end process;
+end Stimulus;

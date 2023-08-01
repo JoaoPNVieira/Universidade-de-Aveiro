@@ -1,0 +1,14 @@
+|Mux2_1Demo
+LEDG[0] <= Mux2_1:inst.outputs
+KEY[0] => Mux2_1:inst.sel
+SW[0] => Mux2_1:inst.inputs[0]
+SW[1] => Mux2_1:inst.inputs[1]
+
+
+|Mux2_1Demo|Mux2_1:inst
+sel => outputs.OUTPUTSELECT
+inputs[0] => outputs.DATAB
+inputs[1] => outputs.DATAA
+outputs <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+
+

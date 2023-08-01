@@ -1,0 +1,14 @@
+|Mux4_1
+sel[0] => Equal0.IN1
+sel[0] => Equal1.IN1
+sel[0] => Equal2.IN0
+sel[1] => Equal0.IN0
+sel[1] => Equal1.IN0
+sel[1] => Equal2.IN1
+inputs[0] => outputs.DATAB
+inputs[1] => outputs.DATAB
+inputs[2] => outputs.DATAB
+inputs[3] => outputs.DATAA
+outputs << outputs.DB_MAX_OUTPUT_PORT_TYPE
+
+

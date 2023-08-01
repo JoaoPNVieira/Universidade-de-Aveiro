@@ -1,0 +1,19 @@
+|Divider
+enable => ~NO_FANOUT~
+inputs[0] => lsb4[0].DATAIN
+inputs[1] => lsb4[1].DATAIN
+inputs[2] => lsb4[2].DATAIN
+inputs[3] => lsb4[3].DATAIN
+inputs[4] => msb4[0].DATAIN
+inputs[5] => msb4[1].DATAIN
+inputs[6] => msb4[2].DATAIN
+msb4[0] <= inputs[4].DB_MAX_OUTPUT_PORT_TYPE
+msb4[1] <= inputs[5].DB_MAX_OUTPUT_PORT_TYPE
+msb4[2] <= inputs[6].DB_MAX_OUTPUT_PORT_TYPE
+msb4[3] <= <GND>
+lsb4[0] <= inputs[0].DB_MAX_OUTPUT_PORT_TYPE
+lsb4[1] <= inputs[1].DB_MAX_OUTPUT_PORT_TYPE
+lsb4[2] <= inputs[2].DB_MAX_OUTPUT_PORT_TYPE
+lsb4[3] <= inputs[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

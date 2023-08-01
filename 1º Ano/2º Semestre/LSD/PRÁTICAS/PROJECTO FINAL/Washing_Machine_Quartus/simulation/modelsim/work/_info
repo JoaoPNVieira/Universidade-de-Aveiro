@@ -1,0 +1,54 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/simulation/modelsim
+Etimer
+Z1 w1654964291
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd
+Z6 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd
+l0
+L6 1
+VUYgD5GhB3WVXIRPV3NM_g3
+!s100 >Sm0YJ7LkV5DRO_=mXF]k2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1655042595
+!i10b 1
+Z9 !s108 1655042595.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd|
+!s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+DEx4 work 5 timer 0 22 UYgD5GhB3WVXIRPV3NM_g3
+!i122 0
+l21
+L16 39
+VzPlzNYYVi:]]?@G:lRNQJ1
+!s100 NMZS1WjA4f4g=6UOP^THU2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd|
+!i113 1
+R11
+R12

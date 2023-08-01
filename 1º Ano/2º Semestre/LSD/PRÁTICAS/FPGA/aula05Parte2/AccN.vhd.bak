@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all
+use IEEE.NUMERIC_STD.all;
+
+
+
+entity WORK.RegN(Behavioral)
+	generic map(N => 4)
+
+entity WORK.AdderN(Behavioral)
+	generic map(n => 4)
+	port map(

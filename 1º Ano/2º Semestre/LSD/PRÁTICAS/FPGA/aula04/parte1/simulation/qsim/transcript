@@ -1,0 +1,32 @@
+# do FlipFlopD_Demo.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:12:39 on Apr 07,2022
+# vlog -work work FlipFlopD_Demo.vo 
+# -- Compiling module FlipFlopD
+# 
+# Top level modules:
+# 	FlipFlopD
+# End time: 23:12:39 on Apr 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:12:39 on Apr 07,2022
+# vlog -work work p1ex3.vwf.vt 
+# -- Compiling module FlipFlopD_vlg_vec_tst
+# 
+# Top level modules:
+# 	FlipFlopD_vlg_vec_tst
+# End time: 23:12:39 on Apr 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.FlipFlopD_vlg_vec_tst 
+# Start time: 23:12:39 on Apr 07,2022
+# Loading work.FlipFlopD_vlg_vec_tst
+# Loading work.FlipFlopD
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#23
+# ** Note: $finish    : p1ex3.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /FlipFlopD_vlg_vec_tst
+# End time: 23:12:40 on Apr 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,479 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/simulation/modelsim
+Ebin7segdec_timer
+Z1 w1655120598
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+R0
+Z4 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDec_Timer.vhd
+Z5 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDec_Timer.vhd
+l0
+L6 1
+V0h]3`KGBSg0IObJ1N?_I50
+!s100 3hE`VB;DPgE[ORm56NTOf3
+Z6 OV;C;2020.1;71
+33
+Z7 !s110 1655164766
+!i10b 1
+Z8 !s108 1655164766.000000
+Z9 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDec_Timer.vhd|
+Z10 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDec_Timer.vhd|
+!i113 1
+Z11 o-2008 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+Z13 DEx4 work 16 bin7segdec_timer 0 22 0h]3`KGBSg0IObJ1N?_I50
+!i122 7
+l18
+L17 31
+VS45^iLU0g20c`LH]jggzj1
+!s100 BM@61IEzjAbdA2Z0;4QC40
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebin7segdecprog
+Z14 w1655049784
+R2
+R3
+!i122 4
+R0
+Z15 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDecProg.vhd
+Z16 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDecProg.vhd
+l0
+L5 1
+VMjCg0@A`jmP;1VJg:<N0b0
+!s100 3HaB:^Qdk[Ek@ZJQdTX@h0
+R6
+33
+Z17 !s110 1655164765
+!i10b 1
+Z18 !s108 1655164765.000000
+Z19 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDecProg.vhd|
+Z20 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Bin7SegDecProg.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+Z21 DEx4 work 14 bin7segdecprog 0 22 MjCg0@A`jmP;1VJg:<N0b0
+!i122 4
+l16
+L15 13
+Vbli]5KZm0W_WL?5WNmz<`1
+!s100 M^T1_=IfV5n7aHC2X@DOj0
+R6
+33
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Econtrolpanel
+Z22 w1655164631
+R2
+R3
+!i122 2
+R0
+Z23 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/ControlPanel.vhd
+Z24 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/ControlPanel.vhd
+l0
+L4 1
+V7RU:gzU8NHDTJ?`Qik0_I2
+!s100 OSz_F@<Mon?Uh0KQe5AKG1
+R6
+33
+R17
+!i10b 1
+R18
+Z25 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/ControlPanel.vhd|
+Z26 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/ControlPanel.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+Z27 DEx4 work 12 controlpanel 0 22 7RU:gzU8NHDTJ?`Qik0_I2
+!i122 2
+l21
+L20 25
+VPLnUR?k6k]nN=G6l0WzR83
+!s100 [gkOBN2dBYTB2Yi]`Cd8c1
+R6
+33
+R17
+!i10b 1
+R18
+R25
+R26
+!i113 1
+R11
+R12
+Ejumpregister
+Z28 w1655071140
+R2
+R3
+!i122 8
+R0
+Z29 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/JumpRegister.vhd
+Z30 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/JumpRegister.vhd
+l0
+L4 1
+V8NT=ZMJ`eBUYLAWZEXNT42
+!s100 Uf>iC?;f4;NPzCbO_329W0
+R6
+33
+R7
+!i10b 1
+R8
+Z31 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/JumpRegister.vhd|
+Z32 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/JumpRegister.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+Z33 DEx4 work 12 jumpregister 0 22 8NT=ZMJ`eBUYLAWZEXNT42
+!i122 8
+l14
+L13 11
+Vh6QZRhDm2Ub2Q7@`U>hUO1
+!s100 iEHcOJbFKGNzG0<R_6l]03
+R6
+33
+R7
+!i10b 1
+R8
+R31
+R32
+!i113 1
+R11
+R12
+Epulser
+Z34 w1654966515
+Z35 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 6
+R0
+Z36 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Pulser.vhd
+Z37 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Pulser.vhd
+l0
+L7 1
+V8Ug6gVI^cZ2DF`K:CYb7O3
+!s100 =?3PT0e7iF461HiP?<mK03
+R6
+33
+R7
+!i10b 1
+R8
+Z38 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Pulser.vhd|
+Z39 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Pulser.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R35
+R2
+R3
+Z40 DEx4 work 6 pulser 0 22 8Ug6gVI^cZ2DF`K:CYb7O3
+!i122 6
+l19
+L15 17
+VS[T3]YDcaf_aSmC=7Yf]A0
+!s100 VHR3Z<N?PQolMAL]N2b?:2
+R6
+33
+R7
+!i10b 1
+R8
+R38
+R39
+!i113 1
+R11
+R12
+Erman
+Z41 w1655112436
+R2
+R3
+!i122 0
+R0
+Z42 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/RMan.vhd
+Z43 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/RMan.vhd
+l0
+L4 1
+VGK73gS20>g__hoZ:4P0L<3
+!s100 4U=oAo49EOC0]H36461o33
+R6
+33
+Z44 !s110 1655164764
+!i10b 1
+Z45 !s108 1655164764.000000
+Z46 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/RMan.vhd|
+Z47 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/RMan.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+Z48 DEx4 work 4 rman 0 22 GK73gS20>g__hoZ:4P0L<3
+!i122 0
+l14
+L13 13
+VB=>jgE=VX6aCBfhXgHF@>0
+!s100 iH?ENIiUlV?DdUF3baoaZ3
+R6
+33
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R11
+R12
+Etimer
+Z49 w1655109762
+R35
+R2
+R3
+!i122 5
+R0
+Z50 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd
+Z51 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd
+l0
+L6 1
+VYX^3doV1KA=GO6dAGKOj>3
+!s100 OD;h]zOF?90nMhQ7BhA0[2
+R6
+33
+R17
+!i10b 1
+R18
+Z52 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd|
+Z53 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R35
+R2
+R3
+Z54 DEx4 work 5 timer 0 22 YX^3doV1KA=GO6dAGKOj>3
+!i122 5
+l24
+L18 48
+V3h;[4XD=i5c:^kkE4dVD=3
+!s100 nMhY]<87XLb=>9<QCgnnF1
+R6
+33
+R17
+!i10b 1
+R18
+R52
+R53
+!i113 1
+R11
+R12
+Etimer_register
+Z55 w1655109757
+R2
+R3
+!i122 1
+R0
+Z56 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer_Register.vhd
+Z57 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer_Register.vhd
+l0
+L4 1
+V>DBOcU2K2GnP8Y]z;C[MH1
+!s100 K^M[CLNA8gf?[?N73Kgna0
+R6
+33
+R17
+!i10b 1
+R18
+Z58 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer_Register.vhd|
+Z59 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/Timer_Register.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+Z60 DEx4 work 14 timer_register 0 22 >DBOcU2K2GnP8Y]z;C[MH1
+!i122 1
+l16
+L15 11
+VF9U2]BjAI0>UHMIahALVb2
+!s100 zeJHDDI5e@3eW<B_<FG0]1
+R6
+33
+R17
+!i10b 1
+R18
+R58
+R59
+!i113 1
+R11
+R12
+Ewashingfsm
+Z61 w1655073471
+R2
+R3
+!i122 3
+R0
+Z62 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingFSM.vhd
+Z63 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingFSM.vhd
+l0
+L4 1
+V^<I9eSmjdA3gE[dDSXNBM3
+!s100 KC@fLFSjLAQTM[K93Xm<42
+R6
+33
+R17
+!i10b 1
+R18
+Z64 !s90 -reportprogress|300|-2008|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingFSM.vhd|
+Z65 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingFSM.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+Z66 DEx4 work 10 washingfsm 0 22 ^<I9eSmjdA3gE[dDSXNBM3
+!i122 3
+l27
+L22 120
+V2XcheV01_Vk?::hIDBz[I0
+!s100 7CAk8AD8THT>_F5>L^JNM3
+R6
+33
+R17
+!i10b 1
+R18
+R64
+R65
+!i113 1
+R11
+R12
+Ewashingmachine
+Z67 w1655164588
+R35
+R2
+R3
+!i122 11
+R0
+Z68 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine.vhd
+Z69 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine.vhd
+l0
+L7 1
+V_AYdMZ[=O7V4FJICgc?UV3
+!s100 CZI=A:N;Pl3kIiU;G7cFP0
+R6
+32
+Z70 !s110 1655164778
+!i10b 1
+Z71 !s108 1655164778.000000
+Z72 !s90 -reportprogress|300|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine.vhd|
+Z73 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine.vhd|
+!i113 1
+Z74 o-work work
+R12
+Ashell
+R13
+R54
+R60
+R48
+R40
+R21
+R33
+R66
+R27
+R35
+R2
+R3
+Z75 DEx4 work 14 washingmachine 0 22 _AYdMZ[=O7V4FJICgc?UV3
+!i122 11
+l44
+L18 149
+VRnS:Qn]1aaWz@NlNkUUTc3
+!s100 NZI=z7Y=lU]Kz0Uc1H67k1
+R6
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R74
+R12
+Ewashingmachine_tb
+Z76 w1655164015
+R2
+R3
+!i122 12
+R0
+Z77 8C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine_Tb.vhd
+Z78 FC:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine_Tb.vhd
+l0
+L4 1
+VPMFHIbW3NcO_^iR0njW<g2
+!s100 DOOg];O9dJXCK313XG0TO0
+R6
+32
+Z79 !s110 1655164780
+!i10b 1
+Z80 !s108 1655164780.000000
+Z81 !s90 -reportprogress|300|-work|work|C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine_Tb.vhd|
+Z82 !s107 C:/Users/JP/Desktop/PROJECTO FINAL LSD GIT/projeto-final-lsd22/Washing_Machine_Quartus/WashingMachine_Tb.vhd|
+!i113 1
+R74
+R12
+Astimulus
+R35
+R75
+R2
+R3
+Z83 DEx4 work 17 washingmachine_tb 0 22 PMFHIbW3NcO_^iR0njW<g2
+!i122 12
+l21
+Z84 L7 79
+Z85 V24EAO<nEFWd7MeO_A897b2
+Z86 !s100 ZjZX]Y<DKeFQC<ozO89oG3
+R6
+32
+R79
+!i10b 1
+R80
+R81
+R82
+!i113 1
+R74
+R12

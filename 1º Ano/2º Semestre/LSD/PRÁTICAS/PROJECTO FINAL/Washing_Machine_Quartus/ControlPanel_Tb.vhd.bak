@@ -1,0 +1,121 @@
+-- ControlPanel_Tb
+
+-- ControlPanel Testbench
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all; 
+
+entity ControlPanel_Tb is 
+end ControlPanel_Tb;
+
+architecture Stimulus of ControlPanel_Tb is
+
+	-- In Signals
+	signal s_clk, s_ton, s_res, s_door, s_instr : std_logic;
+	signal s_sel : std_logic_vector(1 downto 0);
+
+	-- Out Signals --
+	signal s_outRes, s_outStart : std_logic;
+	signal s_prog : std_logic_vector(1 downto 0);
+
+	
+	begin
+	
+		uut : entity work.ControlPanel_Tb(Behavior)
+					port map(-- In --
+								clock 	=> s_clk,
+								turnOn 	=> s_ton,
+								inReset 	=> s_res,			
+								door 		=> s_door,
+								inStart	=> s_instr,
+								sel		=> s_sel, 	
+								-- Out --
+								outReset => s_outRes,
+								program	=> s_prog,
+								outStart	=> s_outStart);
+								
+								
+										
+		clock_proc : process
+		begin
+			s_clk <= '0'; wait for 100 ns;
+			s_clk <= '1'; wait for 100 ns;
+		end process;
+		
+	--Process stim
+		stim_proc : process
+		begin
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "00";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "01";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "11";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '0' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '1' ;
+			s_res		<= '1' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '0' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '0' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns;
+			
+			s_ton		<= '1' ;
+			s_res		<= '0' ;
+			s_door	<= '1' ;
+			s_instr	<= '1' ;
+			s_sel		<= "10";
+			
+			wait for 350 ns;
+		end process;
+end Stimulus;

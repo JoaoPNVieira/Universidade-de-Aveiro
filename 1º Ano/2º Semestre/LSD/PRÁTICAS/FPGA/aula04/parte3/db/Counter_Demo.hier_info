@@ -1,0 +1,29 @@
+|Counter_Demo
+LEDG[0] <= CounterUpDown4:inst.count[0]
+LEDG[1] <= CounterUpDown4:inst.count[1]
+LEDG[2] <= CounterUpDown4:inst.count[2]
+LEDG[3] <= CounterUpDown4:inst.count[3]
+KEY[0] => CounterUpDown4:inst.clk
+SW[0] => CounterUpDown4:inst.reset
+SW[1] => CounterUpDown4:inst.upDown
+
+
+|Counter_Demo|CounterUpDown4:inst
+clk => s_count[0].CLK
+clk => s_count[1].CLK
+clk => s_count[2].CLK
+clk => s_count[3].CLK
+reset => s_count[0].ACLR
+reset => s_count[1].ACLR
+reset => s_count[2].ACLR
+reset => s_count[3].ACLR
+upDown => s_count.OUTPUTSELECT
+upDown => s_count.OUTPUTSELECT
+upDown => s_count.OUTPUTSELECT
+upDown => s_count.OUTPUTSELECT
+count[0] <= s_count[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= s_count[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= s_count[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= s_count[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

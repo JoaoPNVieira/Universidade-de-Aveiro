@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Universidade-de-Aveiro---LECI/UA/FPGA/aula04/parte1/simulation/qsim
+vFlipFlopD
+Z1 !s110 1649369559
+!i10b 1
+!s100 n@h?P`E=AfhL44c9SYEU91
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhC`ADSbj^Y`OGXXC:LWlE0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649369556
+8FlipFlopD_Demo.vo
+FFlipFlopD_Demo.vo
+!i122 0
+L0 32 76
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1649369559.000000
+!s107 FlipFlopD_Demo.vo|
+!s90 -work|work|FlipFlopD_Demo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@flip@flop@d
+vFlipFlopD_vlg_vec_tst
+R1
+!i10b 1
+!s100 NP^F6V63XlYhZiA^=<;h80
+R2
+I2VhO8l7jiYQiEbhc?OZYh3
+R3
+R0
+w1649369555
+8p1ex3.vwf.vt
+Fp1ex3.vwf.vt
+!i122 1
+L0 30 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 p1ex3.vwf.vt|
+!s90 -work|work|p1ex3.vwf.vt|
+!i113 1
+R6
+R7
+n@flip@flop@d_vlg_vec_tst

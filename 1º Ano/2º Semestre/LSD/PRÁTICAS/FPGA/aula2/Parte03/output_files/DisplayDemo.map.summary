@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 12 21:12:31 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : DisplayDemo
+Top-level Entity Name : Bin7SegDecoder
+Family : Cyclone IV E
+Total logic elements : 15
+    Total combinational functions : 15
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

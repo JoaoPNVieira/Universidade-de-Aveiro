@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -3.187
+TNS   : -101.685
+
+Type  : Slow 1200mV 85C Model Setup 'Pulser:pulse|pulse'
+Slack : -2.783
+TNS   : -22.878
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Pulser:pulse|pulse'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : -2.566
+TNS   : -11.548
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : 0.614
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -65.965
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Pulser:pulse|pulse'
+Slack : -1.285
+TNS   : -11.565
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.799
+TNS   : -88.327
+
+Type  : Slow 1200mV 0C Model Setup 'Pulser:pulse|pulse'
+Slack : -2.419
+TNS   : -19.680
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Pulser:pulse|pulse'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -2.195
+TNS   : -9.621
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 0.557
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -65.965
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Pulser:pulse|pulse'
+Slack : -1.285
+TNS   : -11.565
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.002
+TNS   : -28.237
+
+Type  : Fast 1200mV 0C Model Setup 'Pulser:pulse|pulse'
+Slack : -0.843
+TNS   : -6.592
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Pulser:pulse|pulse'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -0.781
+TNS   : -3.095
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -55.217
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Pulser:pulse|pulse'
+Slack : -1.000
+TNS   : -9.000
+
+------------------------------------------------------------

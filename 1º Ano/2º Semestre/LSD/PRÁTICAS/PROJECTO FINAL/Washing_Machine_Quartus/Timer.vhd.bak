@@ -1,0 +1,36 @@
+-- Component: Time Counter (Timer)
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+
+entity Timer is
+	port(	clock   	: 	in 	std_logic;
+			reset 	: 	in		std_logic;
+			enable	: 	in 	std_logic;
+			count 	: 	out 	std_logic_vector(6 downto 0));
+			change	:	out	std_logic;
+end Timer;
+
+architecture Behavior of Timer is
+	signal s_count : unsigned(6 downto 0);
+begin
+	process(clock, reset, s_count)
+	begin
+		
+		change <= '0';
+		
+		if (rising_edge(clk)) then
+			if (reset = '1') then 				s_count <= (others => '0');
+			elsif(enable = '0') 	then 			s_count <= s_count;
+			elsif (s_count <= "110011") then s_count <= s_count+1;
+			else 										s_count <= '0'; change = '1';	
+			end if;
+		end if;
+		
+	end process;
+	
+	count <= std_logic_vector(s_count);
+
+end Behavior;

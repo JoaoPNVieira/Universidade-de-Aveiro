@@ -1,0 +1,39 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity ControlPanel is
+	port(	clk		:	in 	std_logic; --------------------- CLOCK_50
+			enable	:	in		std_logic; --------------------- Washing Machine ON/OFF:					EN   <= '1' (ON) 	  | EN   <= '0' (OFF)
+			reset 	: 	in 	std_logic; --------------------- Washing Machine Reset					
+			door		:	in 	std_logic; --------------------- Washing Machine Door: 					door <= '1' (OPEN)  | door <= '0' (CLOSE) 
+			run		:	in		std_logic; --------------------- Washing Machine Start/Stop Program: run  <= '1' (START) | run  <= '0' (STOP)
+			sel		:	in 	std_logic_vector(1 downto 0); 
+			/* 
+			Washing Machine - Select Program (GREY CODE):	
+			
+			P0: sel <= "00" (IDLE) ------ (Hidden)
+			P1: sel <= "01" (NORMAL WASH)
+			P2: sel <= "10" (PRE-WASH)
+			P3: sel <= "11" (EXTRA-SPIN)
+			*/
+																			
+			program	:	out	std_logic_vector(2 downto 0));
+			/*
+			Washing Machine - Truth Tabel:
+			_______________________															
+			sel |	program | InState
+			_______________________												
+			00	 |	 000	  |	(E0)
+			01	 |  001    |	(E1)
+			10	 |  001	  |	(E1)
+			11	 |  110	  |	(E4)																			
+			*/
+																				
+			
+end ControlPanel;
+
+architecture Behavior of ControlPanel is
+	
+	
+	
+end Behavior;

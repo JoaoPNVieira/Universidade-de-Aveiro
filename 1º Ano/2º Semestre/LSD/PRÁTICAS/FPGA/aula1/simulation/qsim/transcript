@@ -1,0 +1,31 @@
+# do GateDemo.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:48:55 on Mar 18,2022
+# vlog -work work GateDemo.vo 
+# -- Compiling module GateDemo
+# 
+# Top level modules:
+# 	GateDemo
+# End time: 09:48:56 on Mar 18,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:48:56 on Mar 18,2022
+# vlog -work work GateDemo.vwf.vt 
+# -- Compiling module GateDemo_vlg_vec_tst
+# 
+# Top level modules:
+# 	GateDemo_vlg_vec_tst
+# End time: 09:48:56 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.GateDemo_vlg_vec_tst 
+# Start time: 09:48:56 on Mar 18,2022
+# Loading work.GateDemo_vlg_vec_tst
+# Loading work.GateDemo
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# after#23
+# ** Note: $finish    : GateDemo.vwf.vt(45)
+#    Time: 1 us  Iteration: 0  Instance: /GateDemo_vlg_vec_tst
+# End time: 09:48:56 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

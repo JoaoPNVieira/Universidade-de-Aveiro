@@ -1,0 +1,82 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity WashingMachine is
+	port(	CLOCK_50	: in std_logic
+			SW   		: in std_logic_vector(5 downto 0);
+			
+			LEDG 		: out std_logic;
+			LEDR 		: out std_logic_vector(3 downto 0);
+			HEX 		: out std_logic_vector(6 downto 0));
+end WashingMachine;
+
+architecture Shell of WashingMachine is
+
+	-- CONTROL --
+	signal s_clock, s_res, s_ton, s_door, s_start, s_sel : std_logic;	
+	signal s_outRes, s_prog, s_outStart : std_logic;
+	 
+	-- 
+	signal
+	
+	
+	
+	/*
+	signal sel_number : std_logic_vector(3 downto 0);
+	signal s_prelease : std_logic;
+	signal s_sel : std_logic_vector(1 downto 0);
+	signal s_led : std_logic_vector(3 downto 0);
+	signal s_product : std_logic_vector(7 downto 0);
+	signal intern : std_logic;
+	*/
+begin
+
+	s_clk 	<= CLOCK_50;
+	s_ton 	<= SW(0);
+	s_res 	<= SW(1);
+	s_door	<= SW(2);
+	S_instr	<= SW(3);
+	s_sel		<= SW(5..4);
+	
+	
+	-- este => próximo in ou sinal
+	
+	control: entity work.ControlPanel(Behavior)
+					port map(clock 	=> s_clk,
+								turnOn 	=> s_ton,
+								inReset 	=> s_res,			
+								door 		=> s_door,
+								inStart	=> s_instr,
+								sel		=> s_sel, 										
+								outReset => s_outRes,
+								program	=> s_prog,
+								outStart	=> s_outStart);
+					  
+	
+
+	fsm: 		entity work.WashingFSM(Behavioral)
+					port map(clock 		=> s_clk,
+								enable		=>	outStart,
+								reset 		=>	outReset,
+								inData 		=>	program, 	
+								change		=>	changeNow, 	-- do Timer
+								jump			=>	jumpOut,		-- do JumpRegister
+								
+								timerEn		=>	enable and enable, -- do Timer e do BCD (VER)
+								timerReq		=> inTime,		-- do Timer
+								water_valve => LEDR(0),
+								water_pump	=> LEDR(1),
+								rinse			=> LEDR(2),
+								spin			=> LEDR(3),
+								finish 		=> LEDR(4),
+								repeat		=> jumpIn);		-- do JumpRegister
+									
+									
+									
+									
+									
+									
+									
+end Shell;
+	

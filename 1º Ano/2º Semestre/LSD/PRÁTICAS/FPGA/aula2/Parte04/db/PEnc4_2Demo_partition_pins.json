@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outpuport[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outpuport[1]",
+					"strict" : false
+				},
+				{
+					"name" : "validoutp",
+					"strict" : false
+				},
+				{
+					"name" : "inputport[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inputport[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inputport[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inputport[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

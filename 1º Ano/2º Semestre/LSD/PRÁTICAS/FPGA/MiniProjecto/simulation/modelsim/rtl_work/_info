@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/simulation/modelsim
+Ecntup100
+Z1 w1652432524
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8D:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUp100.vhd
+Z6 FD:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUp100.vhd
+l0
+L5 1
+VK?1i2RhLS4EgFMO23>n[]1
+!s100 z>ZZ3C<JoicY>_hHf7UV[2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1652434271
+!i10b 1
+Z9 !s108 1652434271.000000
+Z10 !s90 -reportprogress|300|-work|work|D:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUp100.vhd|
+Z11 !s107 D:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUp100.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 8 cntup100 0 22 K?1i2RhLS4EgFMO23>n[]1
+!i122 1
+l14
+L12 16
+VZ:?AMjQKJO5A8]AEAfSJd0
+!s100 `oO^^3E1Y^<IALZC9bJ493
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecntuptest100
+Z15 w1652434174
+R3
+R4
+!i122 2
+R0
+Z16 8D:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUpTest100.vhd
+Z17 FD:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUpTest100.vhd
+l0
+L5 1
+V3PeD[g8B;>6=^hWUi:W6B0
+!s100 Ca=i0aF9khE`]m1SGn<VR2
+R7
+32
+Z18 !s110 1652434274
+!i10b 1
+Z19 !s108 1652434273.000000
+Z20 !s90 -reportprogress|300|-work|work|D:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUpTest100.vhd|
+!s107 D:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUpTest100.vhd|
+!i113 1
+R12
+R13
+Astimulus
+R2
+R14
+R3
+R4
+DEx4 work 12 cntuptest100 0 22 3PeD[g8B;>6=^hWUi:W6B0
+!i122 2
+l17
+L10 43
+VY0<@iEUB50TninfGSEl7M0
+!s100 6j]eJhmQ<NBg?VC:J2Uk[2
+R7
+32
+R18
+!i10b 1
+R19
+R20
+Z21 !s107 D:/Universidade-de-Aveiro---LECI/UA/FPGA/MiniProjecto/CntUpTest100.vhd|
+!i113 1
+R12
+R13

@@ -1,0 +1,30 @@
+|ROM_Demo
+LEDR[7] <= ROM_16_8:inst.dataOut[0]
+LEDR[6] <= ROM_16_8:inst.dataOut[1]
+LEDR[5] <= ROM_16_8:inst.dataOut[2]
+LEDR[4] <= ROM_16_8:inst.dataOut[3]
+LEDR[3] <= ROM_16_8:inst.dataOut[4]
+LEDR[2] <= ROM_16_8:inst.dataOut[5]
+LEDR[1] <= ROM_16_8:inst.dataOut[6]
+LEDR[0] <= ROM_16_8:inst.dataOut[7]
+SW[3] => ROM_16_8:inst.address[0]
+SW[2] => ROM_16_8:inst.address[1]
+SW[1] => ROM_16_8:inst.address[2]
+SW[0] => ROM_16_8:inst.address[3]
+
+
+|ROM_Demo|ROM_16_8:inst
+address[0] => dataOut[0].DATAIN
+address[1] => dataOut[1].DATAIN
+address[2] => dataOut[2].DATAIN
+address[3] => dataOut[3].DATAIN
+dataOut[0] <= address[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= address[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= address[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= address[3].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= <GND>
+dataOut[5] <= <GND>
+dataOut[6] <= <GND>
+dataOut[7] <= <GND>
+
+

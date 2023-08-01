@@ -1,0 +1,62 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all; 
+
+entity Bin7SegDecProg_Tb is 
+end Bin7SegDecProg_Tb;
+
+architecture Stimulus of Bin7SegDecProg_Tb is
+
+	-- In Signals
+	signal s_clk, s_en : std_logic;
+	signal s_prog : std_logic_vector(1 downto 0);
+	-- Out Signals --
+	signal s_hex1, s_hex2 : std_logic_vector(6 downto 0);
+
+	
+	begin
+	
+		uut : entity work.Bin7SegDecProg(Behavior)
+							port map(-- In --
+										enable		=> s_en,
+										binSel   	=> s_prog,
+										-- Out --
+										decProg		=> s_hex1, 
+										decOutSel	=> s_hex2);
+		
+								
+							
+	-- RTL Simulation: 2000 ns
+		stim_proc : process
+		begin
+			
+			s_en	<= '1' ;
+			s_prog <= "00";
+			
+			wait for 300 ns;
+			
+			s_en	<= '1' ;
+			s_prog <= "01";
+			
+			wait for 300 ns;
+			
+			s_en	<= '0' ;
+			s_prog <= "01";
+			
+			wait for 300 ns;
+
+			s_en	<= '1' ;
+			s_prog <= "10";
+			
+			wait for 300 ns;
+
+			s_en	<= '1' ;
+			s_prog <= "11";
+			
+			wait for 300 ns;
+			
+			s_en	<= '1' ;
+			s_prog <= "11";
+			
+			wait for 300 ns;			
+		end process;
+end Stimulus;

@@ -1,0 +1,40 @@
+%packages a utilizar:
+\documentclass{report}
+\usepackage[T1]{fontenc}     % Fontes T1
+\usepackage[utf8]{inputenc}  % Input UTF8
+\usepackage[top=3cm,bottom=3cm,left=3cm,right=2.5cm,asymmetric]{geometry} %fronteiras
+%\usepackage[nottoc]{tocbibind}
+\usepackage[table]{xcolor} %Colorir tabelas
+\usepackage[backend=biber, style=ieee]{biblatex} %bibliografia
+\usepackage{csquotes}  % referências
+\usepackage[portuguese]{babel} %Usar língua portuguesa
+\usepackage{blindtext} 
+\usepackage[printonlyused]{acronym}  %Acrónimos
+\usepackage{hyperref}  %Autoref no índice
+\usepackage{graphicx}  %Usar imagens
+\usepackage{titling}
+\usepackage{multicol} %multicoluna de texto
+\usepackage{adjustbox}
+\renewcommand{\figurename}{Fig.} 
+\renewcommand{\tablename}{Tabela} 
+\usepackage[font=small,tableposition=top]{caption} 
+\usepackage[font=small]{subcaption}
+\usepackage{xcolor} %cor nos textos
+\usepackage{amsmath} %matematica
+\usepackage{amssymb} %simbolos matematicos
+\graphicspath{ {./images/} } %directorio das imagens
+\usepackage{fancyhdr}
+\usepackage{authblk}
+\usepackage{float} %Posicionamento exacto das figuras no texto
+\usepackage{url}   %referencias URL
+\usepackage{blindtext}
+\def\UrlBreaks{\do\/\do-} %não cortar referencias
+
+\usepackage{indentfirst} %Garantir avanço do primeiro parágrafo
+\hypersetup{pdfborder=0 0 0} %Remover a caixa vermelha das referências
+\usepackage{chngcntr} %Numeração contínua das figuras
+\counterwithout{figure}{chapter} %Numeração contínua de figuras
+\counterwithout{table}{chapter} %Numeração contínnua de tabelas
+\setlength{\parskip}{0.2cm} %Aumento de espaçamento entre parágrafos
+
+

@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Universidade-de-Aveiro---LECI/UA/FPGA/LSD PRATICAS/Aula02/Parte01/simulation/qsim
+vDec2_4En
+Z1 !s110 1652217439
+!i10b 1
+!s100 ;zEfQzz_<8gCDFeRnbOWe0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ID6DZbm7lBUW8;QfP1LO`70
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1652217436
+8Dec2_4EnDemo.vo
+FDec2_4EnDemo.vo
+!i122 0
+L0 32 180
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1652217439.000000
+!s107 Dec2_4EnDemo.vo|
+!s90 -work|work|Dec2_4EnDemo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@dec2_4@en
+Edec2_4en
+Z8 w1652218093
+Z9 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z10 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z11 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z14 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+!i122 2
+R0
+Z15 8Dec2_4EnDemo.vho
+Z16 FDec2_4EnDemo.vho
+l0
+L35 1
+V0@38l@ZG1ASNGE2^Y[z]N2
+!s100 5W0HD]L_PFF0`=ZBjlB<D2
+Z17 OV;C;2020.1;71
+32
+Z18 !s110 1652218095
+!i10b 1
+Z19 !s108 1652218094.000000
+Z20 !s90 -work|work|Dec2_4EnDemo.vho|
+Z21 !s107 Dec2_4EnDemo.vho|
+!i113 1
+R6
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 8 dec2_4en 0 22 0@38l@ZG1ASNGE2^Y[z]N2
+!i122 2
+l68
+L43 176
+Va<fG>]PHE^LYlhac8AckR3
+!s100 9V=00o4DVJBA>dMeWQQPZ0
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R6
+R22
+Edec2_4en_vhd_vec_tst
+Z23 w1652218092
+R12
+R13
+!i122 3
+R0
+Z24 8Dec2_4En_SimCerta.vwf.vht
+Z25 FDec2_4En_SimCerta.vwf.vht
+l0
+L32 1
+V=Fcz1LPO@dQF_NOg:L9622
+!s100 GGLn?lDEfWOgHJjmo`<i81
+R17
+32
+R18
+!i10b 1
+Z26 !s108 1652218095.000000
+Z27 !s90 -work|work|Dec2_4En_SimCerta.vwf.vht|
+!s107 Dec2_4En_SimCerta.vwf.vht|
+!i113 1
+R6
+R22
+Adec2_4en_arch
+R12
+R13
+DEx4 work 20 dec2_4en_vhd_vec_tst 0 22 =Fcz1LPO@dQF_NOg:L9622
+!i122 3
+l47
+L34 62
+VQ=Fb?Y1:RNNPAOKT<>OQg2
+!s100 D0Q8AKz3QfQc9JXacn_ae2
+R17
+32
+R18
+!i10b 1
+R26
+R27
+Z28 !s107 Dec2_4En_SimCerta.vwf.vht|
+!i113 1
+R6
+R22
+vDec2_4En_vlg_vec_tst
+R1
+!i10b 1
+!s100 ]V351@lWUEJ=4RJLHH4;U2
+R2
+IYabU@OIJV5Rh<SW`@aW6Q3
+R3
+R0
+w1652217435
+8Dec2_4En_1.vwf.vt
+FDec2_4En_1.vwf.vt
+!i122 1
+L0 30 65
+R4
+r1
+!s85 0
+31
+R5
+!s107 Dec2_4En_1.vwf.vt|
+!s90 -work|work|Dec2_4En_1.vwf.vt|
+!i113 1
+R6
+R7
+n@dec2_4@en_vlg_vec_tst

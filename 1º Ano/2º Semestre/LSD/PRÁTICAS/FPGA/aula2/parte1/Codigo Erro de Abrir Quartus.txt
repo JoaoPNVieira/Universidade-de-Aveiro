@@ -1,0 +1,18 @@
+architecture BehavAssign of Dec2_4EnDemo is
+begin
+	outputs <= "0000" when (enable = '0') else
+	"0001" when (inputs = "00") else
+	"0010" when (inputs = "01") else
+	"0100" when (inputs = "10") else
+	"1000";
+end BehavAssign; 
+
+--architecture Shell of Dec2_4EnDemo is
+--begin
+--	system_core : 	entity work.Dec2_4En(BehavEquations)
+--						port map( enable  => SW(1),
+--									 inputs  => SW,
+--									 outputs => LEDG(3 downto 0));
+--end Shell;
+--
+--

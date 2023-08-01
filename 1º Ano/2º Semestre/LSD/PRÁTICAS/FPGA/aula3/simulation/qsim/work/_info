@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Universidade-de-Aveiro---LECI/UA/FPGA/aula3/simulation/qsim
+vAdder4
+Z1 !s110 1648806374
+!i10b 1
+!s100 :NYLf0V7SY76j9VFEWH7U2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT][Ri=5M7lZWnUlI=mCJ31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1648806372
+8AdderDemo.vo
+FAdderDemo.vo
+!i122 10
+L0 32 327
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1648806374.000000
+!s107 AdderDemo.vo|
+!s90 -work|work|AdderDemo.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@adder4
+vAdder4_vlg_vec_tst
+R1
+!i10b 1
+!s100 b>@o2=4XW;I<A2Zfg11ma0
+R2
+InX6X7E5Dn>UIm7CTUmQLb0
+R3
+R0
+R4
+8Adder4.vwf.vt
+FAdder4.vwf.vt
+!i122 11
+L0 30 266
+R5
+r1
+!s85 0
+31
+R6
+!s107 Adder4.vwf.vt|
+!s90 -work|work|Adder4.vwf.vt|
+!i113 1
+R7
+R8
+n@adder4_vlg_vec_tst

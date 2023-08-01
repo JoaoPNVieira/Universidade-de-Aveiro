@@ -1,0 +1,32 @@
+-- JumpRegister Testbench
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all; 
+
+entity JumpRegister_Tb is 
+end JumpRegister_Tb;
+
+architecture Stimulus of Timer_Tb is
+
+	-- In Signals
+	signal s_clk, s_res, s_timeEn : std_logic;
+	signal s_time : std_logic_vector(3 downto 0);
+
+	-- Out Signals --
+	signal s_change: std_logic;
+	signal s_units : std_logic_vector(3 downto 0); 
+	signal s_doz : std_logic_vector(2 downto 0);
+
+	
+	begin
+	
+		uut :	entity work.Timer(Behavior)
+					port map(-- In --
+								clock 		=> s_clk,
+								reset 		=> s_res,
+								enable		=> s_timeEn,
+								inTime		=> s_time,
+								-- Out --
+								countUnit 	=> s_units,
+								countDoz		=> s_doz,
+								change		=> s_change);
