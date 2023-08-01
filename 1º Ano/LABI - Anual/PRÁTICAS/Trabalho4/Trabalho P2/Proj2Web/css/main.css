@@ -1,0 +1,97 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/*Blank Page*/
+*{
+   font-family:'Montserrat';
+}
+
+
+.bar{
+	background-color:black;
+	color:white;
+	height:50px;
+}
+
+.content{background-color:#AAA7A7;}
+
+
+.icon-home{
+	display:inline-block;
+	vertical-align:top;
+	cursor:pointer;
+}
+/**.icon-home:hover{color: #0088a9;}*/
+.inline{ 
+	display:inline-block;
+	vertical-align:top;
+}
+
+.controls{
+	margin-top:40px;
+	margin-bottom:30px;
+	background-color:#AAA7A7;
+	height:80px;
+}
+
+#tempo{
+	margin-top:20px;
+	margin-left:40px;
+	width:200px;
+}
+
+.rectangle{
+	background-color:#AAA7A7;
+	height:40px;
+}
+
+.square{
+	display:inline-block;
+	height:100%;
+	width:5.882%;
+	border:solid black 1px;
+	margin-right: -5px;
+	background-color:gray;
+}
+
+.chord{
+	display:inline-block;
+	height:100%;
+	width:23.47%;
+	border:solid black 1px;
+	margin-right: -5px;
+	background-color:gray;
+}
+
+.timing{
+	background-color:#AAA7A7;
+	border:none;
+}
+
+.label{
+	vertical-align:top;
+	text-align:center;
+	line-height:38px;
+}
+
+.odd{
+	background-color:#495057
+}
+
+.circle{ 
+   float:left;
+   display:inline-block;
+   height:30px;
+   width:30px;
+   margin-left:15px;
+   border-radius:30px;
+   
+   background-color: white;
+   border: 2px solid black;
+}
+
+
+
+
+

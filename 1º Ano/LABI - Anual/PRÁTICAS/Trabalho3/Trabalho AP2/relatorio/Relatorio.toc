@@ -1,0 +1,38 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {portuguese}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Ferramentas}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Regras}{2}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Implementação}{3}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Socket}{4}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Aplicação-Servidor}{4}{section*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Aplicação-Cliente}{8}{section*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Cliente: Funções de suporte}{11}{section*.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Cliente: Função run\_client}{14}{section*.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Segurança}{15}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Server:}{15}{section*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Cliente:}{16}{section*.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Testes de Funcionalidade e Resultados}{17}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Invocação das aplicações}{17}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Funcionalidade do Cliente}{20}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Testes do Servidor}{24}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Analise de Resultados}{26}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusão:}{27}{chapter.4}%

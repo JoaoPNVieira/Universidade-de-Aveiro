@@ -1,0 +1,353 @@
+/*CSS STYLES*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*MASTER STYLE---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    body{
+        font-family: 'Noto Sans JP' , sans-serif;
+        margin: 0px; /*retira a margem de 8px que o body tem (overrite)*/       
+        color: rgb(10,10,10);
+    }
+
+    .twocoloumn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body h1{
+        color:  rgb(20, 110, 220);
+    }
+
+    body h2{
+        color:  rgb(50, 150, 220);
+    }
+    
+    body h3{
+        color:  rgb(50, 150, 220);
+    }
+    
+    body h4{
+        color:  rgb(50, 150, 220);
+    }
+/*CSS MAIN GRID--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .container-fluid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+/*NAV STYLES-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+    .navstuff{
+        padding: 10px;
+        overflow: hidden;
+        background-color: #e9e9e9;
+        display: flex;
+        justify-content: space-between; 
+    }
+    .leftnav{
+        display: flex;
+
+    }
+    .navstuff > .leftnav > div{ 
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .rightnav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navstuff-links{
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+
+    /*NAV COLORS*/
+    .navstuff-links a{
+        color: rgb(0, 0, 255);
+        transition: color 1s;
+        text-decoration: none;
+    }
+
+    .navstuff-links:hover{
+        border-bottom: 1px solid rgb(255, 165, 0);
+    }
+
+    .navstuff-links a:hover{
+        color: rgb(255, 165, 0);
+    }
+
+    .active-navlink{
+        border-bottom: 1px solid black;
+    }
+
+    .active-navlink a{
+        color:  black !important; 
+    }
+/*PHOTO STYLES---------------------------------------------------------------------------------------------------------------------------------------------------------------------/*   
+ /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/*   
+    
+    /*INDEX*/
+
+    .proj-image img{
+        width: 100%;
+    }
+
+    .rev-image img{
+        width: 95%;
+
+    }
+    
+    .UA-logo img{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projname img{
+        margin-top: 0px;
+        float: right;
+        width: 60px;
+    }
+
+    .gallery-title{
+        margin-left: 10px;
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+
+    .gallery{
+        height: auto;
+        width: auto;
+        display: grid;
+        max-width: 100%;        
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .photo{
+        position: relative;
+    }
+
+    .index-photo{
+        width: 100%;
+        height: 900px;
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .hdw-menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hdw-menu-photo{
+        position: relative; 
+    }
+
+    .img-background{
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(50%);
+         
+    }
+
+    .img-background:hover .img-txt-cover{
+        filter: brightness(20%);
+    }
+
+    .icons img{
+        visibility: hidden;
+    }
+    
+    .icons:hover img{
+        visibility: visible;
+        width: 80%;
+    }
+
+    .img-txt-cover{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 0;
+        height: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .img-txt-cover .subtxt{
+        transition: 1s;
+        font-weight: 500;
+        font-weight: bolder;
+        color: transparent;
+        
+    }
+
+    .img-txt-cover:hover .subtxt{
+        font-weight: 500;
+        font-weight: bolder;
+        color: white;
+    }
+
+
+    .components-photo img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 10%;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .component-photo img{
+        max-width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+/*BUTTON STYLES---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+
+    .hwr-button {
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        border: 5px solid grey;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px rgba(0.5, 0.5, 0.5);
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        padding: 20px;
+        font-size: auto;
+        margin: 20px 50px;
+    }
+
+    .hwr-button:hover {
+        background-color: grey;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .download-button{
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 100px;
+        font-weight: bolder;
+        border: 0px transparent;
+    }
+
+    .download-button:hover {
+        width: 100%;
+        background-color: grey;
+        color: white;
+        font-size: 100px auto;
+        font-weight: bolder;
+    }
+
+/*GENERAL PAGES STYLES--------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+
+    .gen-content{
+        margin-top: 10px;
+        margin-bottom: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .gen-content h1{
+        color:  rgb(20, 110, 220);
+        font-weight: bolder;
+    }
+    
+    .download-ap1 h2{
+        text-align: center;
+    }
+
+/*REVIEWS PAGES STYLES--------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+
+    .news-container{
+        margin-top: 50px;
+    }
+
+    .rev-container{
+        width: 100% !important;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-between;
+    }
+
+    .rev-content{
+        justify-content: space-between;
+    }
+
+    .end-rev{
+        text-align: right;
+        margin-right: 20px;
+    }
+/*ABOUT PAGE STYLES-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+
+    .about-content h3{
+        color: black;
+    }
+    
+
+    .proj-content{
+        padding: 30px;
+    }
+
+    .proj-content h1{
+        color: rgb(20, 110, 220);
+        text-shadow: rgb(0, 0, 220);
+    }
+    
+    .author-image img{
+        width: 100%;
+    }
+
+    .author-info{
+        padding: 30px;
+    }
+
+/*TABLE STYLES----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
+ /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+    table {
+        font-family: 'Noto Sans JP', sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+  
+    th{
+        background-color: rgb(50, 150, 220);
+    }
+
+    tr:nth-child(odd) {
+        background-color: #a8a8a8;
+    }
+  
+    td, th {
+        border: 0px;
+        text-align: left;
+        padding: 15px;
+    }

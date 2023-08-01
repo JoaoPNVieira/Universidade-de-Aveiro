@@ -1,0 +1,94 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/*Blank Page*/
+*{
+   margin:0;
+   padding:0;
+   text-decoration: none;
+}
+
+/***Start Header***/
+.header{
+   display: block;
+   height: 80px;
+   width: 100%;
+   position: fixed;
+   z-index:2;
+    
+   background-color: black;
+   color: white;
+}
+
+.inner_header{
+   display: block;
+   height: 80px;
+   width: 95%;
+}
+
+.logo{
+   display: block;
+   height: 100%;
+   float: left;
+   margin-left: 20px;
+    
+   background-color: green;
+}
+
+.navigation{
+   height: 100%;
+   float: right;
+}
+
+.navigation a{
+   display: table;
+   height: 100%;
+   float: left;
+    
+   padding: 0px 20px;
+}
+
+.navigation a li{
+   display: table-cell;
+   height: 100%;
+   
+   vertical-align: middle;
+   color: white;
+   font-family:'Montserrat';
+   font-size:16px;
+}
+
+a{cursor:pointer;}
+a:hover{color:#0088a9;}
+
+.navigation a li:hover{
+   color: #0088a9;
+}
+
+/*End Header*/ 
+
+.body_text{
+   display: block;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   margin-top:80px;
+   text-align: center;
+   
+   border-top: 3px solid white;
+   background-color: white;
+   font-size: 20px;
+   font-family:'MontSerrat';
+   color: black;
+}
+
+/***Others***/
+p{margin-top: 15px;}
+
+li{margin-top: 5px;}
+
+table{
+text-align: center;
+background-color:gray;
+}

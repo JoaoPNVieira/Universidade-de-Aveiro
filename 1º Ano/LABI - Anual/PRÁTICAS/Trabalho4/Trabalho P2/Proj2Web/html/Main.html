@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>teste</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../css/ratchet.css" rel="stylesheet">
+		<link href="../css/main.css" rel="stylesheet">
+		<script src="../js/main.js"></script>
+		<script src="../js/generate.js"></script>
+	</head>
+  
+	<body>
+		
+		<!-- Make sure all your bars are the first things in your <body> -->
+		<header class="bar bar-nav">
+			<a class="icon icon-home" href="index.html" style="color:white"></a>
+			<h1 class="title inline" style="color:white;">BEAT MAKER</h1>
+		</header>
+
+		<!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+		<div class="content">
+			
+			<div class="controls">
+				<input id="tempo" type="number" value="100">
+				<button id="PlayM" onclick="playTrack();">Play</button>
+				<button id="PlayM" onclick="stopTrack();">Stop</button>
+				<button id="PlayM" onclick="generate();">Generate</button>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square timing"></div>
+				<div class="square timing"><div id="X1" class="circle"></div></div>
+				<div class="square timing"><div id="X2" class="circle"></div></div>
+				<div class="square timing"><div id="X3" class="circle"></div></div>
+				<div class="square timing"><div id="X4" class="circle"></div></div>
+				<div class="square timing"><div id="X5" class="circle"></div></div>
+				<div class="square timing"><div id="X6" class="circle"></div></div>
+				<div class="square timing"><div id="X7" class="circle"></div></div>
+				<div class="square timing"><div id="X8" class="circle"></div></div>
+				<div class="square timing"><div id="X9" class="circle"></div></div>
+				<div class="square timing"><div id="X10" class="circle"></div></div>
+				<div class="square timing"><div id="X11" class="circle"></div></div>
+				<div class="square timing"><div id="X12" class="circle"></div></div>
+				<div class="square timing"><div id="X13" class="circle"></div></div>
+				<div class="square timing"><div id="X14" class="circle"></div></div>
+				<div class="square timing"><div id="X15" class="circle"></div></div>
+				<div class="square timing"><div id="X16" class="circle"></div></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">Chords</div>
+				
+				<select id="Chord1" class="chord">
+					<option value="Empty">Empty</option>
+					<option value="Cmaj">Cmajor</option>
+					<option value="Dmin">Dminor</option>
+					<option value="Emin">Eminor</option>
+					<option value="Fmaj">Fmajor</option>
+					<option value="Gmaj">Gmajor</option>
+					<option value="Amin">Aminor</option>
+					<option value="Bdim">Bdiminished</option>
+				</select>
+				
+				<select id="Chord2" class="chord">
+					<option value="Empty">Empty</option>
+					<option value="Cmaj">Cmajor</option>
+					<option value="Dmin">Dminor</option>
+					<option value="Emin">Eminor</option>
+					<option value="Fmaj">Fmajor</option>
+					<option value="Gmaj">Gmajor</option>
+					<option value="Amin">Aminor</option>
+					<option value="Bdim">Bdiminished</option>
+				</select>
+				
+				<select id="Chord3" class="chord">
+					<option value="Empty">Empty</option>
+					<option value="Cmaj">Cmajor</option>
+					<option value="Dmin">Dminor</option>
+					<option value="Emin">Eminor</option>
+					<option value="Fmaj">Fmajor</option>
+					<option value="Gmaj">Gmajor</option>
+					<option value="Amin">Aminor</option>
+					<option value="Bdim">Bdiminished</option>
+				</select>
+				
+				<select id="Chord4" class="chord">
+					<option value="Empty">Empty</option>
+					<option value="Cmaj">Cmajor</option>
+					<option value="Dmin">Dminor</option>
+					<option value="Emin">Eminor</option>
+					<option value="Fmaj">Fmajor</option>
+					<option value="Gmaj">Gmajor</option>
+					<option value="Amin">Aminor</option>
+					<option value="Bdim">Bdiminished</option>
+				</select>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">C</div>
+				<div id="C1" class="square" style="color:white;" onclick="toggle1('C1')"></div>
+				<div id="C2" class="square" style="color:white;" onclick="toggle1('C2')"></div>
+				<div id="C3" class="square" style="color:white;" onclick="toggle1('C3')"></div>
+				<div id="C4" class="square" style="color:white;" onclick="toggle1('C4')"></div>
+				<div id="C5" class="square odd" style="color:white;" onclick="toggle2('C5')"></div>
+				<div id="C6" class="square odd" style="color:white;" onclick="toggle2('C6')"></div>
+				<div id="C7" class="square odd" style="color:white;" onclick="toggle2('C7')"></div>
+				<div id="C8" class="square odd" style="color:white;" onclick="toggle2('C8')"></div>
+				<div id="C9" class="square" style="color:white;" onclick="toggle1('C9')"></div>
+				<div id="C10" class="square" style="color:white;" onclick="toggle1('C10')"></div>
+				<div id="C11" class="square" style="color:white;" onclick="toggle1('C11')"></div>
+				<div id="C12" class="square" style="color:white;" onclick="toggle1('C12')"></div>
+				<div id="C13" class="square odd" style="color:white;" onclick="toggle2('C13')"></div>
+				<div id="C14" class="square odd" style="color:white;" onclick="toggle2('C14')"></div>
+				<div id="C15" class="square odd" style="color:white;" onclick="toggle2('C15')"></div>
+				<div id="C16" class="square odd" style="color:white;" onclick="toggle2('C16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">D</div>
+				<div id="D1" class="square" style="color:white;" onclick="toggle1('D1')"></div>
+				<div id="D2" class="square" style="color:white;" onclick="toggle1('D2')"></div>
+				<div id="D3" class="square" style="color:white;" onclick="toggle1('D3')"></div>
+				<div id="D4" class="square" style="color:white;" onclick="toggle1('D4')"></div>
+				<div id="D5" class="square odd" style="color:white;" onclick="toggle2('D5')"></div>
+				<div id="D6" class="square odd" style="color:white;" onclick="toggle2('D6')"></div>
+				<div id="D7" class="square odd" style="color:white;" onclick="toggle2('D7')"></div>
+				<div id="D8" class="square odd" style="color:white;" onclick="toggle2('D8')"></div>
+				<div id="D9" class="square" style="color:white;" onclick="toggle1('D9')"></div>
+				<div id="D10" class="square" style="color:white;" onclick="toggle1('D10')"></div>
+				<div id="D11" class="square" style="color:white;" onclick="toggle1('D11')"></div>
+				<div id="D12" class="square" style="color:white;" onclick="toggle1('D12')"></div>
+				<div id="D13" class="square odd" style="color:white;" onclick="toggle2('D13')"></div>
+				<div id="D14" class="square odd" style="color:white;" onclick="toggle2('D14')"></div>
+				<div id="D15" class="square odd" style="color:white;" onclick="toggle2('D15')"></div>
+				<div id="D16" class="square odd" style="color:white;" onclick="toggle2('D16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">E</div>
+				<div id="E1" class="square" style="color:white;" onclick="toggle1('E1')"></div>
+				<div id="E2" class="square" style="color:white;" onclick="toggle1('E2')"></div>
+				<div id="E3" class="square" style="color:white;" onclick="toggle1('E3')"></div>
+				<div id="E4" class="square" style="color:white;" onclick="toggle1('E4')"></div>
+				<div id="E5" class="square odd" style="color:white;" onclick="toggle2('E5')"></div>
+				<div id="E6" class="square odd" style="color:white;" onclick="toggle2('E6')"></div>
+				<div id="E7" class="square odd" style="color:white;" onclick="toggle2('E7')"></div>
+				<div id="E8" class="square odd" style="color:white;" onclick="toggle2('E8')"></div>
+				<div id="E9" class="square" style="color:white;" onclick="toggle1('E9')"></div>
+				<div id="E10" class="square" style="color:white;" onclick="toggle1('E10')"></div>
+				<div id="E11" class="square" style="color:white;" onclick="toggle1('E11')"></div>
+				<div id="E12" class="square" style="color:white;" onclick="toggle1('E12')"></div>
+				<div id="E13" class="square odd" style="color:white;" onclick="toggle2('E13')"></div>
+				<div id="E14" class="square odd" style="color:white;" onclick="toggle2('E14')"></div>
+				<div id="E15" class="square odd" style="color:white;" onclick="toggle2('E15')"></div>
+				<div id="E16" class="square odd" style="color:white;" onclick="toggle2('E16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">F</div>
+				<div id="F1" class="square" style="color:white;" onclick="toggle1('F1')"></div>
+				<div id="F2" class="square" style="color:white;" onclick="toggle1('F2')"></div>
+				<div id="F3" class="square" style="color:white;" onclick="toggle1('F3')"></div>
+				<div id="F4" class="square" style="color:white;" onclick="toggle1('F4')"></div>
+				<div id="F5" class="square odd" style="color:white;" onclick="toggle2('F5')"></div>
+				<div id="F6" class="square odd" style="color:white;" onclick="toggle2('F6')"></div>
+				<div id="F7" class="square odd" style="color:white;" onclick="toggle2('F7')"></div>
+				<div id="F8" class="square odd" style="color:white;" onclick="toggle2('F8')"></div>
+				<div id="F9" class="square" style="color:white;" onclick="toggle1('F9')"></div>
+				<div id="F10" class="square" style="color:white;" onclick="toggle1('F10')"></div>
+				<div id="F11" class="square" style="color:white;" onclick="toggle1('F11')"></div>
+				<div id="F12" class="square" style="color:white;" onclick="toggle1('F12')"></div>
+				<div id="F13" class="square odd" style="color:white;" onclick="toggle2('F13')"></div>
+				<div id="F14" class="square odd" style="color:white;" onclick="toggle2('F14')"></div>
+				<div id="F15" class="square odd" style="color:white;" onclick="toggle2('F15')"></div>
+				<div id="F16" class="square odd" style="color:white;" onclick="toggle2('F16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">G</div>
+				<div id="G1" class="square" style="color:white;" onclick="toggle1('G1')"></div>
+				<div id="G2" class="square" style="color:white;" onclick="toggle1('G2')"></div>
+				<div id="G3" class="square" style="color:white;" onclick="toggle1('G3')"></div>
+				<div id="G4" class="square" style="color:white;" onclick="toggle1('G4')"></div>
+				<div id="G5" class="square odd" style="color:white;" onclick="toggle2('G5')"></div>
+				<div id="G6" class="square odd" style="color:white;" onclick="toggle2('G6')"></div>
+				<div id="G7" class="square odd" style="color:white;" onclick="toggle2('G7')"></div>
+				<div id="G8" class="square odd" style="color:white;" onclick="toggle2('G8')"></div>
+				<div id="G9" class="square" style="color:white;" onclick="toggle1('G9')"></div>
+				<div id="G10" class="square" style="color:white;" onclick="toggle1('G10')"></div>
+				<div id="G11" class="square" style="color:white;" onclick="toggle1('G11')"></div>
+				<div id="G12" class="square" style="color:white;" onclick="toggle1('G12')"></div>
+				<div id="G13" class="square odd" style="color:white;" onclick="toggle2('G13')"></div>
+				<div id="G14" class="square odd" style="color:white;" onclick="toggle2('G14')"></div>
+				<div id="G15" class="square odd" style="color:white;" onclick="toggle2('G15')"></div>
+				<div id="G16" class="square odd" style="color:white;" onclick="toggle2('G16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">A</div>
+				<div id="A1" class="square" style="color:white;" onclick="toggle1('A1')"></div>
+				<div id="A2" class="square" style="color:white;" onclick="toggle1('A2')"></div>
+				<div id="A3" class="square" style="color:white;" onclick="toggle1('A3')"></div>
+				<div id="A4" class="square" style="color:white;" onclick="toggle1('A4')"></div>
+				<div id="A5" class="square odd" style="color:white;" onclick="toggle2('A5')"></div>
+				<div id="A6" class="square odd" style="color:white;" onclick="toggle2('A6')"></div>
+				<div id="A7" class="square odd" style="color:white;" onclick="toggle2('A7')"></div>
+				<div id="A8" class="square odd" style="color:white;" onclick="toggle2('A8')"></div>
+				<div id="A9" class="square" style="color:white;" onclick="toggle1('A9')"></div>
+				<div id="A10" class="square" style="color:white;" onclick="toggle1('A10')"></div>
+				<div id="A11" class="square" style="color:white;" onclick="toggle1('A11')"></div>
+				<div id="A12" class="square" style="color:white;" onclick="toggle1('A12')"></div>
+				<div id="A13" class="square odd" style="color:white;" onclick="toggle2('A13')"></div>
+				<div id="A14" class="square odd" style="color:white;" onclick="toggle2('A14')"></div>
+				<div id="A15" class="square odd" style="color:white;" onclick="toggle2('A15')"></div>
+				<div id="A16" class="square odd" style="color:white;" onclick="toggle2('A16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">B</div>
+				<div id="B1" class="square" style="color:white;" onclick="toggle1('B1')"></div>
+				<div id="B2" class="square" style="color:white;" onclick="toggle1('B2')"></div>
+				<div id="B3" class="square" style="color:white;" onclick="toggle1('B3')"></div>
+				<div id="B4" class="square" style="color:white;" onclick="toggle1('B4')"></div>
+				<div id="B5" class="square odd" style="color:white;" onclick="toggle2('B5')"></div>
+				<div id="B6" class="square odd" style="color:white;" onclick="toggle2('B6')"></div>
+				<div id="B7" class="square odd" style="color:white;" onclick="toggle2('B7')"></div>
+				<div id="B8" class="square odd" style="color:white;" onclick="toggle2('B8')"></div>
+				<div id="B9" class="square" style="color:white;" onclick="toggle1('B9')"></div>
+				<div id="B10" class="square" style="color:white;" onclick="toggle1('B10')"></div>
+				<div id="B11" class="square" style="color:white;" onclick="toggle1('B11')"></div>
+				<div id="B12" class="square" style="color:white;" onclick="toggle1('B12')"></div>
+				<div id="B13" class="square odd" style="color:white;" onclick="toggle2('B13')"></div>
+				<div id="B14" class="square odd" style="color:white;" onclick="toggle2('B14')"></div>
+				<div id="B15" class="square odd" style="color:white;" onclick="toggle2('B15')"></div>
+				<div id="B16" class="square odd" style="color:white;" onclick="toggle2('B16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">HI-HAT</div>
+				<div id="H1" class="square" style="color:white;" onclick="toggle1('H1')"></div>
+				<div id="H2" class="square" style="color:white;" onclick="toggle1('H2')"></div>
+				<div id="H3" class="square" style="color:white;" onclick="toggle1('H3')"></div>
+				<div id="H4" class="square" style="color:white;" onclick="toggle1('H4')"></div>
+				<div id="H5" class="square odd" style="color:white;" onclick="toggle2('H5')"></div>
+				<div id="H6" class="square odd" style="color:white;" onclick="toggle2('H6')"></div>
+				<div id="H7" class="square odd" style="color:white;" onclick="toggle2('H7')"></div>
+				<div id="H8" class="square odd" style="color:white;" onclick="toggle2('H8')"></div>
+				<div id="H9" class="square" style="color:white;" onclick="toggle1('H9')"></div>
+				<div id="H10" class="square" style="color:white;" onclick="toggle1('H10')"></div>
+				<div id="H11" class="square" style="color:white;" onclick="toggle1('H11')"></div>
+				<div id="H12" class="square" style="color:white;" onclick="toggle1('H12')"></div>
+				<div id="H13" class="square odd" style="color:white;" onclick="toggle2('H13')"></div>
+				<div id="H14" class="square odd" style="color:white;" onclick="toggle2('H14')"></div>
+				<div id="H15" class="square odd" style="color:white;" onclick="toggle2('H15')"></div>
+				<div id="H16" class="square odd" style="color:white;" onclick="toggle2('H16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">TOM</div>
+				<div id="T1" class="square" style="color:white;" onclick="toggle1('T1')"></div>
+				<div id="T2" class="square" style="color:white;" onclick="toggle1('T2')"></div>
+				<div id="T3" class="square" style="color:white;" onclick="toggle1('T3')"></div>
+				<div id="T4" class="square" style="color:white;" onclick="toggle1('T4')"></div>
+				<div id="T5" class="square odd" style="color:white;" onclick="toggle2('T5')"></div>
+				<div id="T6" class="square odd" style="color:white;" onclick="toggle2('T6')"></div>
+				<div id="T7" class="square odd" style="color:white;" onclick="toggle2('T7')"></div>
+				<div id="T8" class="square odd" style="color:white;" onclick="toggle2('T8')"></div>
+				<div id="T9" class="square" style="color:white;" onclick="toggle1('T9')"></div>
+				<div id="T10" class="square" style="color:white;" onclick="toggle1('T10')"></div>
+				<div id="T11" class="square" style="color:white;" onclick="toggle1('T11')"></div>
+				<div id="T12" class="square" style="color:white;" onclick="toggle1('T12')"></div>
+				<div id="T13" class="square odd" style="color:white;" onclick="toggle2('T13')"></div>
+				<div id="T14" class="square odd" style="color:white;" onclick="toggle2('T14')"></div>
+				<div id="T15" class="square odd" style="color:white;" onclick="toggle2('T15')"></div>
+				<div id="T16" class="square odd" style="color:white;" onclick="toggle2('T16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white;">SNARE</div>
+				<div id="S1" class="square" style="color:white;" onclick="toggle1('S1')"></div>
+				<div id="S2" class="square" style="color:white;" onclick="toggle1('S2')"></div>
+				<div id="S3" class="square" style="color:white;" onclick="toggle1('S3')"></div>
+				<div id="S4" class="square" style="color:white;" onclick="toggle1('S4')"></div>
+				<div id="S5" class="square odd" style="color:white;" onclick="toggle2('S5')"></div>
+				<div id="S6" class="square odd" style="color:white;" onclick="toggle2('S6')"></div>
+				<div id="S7" class="square odd" style="color:white;" onclick="toggle2('S7')"></div>
+				<div id="S8" class="square odd" style="color:white;" onclick="toggle2('S8')"></div>
+				<div id="S9" class="square" style="color:white;" onclick="toggle1('S9')"></div>
+				<div id="S10" class="square" style="color:white;" onclick="toggle1('S10')"></div>
+				<div id="S11" class="square" style="color:white;" onclick="toggle1('S11')"></div>
+				<div id="S12" class="square" style="color:white;" onclick="toggle1('S12')"></div>
+				<div id="S13" class="square odd" style="color:white;" onclick="toggle2('S13')"></div>
+				<div id="S14" class="square odd" style="color:white;" onclick="toggle2('S14')"></div>
+				<div id="S15" class="square odd" style="color:white;" onclick="toggle2('S15')"></div>
+				<div id="S16" class="square odd" style="color:white;" onclick="toggle2('S16')"></div>
+			</div>
+			
+			<div class="rectangle">
+				<div class="square label" style="background-color:white">KICK</div>
+				<div id="K1" class="square" style="color:white;" onclick="toggle1('K1')"></div>
+				<div id="K2" class="square" style="color:white;" onclick="toggle1('K2')"></div>
+				<div id="K3" class="square" style="color:white;" onclick="toggle1('K3')"></div>
+				<div id="K4" class="square" style="color:white;" onclick="toggle1('K4')"></div>
+				<div id="K5" class="square odd" style="color:white;" onclick="toggle2('K5')"></div>
+				<div id="K6" class="square odd" style="color:white;" onclick="toggle2('K6')"></div>
+				<div id="K7" class="square odd" style="color:white;" onclick="toggle2('K7')"></div>
+				<div id="K8" class="square odd" style="color:white;" onclick="toggle2('K8')"></div>
+				<div id="K9" class="square" style="color:white;" onclick="toggle1('K9')"></div>
+				<div id="K10" class="square" style="color:white;" onclick="toggle1('K10')"></div>
+				<div id="K11" class="square" style="color:white;" onclick="toggle1('K11')"></div>
+				<div id="K12" class="square" style="color:white;" onclick="toggle1('K12')"></div>
+				<div id="K13" class="square odd" style="color:white;" onclick="toggle2('K13')"></div>
+				<div id="K14" class="square odd" style="color:white;" onclick="toggle2('K14')"></div>
+				<div id="K15" class="square odd" style="color:white;" onclick="toggle2('K15')"></div>
+				<div id="K16" class="square odd" style="color:white;" onclick="toggle2('K16')"></div>
+			</div>
+			
+		</div>
+	</body>
+</html>
+
+<!--External Resources-->
+    <audio id="KICK" src="../audio/KICK.wav"></audio>
+	<audio id="CLAP" src="../audio/CLAP.wav"></audio>
+	<audio id="HIHAT" src="../audio/HIHAT.wav"></audio>
+	<audio id="TOM"  src="../audio/TOM.wav"></audio>
+	
+	<audio id="CMAJ" src="../audio/CMAJ.wav"></audio>
+	<audio id="DMIN" src="../audio/DMIN.wav"></audio>
+	<audio id="EMIN" src="../audio/EMIN.wav"></audio>
+	<audio id="FMAJ" src="../audio/FMAJ.wav"></audio>
+	<audio id="GMAJ" src="../audio/GMAJ.wav"></audio>
+	<audio id="AMIN" src="../audio/AMIN.wav"></audio>
+	<audio id="BDIM" src="../audio/BDIM.wav"></audio>
+	
+	<audio id="Cnote" src="../audio/Cnote.wav"></audio>
+	<audio id="Dnote" src="../audio/Dnote.wav"></audio>
+	<audio id="Enote" src="../audio/Enote.wav"></audio>
+	<audio id="Fnote" src="../audio/Fnote.wav"></audio>
+	<audio id="Gnote" src="../audio/Gnote.wav"></audio>
+	<audio id="Anote" src="../audio/Anote.wav"></audio>
+	<audio id="Bnote" src="../audio/Bnote.wav"></audio>
+

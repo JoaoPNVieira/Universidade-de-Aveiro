@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>teste</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../css/ratchet.css" rel="stylesheet">
+		<link href="../css/musicas.css" rel="stylesheet">
+		<script src="../js/sons.js"></script>
+	</head>
+  
+	<body>
+
+		<!-- Make sure all your bars are the first things in your <body> -->
+		<header class="bar bar-nav">
+			<a class="icon icon-home" href="index.html" style="color:white"></a>
+			<h1 class="title inline" style="color:white;">LISTA DE MUSICAS</h1>
+		</header>
+
+		<!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+		<div class="content">
+			<ul class="tables-view">
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">KICK</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>Kick from 808 Core Kit</p>
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Kick()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">CLAP</div>
+						<div class="media-author">Abelton Live 10</div> 
+					  <p>Clap from 808 Core Kit</p>					
+					</div>
+					<button onclick="goInfo()">Info</button>
+					<button class="mediaButton icon icon-play" onclick="Clap()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">TOM-TOM</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>High Tom from 808 Core Kit</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Tom()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">HI-HAT</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>Closed Hi-hat from 808 Core Kit</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Hihat()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">C3 major</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>C3major chord from Grand Piano plugin</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Cmaj()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">D3 minor</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>D3minor chord from Grand Piano plugin</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Dmin()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">E3 minor</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>E3minor chord from Grand Piano plugin</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Emin()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">F3 major</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>F3major chord from Grand Piano plugin</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Fmaj()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">G3 major</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>G3major chord from Grand Piano plugin</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Gmaj()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">A3 minor</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>A3minor chord from Grand Piano plugin</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Amin()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">B3 diminished</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>B3diminished chord from Grand Piano plugin</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Bdim()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">C3 note</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>C3 note from Dank Moug</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Cnote()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">D3 note</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>D3 note from Dank Moug</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Dnote()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">E3 note</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>E3 note from Dank Moug</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Enote()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">F3 note</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>F3 note from Dank Moug</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Fnote()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">G3 note</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>G3 note from Dank Moug</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Gnote()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">A3 note</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>A3 note from Dank Moug</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Anote()"></button>
+				</li>
+				
+				<li class="table-view-cell media">
+					<img class="media-object pull-left" src="http://placehold.it/42x42">
+					<div class="media-body">
+						<div class="media-name">B3 note</div>
+						<div class="media-author">Ableton Live 10</div> 
+					  <p>B3 note from Dank Moug</p>					
+					</div>
+					<button class="mediaButton icon icon-play" onclick="Bnote()"></button>
+				</li>
+				
+				
+				
+				
+				
+				
+			</ul>  
+		</div>
+
+	</body>
+</html>
+
+<!--External Resources-->
+    <audio id="KICK" src="../audio/KICK.wav"></audio>
+	<audio id="CLAP" src="../audio/CLAP.wav"></audio>
+	<audio id="HIHAT" src="../audio/HIHAT.wav"></audio>
+	<audio id="TOM"  src="../audio/TOM.wav"></audio>
+	
+	<audio id="CMAJ" src="../audio/CMAJ.wav"></audio>
+	<audio id="DMIN" src="../audio/DMIN.wav"></audio>
+	<audio id="EMIN" src="../audio/EMIN.wav"></audio>
+	<audio id="FMAJ" src="../audio/FMAJ.wav"></audio>
+	<audio id="GMAJ" src="../audio/GMAJ.wav"></audio>
+	<audio id="AMIN" src="../audio/AMIN.wav"></audio>
+	<audio id="BDIM" src="../audio/BDIM.wav"></audio>
+	
+	<audio id="Cnote" src="../audio/Cnote.wav"></audio>
+	<audio id="Dnote" src="../audio/Dnote.wav"></audio>
+	<audio id="Enote" src="../audio/Enote.wav"></audio>
+	<audio id="Fnote" src="../audio/Fnote.wav"></audio>
+	<audio id="Gnote" src="../audio/Gnote.wav"></audio>
+	<audio id="Anote" src="../audio/Anote.wav"></audio>
+	<audio id="Bnote" src="../audio/Bnote.wav"></audio>

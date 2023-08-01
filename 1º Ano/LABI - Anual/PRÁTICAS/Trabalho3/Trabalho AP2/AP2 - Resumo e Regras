@@ -1,0 +1,184 @@
+AP2:
+
+Entrega: elearning.ua.pt
+Ficheiro único .ZIP com:
+	-> server.py
+	-> client.py
+	-> ficheiros de teste eventuais
+	-> ficheiro PDF final do relatório c/ficheiros latex e imagens:
+	 
+		- Objectivo do relatório: descrever a motivação, a implementação (não é só o 		código,mas também o algoritmo), apresentar testes que comprovem o seu 		funcionamento correto e analisar os resultados obtidos.
+		
+		- Deve incluir: Contribuições dos autores
+	 
+	 	- Relatórios meramente descritivos, sem descrição da aplicação, apresentação 		dos resultados obtidos, testes efetuados ou análise dos resultados 
+	 	serão fracamente avaliados.
+	 	
+#------------------------------------------------------------------------------------------	 
+AVALIAÇÃO:
+
+- Cumprimento dos requisitos apresentados;
+- Qualidade do código produzido e comentários;
+- Testes unitários e funcionais realizados;
+- O suporte de segurança adicionado;
+- Estrutura e conteúdo do relatório;
+- Utilização das funcionalidades do CodeUA e git.
+	 
+#------------------------------------------------------------------------------------------	 
+DEVE-SE:
+
+Criar um projeto na plataforma Code.UA: 
+	-> Nome no formato: labi2021-ap2-gN 
+	(número N que lhe foi atribuído na folha de inscrição do grupo.)
+
+#------------------------------------------------------------------------------------------
+TEMA E REGRAS:
+
+	-> Objetivo: criar um servidor que suporte a geração de um número secreto inteiro
+aleatório (entre 0 e 100), que vamos e um número máximo de tentativas (entre 10 e 30) concedidas para o adivinhar. E um cliente que permita adivinhar esse número secreto. Ou seja um jogo de adivinha o número secreto. 
+	-> O servidor nunca deverá aceitar dois clientes com a mesma identificação a jogar simultaneamente.
+	-> Quando jogo termina, cria e atualizar um ficheiro designado por report.csv onde vai escrevendo os resultados dos diversos clientes.
+	-> O cliente pode desistir em qualquer altura e o jogo acaba quando ele adivinha o número secreto ou quando esgota o número máximo de tentativas 
+	-> Caso o cliente exceda o número de jogadas de que dispunha o jogo será considerado sem sucesso mesmo que ele tenha adivinhado o número. 
+	-> Quando o jogo acaba corretamente o cliente deve escrever no monitor uma mensagem a indicar se adivinhou ou não o número secreto e quantas jogadas efectuou. 
+	-> Ficheiro de informação relativa ao jogo: cliente; número secreto; número máximo de jogadas; número de jogadas; resultado obtido pelo cliente (desistência ou sucessso ou insucessso).
+	
+	
+#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
+PROTOCOLO UTILIZADO:
+	-> Sockets TCP.
+	
+	CLIENT:
+	-> Invoação Terminal: python3 client.py client_id porto [máquina];
+		-> client_id: Identificador pessoal do cliente
+		-> Porto: Integer positivo | porta do server (1234)
+		-> {maquina]: DNS ou IPv4 (addr do server) -> default/não indicado: localhost.
+		*-> Se for introdusido valor inválido (type/valor incorrecto/etc...) dar 
+		mensagem de erro	
+	
+	SERVER:
+	-> Invocação Terminal: python3 server.py porto;
+		*-> Se for introdusido valor inválido (type/valor incorrecto/etc...) dar 
+		mensagem de erro.
+		
+	REPORT.CSV:
+	-> Organização:
+		-> Indicador do cliente/Nik Name;
+		-> Número secreto; 
+		-> Número máximo de jogadas; 
+		-> Número de jogadas; 
+		-> resultado obtido pelo cliente: (QUIT | SUCCESS | FAILURE) 	
+	
+	MENSAGENS:
+	-> Estrotura em JSON
+
+#------------------------------------------------------------------------------------------	
+FUNCIONAMENTO DE JOGO:
+	-> Cliente contacta Server para se juntar: Operação START
+		-> Envia dicionario: { "op": "START", "client_id": nome identificador do cliente }
+		
+		-> Server aceita:    { "op": "START", "status": True, "max_attempts": no máximo de 					jogadas}
+		
+		-> Server recusa: { "op": "START", "status": False, "error": 
+				   "Cliente existente" }
+		
+	-> CLiente contacta Server para desistir: Operação QUIT
+		-> Server envia aceite:     { "op": "QUIT", "status": True } 
+		-> Server envia erro:	     { "op": "QUIT", "status": False, "error": "Cliente 							inexistente" }		
+	
+	-> CLiente contacta Server para adivinhar: Operação GUESS
+		-> Cliente envia: { "op": "GUESS", "number": valor numérico entre 0 e 100 }
+		-> Server envia:  { "op": "GUESS", "status": True, "result": 					"smaller"/"larger"/"equals" }
+		
+		-> Server error: { "op": "GUESS", "status": False, "error": "Cliente 					inexistente" }
+	
+	-> Cliente contacta para terminar (ultima jogada): Operação STOP
+		-> CLiente envia: { "op": "STOP", "number": último valor, "attempts": jogadas 						efectuadas }
+		-> Server envia:  { "op": "STOP", "status": True, "guess": número secreto }
+		   + mensagem de SUCCESS | FAILURE.
+		
+		-> Server erro: { "op": "QUIT", "status": False, "error": CLiente inexistente 
+					/ Nº de Jogadas Inconsistentes }
+					
+#------------------------------------------------------------------------------------------	
+COMUNICAÇÃO ENTRE CLIENTE E SERVER:	
+	-> Troca de dicionários Python via sockets TCP: usar "comon_comm.py"
+	
+	-> recv_dict & send_dict: Operações do server para receber o pedido 
+				das operação ( START , GUESS , STOP e QUIT )
+				
+	-> sendrecv_dict: Operação do cliente para pedir operações ao server
+
+
+	INTERAÇÃO SERVER-CLIENT:
+		-> Lista para armazenar os sockets associados aos clientes ativos.
+		-> Metodo "select": monotorisa sockets e informação:
+			-> *Aceita lista de sockets onde se espera por dados
+			-> Aceita lista de sockets onde recentemente foram escritos dados e se 				espera que estes sejam transmitidos
+			-> Aceita lista de sockets ondese quer receber notificações de excepções
+			
+			* Mais importante: sockets associados aos clientes activos (lista 				clients) e também o socket do servidor. Método de invocação:
+				-> select.select ([server_socket] + clients, [], [])[0].
+				-> Método: "fileno" devolve -1 quando socket do cliente foi 					desligado e consequentemente é removido da lista de clientes 				activos
+				
+			*Dicionário "gammers": armazena todos os dados dos clientes ativos. Usa 				a identificação "client_id" criada ao executar a aplicação cliente.
+			
+	NOTA: "find_client_id" : funçaõ que recebe de Entrada o socket do cliente e pesquisa-o no
+	dicionário de clientes activos. Devolve o client_id oi None se não for cliente activo.
+	
+#-------------------------------------------------------------------------------------------
+SEGURANÇA:
+Três possibilidades:
+	-> Sem segurança (aberto):	{ "op": "START", "client_id": nome do cliente }	
+	-> Secreto (cypher):		{ "op": "START", "client_id": nome do cliente, "cipher": 												cipherkey }
+	-> Escolha segura ou secreto: { "op": "START", "client_id": nome do cliente, "cipher": 											   None/cipherkey }
+	
+	USAR:
+	-> cifras simétricas por blocos (não usar continuas ou de fluxo pois libertam info)
+	-> Não necessita de padding (inutil pois vamos vonverter int para string 16*8)
+	-> client e server usam as mesmas funções de cifra
+	
+	PROCESSO:
+	-> Nº inteiro convertido para nº binário de 16 bits
+	-> Nº Guardado num bloco completo e processado pela cifra (AES-128 com ECB mode):
+	cipher = AES.new (cipherkey, AES.MODE_ECB)
+	-> 
+
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

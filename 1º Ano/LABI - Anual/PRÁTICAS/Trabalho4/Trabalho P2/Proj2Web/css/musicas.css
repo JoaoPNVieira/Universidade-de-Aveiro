@@ -1,0 +1,52 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/*Blank Page*/
+*{
+   font-family:'Montserrat';
+}
+
+.button{
+	background-color:white;
+}
+
+.bar{
+	background-color:black;
+	color:white;
+	height:50px;
+}
+
+
+.spacing{height:100px;}
+
+.leftcard{
+	display:inline-block;
+	vertical-align:top;
+	width:300px;
+	background-color:red;
+	margin-left:300px;
+}
+
+.rightcard{
+	display:inline-block;
+	vertical-align:top;
+	border-radius:30px;
+	border: solid black 2px;
+	background-color:white;
+}
+
+.infocontain{
+	padding: 50px 100px;
+}
+
+.mediaButton{
+	display:inline-block;
+	vertical-align:top;
+	float:right;
+}
+
+.media-body{
+	display:inline-block;
+	vertical-align:top;
+}

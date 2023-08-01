@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>   
+	<meta charset="utf-8">
+	<title>Upload</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link href="../css/ratchet.css" rel="stylesheet">
+	<link href="../css/main.css" rel="stylesheet">
+	<script src="../js/ratchet.js"></script>
+	<script src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <!-- Header Area Start -->
+    <header class="bar bar-nav">
+		<a class="icon icon-home" href="index.html" style="color:white"></a>
+		<h1 class="title inline" style="color:white;">UPLOAD</h1>
+	</header>
+    <!-- Header Area End -->
+
+</br></br></br>
+	<!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+	<div class="content">
+		<ul class="tables-view">
+			
+			<form method="post" action="upload" enctype="multipart/form-data">
+			  Autor:
+			  <input type="text">
+			  Título:
+			  <input type="text">
+			</form>
+</br></br></br></br>
+    
+        <label class ="btn alime-btn btn-2 mt-15">
+            Upload Sound
+       
+        </br></br>
+        <form action="../audio/db-audio">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+          </form>        <div id='container' >
+         <img id="output" height = "auto" width = "auto"/>
+        <script>
+            var loadFile = function(event) {
+                var reader = new FileReader();
+                reader.onload = function(){
+                var output = document.getElementById('output');
+                output.src = reader.result;
+                };
+                reader.readAsDataURL(event.target.files[0]);
+            };
+
+        </script>
+        </label>
+    
+        <input type="submit" class="btn alime-btn btn-2 mt-15"/>
+        
+     </center>
+    </div>
+    </form>
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+</body>
