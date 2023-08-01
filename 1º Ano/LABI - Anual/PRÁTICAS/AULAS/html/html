@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<h1>Cabeçalho Maior: Vamos aprender HTML na UA</h1>
+		<h6>Cabeçalho menor: João Pedro Nunes Vieira - 50458</h6>
+		<metahttp-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<h2>Titulo</h2>
+		<title>Título: Cabeçalho do documento HTML</title>
+		<!-- isto é um comentário -->
+	</head>
+	<body>
+		
+		<h2>Corpo do Documento</h2>
+		Corpo do documento HTML <br/>
+		
+		<h3> Tipos de texto e alinhamento: Negrito, Itálico, alinhamento, comentarios etc...</h4>
+		Exemplos de texto em <b>negrito</b>, em <i>itálico</i>,
+		<p style="text-align:right">em estilo <tt>máquina de escrever</tt>.<br/></p>
+		<!-- isto é outro um comentário -->
+		Vamos agora experimentar fazer line break</br>será que resultou?
+		
+		<p>ISTO É UM PARAGRAFO COM LINE BREAK</br>
+		Outra linha após o paragrafo.
+		
+		<p>ISTO É UM PARAGRAFO COMUM</p>
+		Outra linha após o paragrafo (+um espaço).
+		
+		</br></br></br></br></br> <!-- Isto resulta, várias mudanças de linha line break -->
+		<p><p><p>Hello HTML</p></p></p> <!-- Isto não resulta! -->
+		
+		<h2>Listas: </h2>
+		<h3>Listas Ordenadas</h3>
+		<ol>
+			<li>Linha de Lista ordenada (c/numeração)</li>
+			<li>Linha de Lista ordenada (c/numeração)</li>
+		</ol>
+		<ol>
+			<li value="10">Exemplo de Lista Ordenada com numeração diferente</li>
+			<li>Linha de Lista ordenada (c/numeração)</li>
+			<li>Linha de Lista ordenada (c/numeração)</li>
+		</ol>
+		<ul>
+			<li> Linha de Lista não ordenada (s/numeração)</li>
+			<li> Linha de Lista não ordenada (s/numeração)</li>
+		</ul>
+		<h2>Tabelas</h2>
+		<h3>border = 1</h3>
+		<table border=1>
+			<tr><th> Header1 </th><th> Header2 </th></tr> <!-- tabel headers -->
+			<tr><td> a </td><td> b </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> c </td><td> d </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> e </td><td> f </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> g </td><td> h </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> i </td><td> j </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> k </td><td> l </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> m </td><td> n </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> o </td><td> p </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> q </td><td> r </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> s </td><td> t </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> u </td><td> v </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> w </td><td> x </td></tr> <!-- conteudo das tabelas -->
+			<tr><td> y </td><td> z </td></tr> <!-- conteudo das tabelas -->
+		</table>
+
+		<h3>Outra Tabela</h3>
+		<table border=3 style="background-color:#00FF00">
+			<caption>Título da Tabela: broder = 3, cor do background, rowspan e colspan</caption>
+			<tr><th> Header1 </th><th> Header2 </th><th> Header3 </th><th> Header4 </th></tr>
+			<tr><td> a </td><td colspan=2> b </td><td rowspan=2> c </td></tr>
+			<tr><td> d </td><td> e </td><td> f </td></tr>
+		</table>
+
+		<h2>Hiper-Referências:</h2>
+			<a href="URL">outro.html</a></br>
+			<a href="URL">https://www.ua.pt/</a>
+	</body>
+	<!-- isto é um comentário final -->
+</html>

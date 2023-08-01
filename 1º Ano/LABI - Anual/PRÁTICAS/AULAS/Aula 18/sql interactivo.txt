@@ -1,0 +1,37 @@
+Iniciar sqlite no terminal:
+-> sqlite3 database.db
+
+CREATE TABLE contacts(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	fname TEXT,
+	sname TEXT,
+	lname TEXT,
+	email TEXT,
+	tel INTEGER,
+	company_id INTEGER 
+	);
+	
+INSERT INTO contacts (fname,sname,lname,email,tel,company_id)
+VALUES("João","Manuel","Fonseca","jmf@gmail.com","912345654","3"),
+	("Pedro","Albuquerque","Silva","pedro23@gmail.com","932454349","2"),
+	("Maria","Carreira","Dinis","mariadi@ua.pt","234958673","1"),
+	("Catarina","Alexandra","Rodrigo","calexro@sapo.pt","963343386","1");
+
+CREATE TABLE companies(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name TEXT,
+	addr TEXT,
+	vatnumb INTEGER);
+	
+INSERT INTO companies (name, addr, vatnumb)
+VALUES("MaxiPlano","Aveiro","123123123123"),
+	("Luis Manuel & Filhos","Águeda","5453433435"),
+	("ProDesign","Porto","5453433435");
+	
+	
+SELECT contacts.* FROM contacts,companies WHERE contacts.company_id = companies.id AND companies.name = "MaxiPlano";
+
+SELECT contacts.* 
+	FROM contacts,companies
+	WHERE contacts.company_id = companies.id
+	AND companies.name = "MaxiPlano";

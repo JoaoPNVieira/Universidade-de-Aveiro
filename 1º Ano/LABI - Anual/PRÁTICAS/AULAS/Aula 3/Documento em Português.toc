@@ -1,0 +1,6 @@
+\babel@toc {portuguese}{}
+\contentsline {chapter}{\numberline {1}TESTE}{3}%
+\contentsline {section}{\numberline {1.1}Verificação de translineação:}{3}%
+\contentsline {subsection}{\numberline {1.1.1}Tamanhos de texto:}{3}%
+\contentsline {subsubsection}{Listas e Enumerações:}{3}%
+\contentsline {subsubsection}{Figuras e Gráficos:}{4}%

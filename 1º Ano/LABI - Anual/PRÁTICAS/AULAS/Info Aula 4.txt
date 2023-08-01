@@ -1,0 +1,7 @@
+sudo apt-get install synaptic
+Dentro do Synaptic:
+-> net-tools
+-> ifupdown
+
+sudo geany /etc/network/interfaces
+sudo apt-get install wireshark-gtk

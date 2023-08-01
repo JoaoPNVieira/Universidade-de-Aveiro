@@ -1,0 +1,12 @@
+1. Install Synaptic (melhor ferramenta para instalar e procurar pacotes do Linux):
+sudo apt-get install synaptic
+
+2. Instalar LIngua Portuguesa p/Latex:
+sudo apt-get install sudo texlive-lang-portuguese
+
+3. Instalar Biber p/latex:
+sudo apt-get install biber (Nota: textline-bibletex-extra)
+
+{latex/ua}
+{imagens/fig1]«}
+texlive2020 (titulo)

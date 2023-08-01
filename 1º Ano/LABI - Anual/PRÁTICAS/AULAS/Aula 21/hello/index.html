@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LABI</title>
+
+		<!-- CSS starts here -->
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/ratchet.css">
+		<link rel="stylesheet" href="css/ratchet-theme-android.css">
+		<!-- CSS Leafletjs -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+		<!-- JS Leafletjs-->
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+		<!-- Javascript starts here -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="js/ratchet.js"></script>
+		<script type="text/javascript" src="gps.js"> </script>
+		
+	</head>
+	<body>
+		<header class="bar bar-nav">
+			<h1 class="title">LABI - Aplicações Móveis Web: Aula 21</h1>
+		</header>
+		<nav class="bar bar-tab">
+			<a class="tab-item active" href="#">
+				<span class="icon icon-home"></span>
+				<span class="tab-label">Home</span>
+			</a>
+			<a class="tab-item" href="#">
+				<span class="icon icon-person"></span>
+				<span class="tab-label">Profile</span>
+			</a>
+			<a class="tab-item" href="#">
+				<span class="icon icon-star-filled"></span>
+				<span class="tab-label">Favorites</span>
+			</a>
+			<a class="tab-item" href="#">
+				<span class="icon icon-search"></span>
+				<span class="tab-label">Search</span>
+			</a>
+			<a class="tab-item" href="#">
+				<span class="icon icon-gear"></span>
+				<span class="tab-label">Settings</span>
+			</a>
+		</nav>
+		<div class="bar bar-footer"></div>
+		<div class="content">
+			<ul class="table-view">
+				<li class="table-view-cell">Hello World!</li>
+			</ul>
+			<div id="location"><!-- Javascript Location --></div>
+			<button id="refresh" class="btn btn-block btn-primary">Refresh</button>
+			<div id="clock" style="width:100%; text-align:center;"></div>
+		</div>
+	</body>
+</html>
+
+
+

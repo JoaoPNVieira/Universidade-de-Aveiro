@@ -1,0 +1,6 @@
+git init
+git add .
+git status
+git commit -m "proj1 - ver.1"
+git push --all
+

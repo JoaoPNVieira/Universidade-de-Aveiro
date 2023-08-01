@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<title>LABI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap minified CSS -->
+	<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<!-- jQuery library -->
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!--Biblioteca Highcharts JS para criar gráficos complexos-->
+	<script type="text/javascript"
+	src="http://code.highcharts.com/highcharts.js"></script>
+</head></head>
+
+
+
+
+
+
+	<body>
+		<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">LABI</a>
+				</div>
+				<!-- Inicio do Contedudo-->
+				
+				<!-- Popup-->
+				<div id="oMeuPopup" class="modal fade">
+				<div class="modal-dialog"><div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close"
+							data-dismiss="modal" aria-hidden="true">&times;</button>
+							</button>
+						<h4 class="modal-title">Título</h4>
+					</div>
+					<div class="modal-body">
+						<p>Conteúdo</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+					</div>
+					</div>
+				</div>
+				</div>
+				<!--End of Popup-->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#oMeuPopup"> Lançar popup</button>
+				<!-- Barra de Navegação-->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Tópico A</a> <!-- Tópico A-->
+							<a href="#topicoA"> link para o Topico A </a>
+							<h2 id="topicoA">Este é o Tópico A</h2>
+							</li>  
+						<li><a href="#">Tópico B</a></li> <!-- Tópico B-->
+						
+						<!-- Tópico C: Dropdown com Opções 1 e 2 -->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									Tópico C<b class="caret"></b></a> <!-- Tópico C-->
+								<ul class="dropdown-menu">
+									<li><a href="#">Opção1</a></li> <!-- Opção 1 -->
+									<li class="divider"></li>
+									<li><a href="#">Opção2</a></li> <!-- Opção 2 -->
+								</ul>
+							</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Default</a></li>
+					</ul>
+			</div>
+		</nav>
+		<!-- End of Nav bar -->
+		
+		<!-- Elemento que irá conter um gráfico-->
+		<div id="grafico-linhas" style="width: 400px; height: 300px;"></div>
+		<script type="text/javascript" src="grafico-linhas.js"></script>
+		<!-- Butão de invocação da função desenharafico() -->
+		<button class="btn btn-primary" onclick="desenhaGrafico()">
+			Grafico de Linhas
+		</button>
+		
+		</div>
+	</body>
+</html>
