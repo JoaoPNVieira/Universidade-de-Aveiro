@@ -1,0 +1,15 @@
+|MuxDemo
+OutPort <= Mux2_1:inst.Y
+InPort_1 => Mux2_1:inst.I1
+SPort => Mux2_1:inst.Select
+InPort_0 => Mux2_1:inst.I0
+
+
+|MuxDemo|Mux2_1:inst
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Select => inst4.IN0
+Select => inst.IN1
+I0 => inst1.IN1
+I1 => inst.IN0
+
+

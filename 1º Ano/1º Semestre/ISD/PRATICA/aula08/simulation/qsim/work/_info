@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/JP/Desktop/UA/2ano/ISD/aula08/simulation/qsim
+vAddSubDemo
+Z1 !s110 1638442605
+!i10b 1
+!s100 :IBVRfX:]n4XZg?d0zXcY2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IY;IMS>Pn[i?Pm66<4>g8]3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1638442603
+8AddSubDemo.vo
+FAddSubDemo.vo
+!i122 0
+L0 32 345
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1638442605.000000
+!s107 AddSubDemo.vo|
+!s90 -work|work|AddSubDemo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@add@sub@demo
+Eaddsubdemo
+Z8 w1639043747
+Z9 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z10 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z11 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z14 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 6
+R0
+Z15 8AddSubDemo.vho
+Z16 FAddSubDemo.vho
+l0
+L35 1
+V8fCDzKalYdC<fgAz@DDCD2
+!s100 I2BL@B2iU_Y^ZalG24ZkR0
+Z17 OV;C;2020.1;71
+32
+Z18 !s110 1639043749
+!i10b 1
+Z19 !s108 1639043749.000000
+Z20 !s90 -work|work|AddSubDemo.vho|
+Z21 !s107 AddSubDemo.vho|
+!i113 1
+R6
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 10 addsubdemo 0 22 8fCDzKalYdC<fgAz@DDCD2
+!i122 6
+l101
+L54 347
+V89LP`Fc2c:n4Z_HhCXbVc0
+!s100 HIEMKCXm=Ke2?6J3bihiU2
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R6
+R22
+Eaddsubdemo_vhd_vec_tst
+Z23 w1639043746
+R12
+R13
+!i122 7
+R0
+Z24 8Waveform.vwf.vht
+Z25 FWaveform.vwf.vht
+l0
+L32 1
+V?m>SQ4oECiJVlafEnLEd`0
+!s100 R@9Lo]z:4G2S[Pn^0UYQ42
+R17
+32
+R18
+!i10b 1
+R19
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
+!i113 1
+R6
+R22
+Aaddsubdemo_arch
+R12
+R13
+Z28 DEx4 work 22 addsubdemo_vhd_vec_tst 0 22 ?m>SQ4oECiJVlafEnLEd`0
+!i122 7
+l69
+L34 296
+VO85Cl44nJHRdC2Sm_[AhS1
+!s100 L[;QE3Db^QA2nne`OZ`<12
+R17
+32
+R18
+!i10b 1
+R19
+R26
+R27
+!i113 1
+R6
+R22
+vAddSubDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 Ud7KP]loXMV=7o_3iZQoO2
+R2
+I0N3X]o9QX3Oen1QYP]PT?2
+R3
+R0
+w1638442602
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 140
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+n@add@sub@demo_vlg_vec_tst

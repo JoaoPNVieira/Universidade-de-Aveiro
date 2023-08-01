@@ -1,0 +1,130 @@
+$comment
+	File created using the following command:
+		vcd file GateDemo.msim.vcd -direction
+$end
+$date
+	Thu Nov 11 10:47:58 2021
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module GateDemo_vlg_vec_tst $end
+$var reg 1 ! x $end
+$var reg 1 " y $end
+$var wire 1 # output1 $end
+$var wire 1 $ output2 $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + output1~output_o $end
+$var wire 1 , output2~output_o $end
+$var wire 1 - x~input_o $end
+$var wire 1 . y~input_o $end
+$var wire 1 / inst~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+$end
+#40000
+1"
+1.
+#190000
+1!
+1-
+1/
+0+
+1,
+1$
+0#
+#270000
+0"
+0.
+0/
+1+
+0,
+0$
+1#
+#330000
+0!
+0-
+#350000
+1"
+1.
+#440000
+1!
+1-
+1/
+0+
+1,
+1$
+0#
+#500000
+0!
+0-
+0/
+1+
+0,
+0$
+1#
+#590000
+1!
+1-
+1/
+0+
+1,
+1$
+0#
+#660000
+0"
+0.
+0/
+1+
+0,
+0$
+1#
+#770000
+1"
+1.
+1/
+0+
+1,
+1$
+0#
+#840000
+0!
+0-
+0/
+1+
+0,
+0$
+1#
+#930000
+0"
+0.
+#1000000

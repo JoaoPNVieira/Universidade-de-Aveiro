@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outQ0",
+					"strict" : false
+				},
+				{
+					"name" : "outQ1",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Reset_L",
+					"strict" : false
+				},
+				{
+					"name" : "X",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

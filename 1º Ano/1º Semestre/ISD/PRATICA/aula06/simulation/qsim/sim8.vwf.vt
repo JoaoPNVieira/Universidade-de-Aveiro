@@ -1,0 +1,154 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/15/2021 20:27:06"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          DecoderDemo2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module DecoderDemo2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg E1;
+reg EN_L;
+reg InPort_0;
+reg InPort_1;
+reg InPort_2;
+reg InPort_3;
+// wires                                               
+wire OutPort_0;
+wire OutPort_1;
+wire OutPort_2;
+wire OutPort_3;
+wire OutPort_4;
+wire OutPort_5;
+wire OutPort_6;
+wire OutPort_7;
+wire OutPort_8;
+wire OutPort_9;
+wire OutPort_10;
+wire OutPort_11;
+wire OutPort_12;
+wire OutPort_13;
+wire OutPort_14;
+wire OutPort_15;
+
+// assign statements (if any)                          
+DecoderDemo2 i1 (
+// port map - connection between master ports and signals/registers   
+	.E1(E1),
+	.EN_L(EN_L),
+	.InPort_0(InPort_0),
+	.InPort_1(InPort_1),
+	.InPort_2(InPort_2),
+	.InPort_3(InPort_3),
+	.OutPort_0(OutPort_0),
+	.OutPort_1(OutPort_1),
+	.OutPort_2(OutPort_2),
+	.OutPort_3(OutPort_3),
+	.OutPort_4(OutPort_4),
+	.OutPort_5(OutPort_5),
+	.OutPort_6(OutPort_6),
+	.OutPort_7(OutPort_7),
+	.OutPort_8(OutPort_8),
+	.OutPort_9(OutPort_9),
+	.OutPort_10(OutPort_10),
+	.OutPort_11(OutPort_11),
+	.OutPort_12(OutPort_12),
+	.OutPort_13(OutPort_13),
+	.OutPort_14(OutPort_14),
+	.OutPort_15(OutPort_15)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// E1
+initial
+begin
+	E1 = 1'b1;
+end 
+
+// EN_L
+initial
+begin
+	EN_L = 1'b0;
+end 
+
+// InPort_0
+initial
+begin
+	InPort_0 = 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+	InPort_0 = #40000 1'b1;
+	InPort_0 = #40000 1'b0;
+end 
+
+// InPort_1
+initial
+begin
+	InPort_1 = 1'b0;
+	InPort_1 = #80000 1'b1;
+	InPort_1 = #80000 1'b0;
+	InPort_1 = #80000 1'b1;
+	InPort_1 = #80000 1'b0;
+	InPort_1 = #80000 1'b1;
+	InPort_1 = #80000 1'b0;
+	InPort_1 = #80000 1'b1;
+	InPort_1 = #80000 1'b0;
+end 
+
+// InPort_2
+initial
+begin
+	InPort_2 = 1'b0;
+	InPort_2 = #160000 1'b1;
+	InPort_2 = #160000 1'b0;
+	InPort_2 = #160000 1'b1;
+	InPort_2 = #160000 1'b0;
+end 
+
+// InPort_3
+initial
+begin
+	InPort_3 = 1'b0;
+	InPort_3 = #320000 1'b1;
+	InPort_3 = #320000 1'b0;
+end 
+endmodule
+

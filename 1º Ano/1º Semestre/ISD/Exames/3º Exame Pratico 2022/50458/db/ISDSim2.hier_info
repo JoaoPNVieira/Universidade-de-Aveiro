@@ -1,0 +1,20 @@
+|ISDSim2
+outQ0 <= MEF:inst.Q0
+X => MEF:inst.inputX
+Clock => MEF:inst.CLK
+Reset_L => MEF:inst.CLR
+outQ1 <= MEF:inst.Q1
+
+
+|ISDSim2|MEF:inst
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+inputX => inst9.IN0
+inputX => inst6.IN2
+inputX => inst4.IN2
+
+

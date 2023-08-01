@@ -1,0 +1,94 @@
+|AddSubDemo
+Sum1 <= AddSub4:inst.S0
+Sub => AddSub4:inst.M
+Input0 => AddSub4:inst.A0
+Input1 => AddSub4:inst.B0
+Input2 => AddSub4:inst.A1
+Input3 => AddSub4:inst.B1
+Input4 => AddSub4:inst.A2
+Input5 => AddSub4:inst.B2
+Input6 => AddSub4:inst.A3
+Input7 => AddSub4:inst.B3
+Sum2 <= AddSub4:inst.S1
+Sum3 <= AddSub4:inst.S2
+Sum4 <= AddSub4:inst.S3
+Overflow <= AddSub4:inst.OFL
+
+
+|AddSubDemo|AddSub4:inst
+S0 <= FullAdder:inst4.outSum
+A0 => FullAdder:inst4.inputA
+M => inst.IN0
+M => FullAdder:inst4.Cin
+M => inst1.IN0
+M => inst2.IN0
+M => inst3.IN0
+B0 => inst.IN1
+S1 <= FullAdder:inst5.outSum
+A1 => FullAdder:inst5.inputA
+B1 => inst1.IN1
+S2 <= FullAdder:inst6.outSum
+A2 => FullAdder:inst6.inputA
+B2 => inst2.IN1
+S3 <= FullAdder:inst7.outSum
+A3 => FullAdder:inst7.inputA
+B3 => inst3.IN1
+OFL <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AddSubDemo|AddSub4:inst|FullAdder:inst4
+outSum <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+inputA => inst.IN0
+inputA => inst5.IN1
+inputA => inst3.IN1
+inputB => inst.IN1
+inputB => inst4.IN1
+inputB => inst5.IN0
+Cin => inst1.IN1
+Cin => inst4.IN0
+Cin => inst3.IN0
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AddSubDemo|AddSub4:inst|FullAdder:inst5
+outSum <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+inputA => inst.IN0
+inputA => inst5.IN1
+inputA => inst3.IN1
+inputB => inst.IN1
+inputB => inst4.IN1
+inputB => inst5.IN0
+Cin => inst1.IN1
+Cin => inst4.IN0
+Cin => inst3.IN0
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AddSubDemo|AddSub4:inst|FullAdder:inst6
+outSum <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+inputA => inst.IN0
+inputA => inst5.IN1
+inputA => inst3.IN1
+inputB => inst.IN1
+inputB => inst4.IN1
+inputB => inst5.IN0
+Cin => inst1.IN1
+Cin => inst4.IN0
+Cin => inst3.IN0
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AddSubDemo|AddSub4:inst|FullAdder:inst7
+outSum <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+inputA => inst.IN0
+inputA => inst5.IN1
+inputA => inst3.IN1
+inputB => inst.IN1
+inputB => inst4.IN1
+inputB => inst5.IN0
+Cin => inst1.IN1
+Cin => inst4.IN0
+Cin => inst3.IN0
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,5 @@
+seg = int(input("Tempo em segundos:"))
+dd = int(seg//3600)
+mm = int((seg - 3600*dd)//60)
+ss = int(seg - 3600 * dd - 60 * mm)
+print((dd mm ss.split":")

@@ -1,0 +1,58 @@
+def load(fname):
+	with open(fname) as f:
+		lst = []
+		for line in f:
+			word = line.strip()
+			lst.append(word)
+	return lst
+
+def filterPattern(lst, pattern):
+	l = []
+	con = 0
+	inn = len(lst)
+	while con < inn:
+		if matchesPattern(lst[con], pattern) == True:
+			l.append(lst[con])
+			con += 1
+		else:
+			con += 1
+	return l
+	
+def matchesPattern(s, pattern):
+	c = 0
+	cc = 0
+	con = 0
+	pcaps = pattern.upper()
+	pcaps2 = pattern.lower()
+	if len(s) == len(pattern):
+		while con < len(pattern):
+			if pattern[con] != '?':
+				cc += 1
+				if ((s[con] == pattern[con]) or (s[con] == pcaps[con]) or (s[con] == pcaps2[con])):
+					con += 1
+					c+= 1
+				else:
+					con += 1
+			else: 
+				con += 1 
+	if c == cc: 
+		return True
+	else:
+		return False
+		
+# Tests:
+assert matchesPattern("secret", "s?c??t") == True
+assert matchesPattern("socket", "s?c??t") == True
+assert matchesPattern("soccer", "s?c??t") == False
+assert matchesPattern("secret", "?ECR?T") == True
+
+englishWords = load("123.txt")
+#lst = filterPattern(englishWords, "s?c??t")
+#print(lst)
+
+#assert isinstance(lst, list),  "result lst should be a list"
+#assert "secret" in lst,  "result should contain 'secret'"
+
+#Solution to "?YS???Y"
+lst = filterPattern(englishWords, "?ys???y")
+print(lst)

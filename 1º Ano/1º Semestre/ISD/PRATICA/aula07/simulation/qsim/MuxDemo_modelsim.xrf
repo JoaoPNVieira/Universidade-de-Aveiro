@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula07/Mux2_1.bdf
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula07/MuxDemo.bdf
+source_file = 1, MuxDemoWaveform.vwf
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula07/Mux16_1.bdf
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula07/SimEx4.vwf
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula07/db/MuxDemo.cbx.xml
+design_name = MuxDemo
+instance = comp, \OutPort~output\, OutPort~output, MuxDemo, 1
+instance = comp, \InPort_1~input\, InPort_1~input, MuxDemo, 1
+instance = comp, \InPort_0~input\, InPort_0~input, MuxDemo, 1
+instance = comp, \SPort~input\, SPort~input, MuxDemo, 1
+instance = comp, \inst|inst3~0\, inst|inst3~0, MuxDemo, 1

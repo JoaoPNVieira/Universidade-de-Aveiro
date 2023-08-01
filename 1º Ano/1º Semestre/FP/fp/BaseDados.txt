@@ -1,0 +1,4 @@
+311;Papel Higiénico; Mercearia;3.99; 23%
+814;Carne Picada; Talho;2.99; 5%
+351;Arroz;Mercearia;1.00;5%
+562;Pão de Forma;Padaria;1.99;5%

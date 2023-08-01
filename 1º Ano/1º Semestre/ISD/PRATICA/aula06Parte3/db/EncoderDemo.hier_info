@@ -1,0 +1,44 @@
+|EncoderDemo
+pin_name1 <= PEnc8_3:inst.OS_L
+EL => PEnc8_3:inst.E_L
+InPort_0 => PEnc8_3:inst.X0
+InPort_1 => PEnc8_3:inst.X1
+InPort_2 => PEnc8_3:inst.X2
+InPort_3 => PEnc8_3:inst.X3
+InPort_4 => PEnc8_3:inst.X4
+InPort_5 => PEnc8_3:inst.X5
+InPort_6 => PEnc8_3:inst.X6
+InPort_7 => PEnc8_3:inst.X7
+OutPort_0 <= PEnc8_3:inst.Y2
+OutPort_1 <= PEnc8_3:inst.Y1
+OutPort_2 <= PEnc8_3:inst.Y0
+
+
+|EncoderDemo|PEnc8_3:inst
+Y0 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+X0 => inst5.IN0
+X0 => inst3.IN0
+X0 => inst.IN0
+X0 => inst4.IN0
+X4 => inst5.IN1
+X4 => inst3.IN1
+X4 => inst4.IN5
+X6 => inst5.IN2
+X6 => inst4.IN6
+X2 => inst5.IN3
+X2 => inst.IN1
+X2 => inst4.IN1
+Y1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X5 => inst3.IN2
+X5 => inst4.IN4
+X1 => inst3.IN3
+X1 => inst.IN3
+X1 => inst4.IN2
+Y2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+X3 => inst.IN2
+X3 => inst4.IN3
+OS_L <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+E_L => inst1.IN0
+X7 => inst4.IN7
+
+

@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula13/SeqDet1101.bdf
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula13/Sim1.vwf
+source_file = 1, C:/Users/JP/Desktop/UA/2ano/ISD/aula13/db/SeqDet1101.cbx.xml
+design_name = SeqDet1101
+instance = comp, \Y~output\, Y~output, SeqDet1101, 1
+instance = comp, \X~input\, X~input, SeqDet1101, 1
+instance = comp, \CLK~input\, CLK~input, SeqDet1101, 1
+instance = comp, \inst16~0\, inst16~0, SeqDet1101, 1
+instance = comp, \inst18~0\, inst18~0, SeqDet1101, 1

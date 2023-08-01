@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/JP/Desktop/50458/MEF.bdf
+source_file = 1, C:/Users/JP/Desktop/50458/MEF.vwf
+source_file = 1, C:/Users/JP/Desktop/50458/SpecialCount.bdf
+source_file = 1, C:/Users/JP/Desktop/50458/ISDSim2.bdf
+source_file = 1, C:/Users/JP/Desktop/50458/db/ISDSim2.cbx.xml
+design_name = MEF
+instance = comp, \Q0~output , Q0~output, MEF, 1
+instance = comp, \Q1~output , Q1~output, MEF, 1
+instance = comp, \CLK~input , CLK~input, MEF, 1
+instance = comp, \inst~0 , inst~0, MEF, 1
+instance = comp, \CLR~input , CLR~input, MEF, 1
+instance = comp, \inputX~input , inputX~input, MEF, 1
+instance = comp, \inst7~0 , inst7~0, MEF, 1

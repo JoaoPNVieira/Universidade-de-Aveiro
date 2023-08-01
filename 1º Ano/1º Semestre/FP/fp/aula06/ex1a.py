@@ -1,0 +1,10 @@
+lst = [5, 3, 8, 7]
+print(len(lst))
+print(lst[2])
+print(lst[-4])
+print(lst[1:3])
+print(lst[:-1])
+print(lst[2:2])
+lst[2:2] = [99] ; print(lst)
+lst.append(33) ; print(lst)
+print(lst[-3:-1]) 
