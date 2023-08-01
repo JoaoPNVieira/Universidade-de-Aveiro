@@ -1,0 +1,93 @@
+/*
+UNIVERSIDADE DE AVEIRO - 2022/23
+UC: BASES DE DADOS 
+
+João Veira - 50458 (LECI)
+Lara Matos - 95228 (LECI)
+
+Ex.4.1.6)
+	Base de Dados: Sistema de Gestão de ATL
+
+*/
+
+GO
+DROP TABLE IF EXISTS ATL.Aluno;
+DROP TABLE IF EXISTS ATL.EncEduc;
+DROP TABLE IF EXISTS ATL.Professor;
+DROP TABLE IF EXISTS ATL.Participa;
+DROP TABLE IF EXISTS ATL.Turma;
+DROP TABLE IF EXISTS ATL.Atividades;
+DROP TABLE IF EXISTS ATL.Pessoa;
+GO
+
+DROP SCHEMA IF EXISTS ATL;
+GO
+
+CREATE SCHEMA ATL;
+GO
+
+CREATE TABLE ATL.Pessoa(
+	[Cc]			INT				NOT NULL	PRIMARY KEY,
+	[Nome]			VARCHAR(128)	NOT NULL	UNIQUE,
+	[Data_Nasc]		DATE			NOT NULL	UNIQUE,
+	[Morada]		NVARCHAR(128)	NOT NULL	UNIQUE,
+
+)
+GO
+
+CREATE TABLE ATL.Aluno(
+	[Cc]			INT				NOT NULL	PRIMARY KEY			FOREIGN KEY REFERENCES ATL.Pessoa(Cc),
+	[Nome]			VARCHAR(128)	NOT NULL						FOREIGN KEY REFERENCES ATL.Pessoa(Nome),
+	[Data_Nasc]		DATE			NOT NULL						FOREIGN KEY REFERENCES ATL.Pessoa(Data_Nasc),
+	[Morada]		NVARCHAR(128)	NOT NULL						FOREIGN KEY REFERENCES ATL.Pessoa(Morada),
+	[List_Resp]		VARCHAR(512),
+)
+GO
+
+CREATE TABLE ATL.EncEduc(
+	[Cc]			INT				NOT NULL	PRIMARY KEY			FOREIGN KEY REFERENCES ATL.Pessoa(Cc),
+	[Nome]			VARCHAR(128)	NOT NULL						FOREIGN KEY REFERENCES ATL.Pessoa(Nome),
+	[Data_Nasc]		DATE			NOT NULL						FOREIGN KEY REFERENCES ATL.Pessoa(Data_Nasc),
+	[Morada]		NVARCHAR(128)	NOT NULL						FOREIGN KEY REFERENCES ATL.Pessoa(Morada),
+	[Contacto]		INT				NOT NULL,
+	[Email]			NVARCHAR(64),
+)
+GO
+
+CREATE TABLE ATL.Professor(
+	[Cc]			INT				NOT NULL PRIMARY KEY	REFERENCES ATL.Pessoa(Cc),
+	[Nome]			VARCHAR(128)	NOT NULL				REFERENCES ATL.Pessoa(Nome),
+	[Data_Nasc]		DATE			NOT NULL				REFERENCES ATL.Pessoa(Data_Nasc),
+	[Morada]		NVARCHAR(128)	NOT NULL				REFERENCES ATL.Pessoa(Morada),
+	[Contacto]		INT				NOT NULL,
+	[Email]			NVARCHAR(64)	NOT NULL,
+	[Num_Func]		INT				NOT NULL,
+)
+GO
+
+CREATE TABLE ATL.Participa(
+	[ID_Turma]		INT				NOT NULL		UNIQUE,
+	[ID_Atv]		INT				NOT NULL		UNIQUE,
+	[Lista_Insc]	VARCHAR(1024)	NOT NULL,
+	PRIMARY KEY(
+		[ID_Turma],	
+		[ID_Atv]	
+	)
+)
+GO
+
+CREATE TABLE ATL.Turma(
+	[ID]			INT				NOT NULL PRIMARY KEY	REFERENCES ATL.Participa(ID_Turma),
+	[Designacao]	VARCHAR(64)		NOT NULL,
+	[Custo]			DECIMAL(10,2)			,
+	[Classe]		INT				NOT NULL,
+	[Pertence]		INT				NOT NULL				REFERENCES ATL.Aluno(Cc),
+)
+GO
+
+CREATE TABLE ATL.Atividades(
+	[ID]			INT				NOT NULL PRIMARY KEY	REFERENCES ATL.Participa(ID_Atv),
+	[Designacao]	VARCHAR(64)		NOT NULL,
+	[Ano_Letivo]	INT				NOT NULL,
+)
+GO

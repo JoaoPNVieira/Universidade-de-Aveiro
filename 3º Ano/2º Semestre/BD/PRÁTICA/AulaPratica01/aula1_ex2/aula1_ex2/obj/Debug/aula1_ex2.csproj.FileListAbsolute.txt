@@ -1,0 +1,11 @@
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\bin\Debug\aula1_ex2.exe.config
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\bin\Debug\aula1_ex2.exe
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\bin\Debug\aula1_ex2.pdb
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.csproj.AssemblyReference.cache
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.Form1.resources
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.Properties.Resources.resources
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.csproj.GenerateResource.cache
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.csproj.CoreCompileInputs.cache
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.exe
+C:\Users\Lara Matos\OneDrive - Universidade de Aveiro\5º ANO\5º ANO - 2º SEMESTRE\BASE DE DADOS\AulaPratica01\aula1_ex2\aula1_ex2\obj\Debug\aula1_ex2.pdb
