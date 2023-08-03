@@ -1,0 +1,86 @@
+{
+    "designs": 
+    [
+        {
+            "id": 1,
+            "image": "images/375d88bdd19a71a1aa51ce8529792c02b1e08080130b530025e185dbfca4314759e8d40e482b02f028ff03888125881a04cfe76cf9053cdf233334_1280.jpg",
+            "user": "artmaker",
+            "name": "Duck",
+            "price": "5€",
+            "description": "Duck over the sun"
+        },
+        {
+            "id": 2,
+            "image": "images/dce698161cf9c99c3ab80536e17c91a24c5beae620cda08de59cf182d33143d686c99b389b23f4fde03a3bf31d8af7def357c51d6df1da2ccf61e5_1280.jpg",
+            "user": "happyhorse",
+            "name": "Abstract warm",
+            "price": "10€",
+            "description": "Abstract painting"
+        },
+        {
+            "id": 3,
+            "image": "images/18d28b224187b310f547173d7e354005a905a598f99ec85ee7f5b2c0c81950bdadb9b88acb910b5c3c35cb027125d3a02f4bf25c79dbc43b9bc748_1280.png",
+            "user": "picasso",
+            "name": "Cube",
+            "price": "50€",
+            "description": "Cubism type painting"
+        },
+        {
+            "id": 4,
+            "image": "images/850ce8083fe3494fc35d62d736e3f93390e54c252db0e0391f8f965e9f4e9d2606ddb44c9559f72d8ab1affd39a18f2e67e0a278e49423933546da_1280.jpg",
+            "user": "portraituser",
+            "name": "Dog Drawing",
+            "price": "30€",
+            "description": "Contact me for similar comissions!"
+        },
+        {
+            "id": 5,
+            "image": "images/35bfd053af4650170b76ca15f422adc1805f02ff6c92275a8925ff280a600d62f794c4e99e71c6b7c969bda6772bd0b3b9c66ffd69425a19600c24_1280.jpg",
+            "user": "andywarhol",
+            "name": "Pop Art Clock",
+            "price": "10€",
+            "description": "Will turn your design of choice into a pop art style picture"
+        },
+        {
+            "id": 6,
+            "image": "images/d05a6dade24ea3832c14c8f57d0745727538635c259c225f78635ea2694c0cca8abdf8f6a20418f70b87323618a052a47b8f93219a7cbd4b560148_1280.jpg",
+            "user": "portraituser",
+            "name": "Cat Drawing",
+            "price": "30€",
+            "description": "Contact me for similar comissions!"
+        },
+        {
+            "id": 7,
+            "image": "images/965f9cd14157c5b8441bf944cc5ca417a6ca181002f76831c9906ddaa2d93a2a9ca168d3fed679ec6d97474997b680ad2c3043822914a4633aedfa_1280.jpg",
+            "user": "happyhorse",
+            "name": "Abstract cold",
+            "price": "10€",
+            "description": "Abstract painting"
+        },
+        {
+            "id": 8,
+            "image": "images/97e65777c3fb05f7e5333eef1f22f195f7e59a7c0325635e99da1f3915aa6bc0c4acd3d31956de2cb075985088100270a4d89829e96a5a8c12db46_1280.jpg",
+            "user": "andywarhol",
+            "name": "Pop Art Portrait",
+            "price": "10€",
+            "description": "Will turn your design of choice into a pop art style picture"
+        },
+        {
+            "id": 9,
+            "image": "images/9a44918bb4faf88f117022de63ac8bb717817237888543f2a018c62e7afc3e6b305ac209b611a535cc26130d0e83a0bfc826b08b5b5ca5f17a89ef_1280.jpg",
+            "user": "davinci",
+            "name": "Renaissance",
+            "price": "50€",
+            "description": "&nbsp;"
+        },
+        {
+            "id": 10,
+            "image": "images/a64e0ef0504924d2e4122a3f358bebe79232a31ce6f6033e1c5c390ad56fa2db40311e965f7d37be3a3aa83b13f048baf52734ab12ea1cfb758077_1280.jpg",
+            "user": "osda",
+            "name": "Japanese design",
+            "price": "12€",
+            "description": "Design available to put on shirts or other clothing"
+        }
+    ]
+}
+
