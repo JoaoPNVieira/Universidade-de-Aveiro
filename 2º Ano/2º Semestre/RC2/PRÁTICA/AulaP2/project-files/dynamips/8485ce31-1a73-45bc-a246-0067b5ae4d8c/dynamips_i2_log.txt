@@ -1,0 +1,26 @@
+Feb 24 13:33:44.256 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 24 13:33:44.256 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52171.
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JP\GNS3\projects\AulaP2\project-files\dynamips 
+Feb 24 13:33:44.743 GENERAL: working_dir=C:\Users\JP\GNS3\projects\AulaP2\project-files\dynamips
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JP\GNS3\projects\AulaP2\project-files\dynamips\8485ce31-1a73-45bc-a246-0067b5ae4d8c 
+Feb 24 13:33:44.743 GENERAL: working_dir=C:\Users\JP\GNS3\projects\AulaP2\project-files\dynamips\8485ce31-1a73-45bc-a246-0067b5ae4d8c
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm create ESW2 2 c3725 
+Feb 24 13:33:44.743 VM: VM ESW2 created.
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5007 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm set_exec_area ESW2 64 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm set_idle_pc ESW2 0x60a68e70 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/JP/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW2 c202.2fc8.0000 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:33:44.743 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Feb 24 13:33:45.071 HYPERVISOR: exec_cmd: nio create_udp udp-f4f422b1-e556-4009-b7d0-5050345a8961 20008 127.0.0.1 20009 
+Feb 24 13:33:45.337 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 0 udp-f4f422b1-e556-4009-b7d0-5050345a8961 
+Feb 24 13:33:45.337 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:33:45.352 HYPERVISOR: exec_cmd: nio create_udp udp-f71cd2e3-1f67-4cb1-8bcf-55faf7c40d1d 20012 127.0.0.1 20013 
+Feb 24 13:33:45.368 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 5 udp-f71cd2e3-1f67-4cb1-8bcf-55faf7c40d1d 
+Feb 24 13:33:45.368 HYPERVISOR: exec_cmd: vm get_status ESW2 
