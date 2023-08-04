@@ -1,0 +1,7 @@
+To configure more than one IPv4 Address on the same Router interface use the secondary keyword. Example:
+
+interface F0/0
+
+ip address 10.1.1.1 255.255.255.0
+
+ip address 200.1.1.1 255.255.255.0 secondary

@@ -1,0 +1,2 @@
+set pcname DMZ_PC3
+ip 2abc:1544:0:4:2050:79ff:fe66:680e/64

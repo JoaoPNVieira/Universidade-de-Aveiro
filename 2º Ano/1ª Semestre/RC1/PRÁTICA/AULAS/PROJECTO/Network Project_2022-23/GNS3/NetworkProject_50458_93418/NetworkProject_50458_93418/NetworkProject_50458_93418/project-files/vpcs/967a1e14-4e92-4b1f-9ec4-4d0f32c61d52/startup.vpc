@@ -1,0 +1,2 @@
+set pcname Admin_PC1
+ip 172.20.1.1 172.20.1.254 24

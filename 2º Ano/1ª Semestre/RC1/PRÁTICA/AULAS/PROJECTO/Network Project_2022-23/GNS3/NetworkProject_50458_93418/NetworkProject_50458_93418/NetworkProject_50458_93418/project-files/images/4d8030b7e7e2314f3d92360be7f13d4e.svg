@@ -1,0 +1,22 @@
+<svg height="360" width="548"><text fill="#000000" fill-opacity="1.0" font-family="TypeWriter" font-size="10.0" font-weight="bold">NAME        		: Market_PC1[1]
+IP/MASK     		: 172.20.3.1/24
+GATEWAY     	: 172.20.3.254
+LINK-LOCAL SCOPE  	: fe80::250:79ff:fe66:6804/64
+GLOBAL SCOPE      	: 2abc:1544:0:3:2050:79ff:fe66:6806/64
+ROUTER LINK-LAYER 	: ca:01:34:f0:00:1c
+MAC               	: 00:50:79:66:68:04
+------------------------------------------------------------------------------------------
+IP/MASK     		: 198.184.183.130/24
+GATEWAY     	: 198.184.183.190
+LINK-LOCAL SCOPE  	: fe80::250:79ff:fe66:680b/64
+GLOBAL SCOPE      	: 2abc:1544:0:3:2050:79ff:fe66:680b/64
+ROUTER LINK-LAYER 	: ca:01:34:f0:00:1c
+MAC               	: 00:50:79:66:68:0b
+------------------------------------------------------------------------------------------
+NAME        		: Market_PC3[1]
+IP/MASK     		: 0.0.0.0/0
+GATEWAY     	: 0.0.0.0
+LINK-LOCAL SCOPE  	: fe80::250:79ff:fe66:680c/64
+GLOBAL SCOPE      	: 2abc:1544:0:3:2050:79ff:fe66:680c/64
+ROUTER LINK-LAYER 	: ca:01:34:f0:00:1c
+MAC               	: 00:50:79:66:68:0c</text></svg>
