@@ -10,7 +10,7 @@
                 █████████▒▒▒▒█████████                 
                  ████████████████████   
                 Universidade de Aveiro
-# Licenciatura em Engenharia de Computadores e Informática
+## Licenciatura em Engenharia de Computadores e Informática
 ___________________________________________________________________________________________________________________________________________________________
 Copyright (c) 2011-2022 GitHub Inc.
 MIT Licence
