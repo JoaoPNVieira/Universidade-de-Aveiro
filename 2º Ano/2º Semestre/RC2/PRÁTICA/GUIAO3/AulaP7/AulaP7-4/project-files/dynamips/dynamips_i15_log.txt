@@ -1,0 +1,25 @@
+Mar 31 11:54:46.165 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 31 11:54:46.166 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61303.
+Mar 31 11:54:46.655 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 31 11:54:46.656 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips 
+Mar 31 11:54:46.657 GENERAL: working_dir=C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips
+Mar 31 11:54:46.658 HYPERVISOR: exec_cmd: ethsw create SW2 
+Mar 31 11:54:50.322 HYPERVISOR: exec_cmd: nio create_udp udp-1f628cd2-7cf3-421d-a8a5-5d2a8017ef01 20075 127.0.0.1 20074 
+Mar 31 11:54:50.324 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-1f628cd2-7cf3-421d-a8a5-5d2a8017ef01 
+Mar 31 11:54:50.336 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-1f628cd2-7cf3-421d-a8a5-5d2a8017ef01 1 
+Mar 31 11:59:24.458 HYPERVISOR: exec_cmd: ethsw remove_nio SW2 udp-1f628cd2-7cf3-421d-a8a5-5d2a8017ef01 
+Mar 31 11:59:24.463 HYPERVISOR: exec_cmd: nio delete udp-1f628cd2-7cf3-421d-a8a5-5d2a8017ef01 
+Mar 31 12:00:07.893 HYPERVISOR: exec_cmd: nio create_udp udp-cc9e5077-000b-4173-954b-019dbc36627e 20021 127.0.0.1 20020 
+Mar 31 12:00:07.894 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-cc9e5077-000b-4173-954b-019dbc36627e 
+Mar 31 12:00:07.924 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-cc9e5077-000b-4173-954b-019dbc36627e 1 
+Mar 31 12:03:18.367 HYPERVISOR: exec_cmd: ethsw remove_nio SW2 udp-cc9e5077-000b-4173-954b-019dbc36627e 
+Mar 31 12:03:18.391 HYPERVISOR: exec_cmd: nio delete udp-cc9e5077-000b-4173-954b-019dbc36627e 
+Mar 31 12:04:22.923 HYPERVISOR: exec_cmd: nio create_udp udp-b19306bd-82de-45f6-aeb5-17d3dcd1ce5f 20021 127.0.0.1 20020 
+Mar 31 12:04:22.924 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-b19306bd-82de-45f6-aeb5-17d3dcd1ce5f 
+Mar 31 12:04:22.931 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-b19306bd-82de-45f6-aeb5-17d3dcd1ce5f 1 
+Mar 31 12:05:16.998 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-b19306bd-82de-45f6-aeb5-17d3dcd1ce5f 1 
+Mar 31 12:19:45.276 HYPERVISOR: exec_cmd: ethsw remove_nio SW2 udp-b19306bd-82de-45f6-aeb5-17d3dcd1ce5f 
+Mar 31 12:19:45.282 HYPERVISOR: exec_cmd: nio delete udp-b19306bd-82de-45f6-aeb5-17d3dcd1ce5f 
+Mar 31 12:20:30.813 HYPERVISOR: exec_cmd: nio create_udp udp-6cd50a02-64f4-457c-ae6e-35151f7a7d81 20021 127.0.0.1 20020 
+Mar 31 12:20:30.814 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-6cd50a02-64f4-457c-ae6e-35151f7a7d81 
+Mar 31 12:20:30.839 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-6cd50a02-64f4-457c-ae6e-35151f7a7d81 1 

@@ -1,0 +1,90 @@
+Mar 31 12:03:24.652 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 31 12:03:24.653 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59233.
+Mar 31 12:03:25.150 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 31 12:03:25.151 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips 
+Mar 31 12:03:25.152 GENERAL: working_dir=C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips
+Mar 31 12:03:25.152 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips\0b3b4e61-efec-46d3-b15f-83de8955e22c 
+Mar 31 12:03:25.153 GENERAL: working_dir=C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips\0b3b4e61-efec-46d3-b15f-83de8955e22c
+Mar 31 12:03:25.153 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Mar 31 12:03:25.156 VM: VM R2 created.
+Mar 31 12:03:25.157 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+Mar 31 12:03:25.158 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Mar 31 12:03:25.158 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:03:25.159 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Mar 31 12:03:25.161 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:03:25.161 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:03:25.162 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60608040 
+Mar 31 12:03:25.163 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Mar 31 12:03:25.163 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Mar 31 12:03:25.164 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Mar 31 12:03:25.165 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Mar 31 12:03:25.166 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:03:25.167 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Mar 31 12:03:25.167 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:03:25.168 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
+Mar 31 12:03:25.168 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:03:25.169 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Mar 31 12:03:25.218 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:04:10.045 HYPERVISOR: exec_cmd: nio create_udp udp-ed9467da-fac6-40c2-a7da-bdb6f0ca59ee 20012 127.0.0.1 20013 
+Mar 31 12:04:10.297 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-ed9467da-fac6-40c2-a7da-bdb6f0ca59ee 
+Mar 31 12:04:10.298 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:04:22.912 HYPERVISOR: exec_cmd: nio create_udp udp-f486eec4-d16b-40da-b314-76b33f4a56da 20022 127.0.0.1 20023 
+Mar 31 12:04:22.916 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-f486eec4-d16b-40da-b314-76b33f4a56da 
+Mar 31 12:04:22.916 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:04:31.639 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Mar 31 12:04:31.640 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Mar 31 12:04:31.640 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:04:31.664 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Mar 31 12:04:31.664 HYPERVISOR: exec_cmd: vm start R2 
+Mar 31 12:05:02.004 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 31 12:05:12.702 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:06:11.351 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Mar 31 12:06:11.352 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Mar 31 12:06:11.353 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:17:02.293 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 31 12:18:02.300 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 31 12:18:32.313 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 31 12:19:13.189 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:19:13.190 HYPERVISOR: exec_cmd: vm stop R2 
+Mar 31 12:19:13.367 VM: VM R2 shutdown.
+Mar 31 12:19:13.369 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 31 12:19:31.423 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:19:31.424 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 0 
+Mar 31 12:19:31.425 HYPERVISOR: exec_cmd: nio delete udp-ed9467da-fac6-40c2-a7da-bdb6f0ca59ee 
+Mar 31 12:19:45.270 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:19:45.271 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+Mar 31 12:19:45.273 HYPERVISOR: exec_cmd: nio delete udp-f486eec4-d16b-40da-b314-76b33f4a56da 
+Mar 31 12:19:47.174 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:19:50.261 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:20:04.537 HYPERVISOR: exec_cmd: nio create_udp udp-c2884241-b56c-4929-ae16-d4f7c3585cff 20006 127.0.0.1 20007 
+Mar 31 12:20:04.540 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-c2884241-b56c-4929-ae16-d4f7c3585cff 
+Mar 31 12:20:04.540 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:20:11.468 HYPERVISOR: exec_cmd: nio create_udp udp-a1dbfc45-1d94-4827-9a3b-a6bf4dfe13da 20010 127.0.0.1 20011 
+Mar 31 12:20:11.471 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-a1dbfc45-1d94-4827-9a3b-a6bf4dfe13da 
+Mar 31 12:20:11.472 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:20:20.605 HYPERVISOR: exec_cmd: nio create_udp udp-2f2e78ef-c5e6-4c20-87b7-8d4075c0f5bb 20016 127.0.0.1 20017 
+Mar 31 12:20:20.608 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-2f2e78ef-c5e6-4c20-87b7-8d4075c0f5bb 
+Mar 31 12:20:20.608 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:20:38.811 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Mar 31 12:20:38.812 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Mar 31 12:20:38.812 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:20:38.819 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg configs\i2_private-config.cfg 
+Mar 31 12:20:38.819 HYPERVISOR: exec_cmd: vm start R2 
+Mar 31 12:22:34.943 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 31 12:22:34.944 HYPERVISOR: exec_cmd: vm stop R2 
+Mar 31 12:22:35.133 VM: VM R2 shutdown.
+Mar 31 12:22:35.136 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 31 12:22:37.764 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:22:45.654 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:22:45.655 HYPERVISOR: exec_cmd: vm rename R2 R3 
+Mar 31 12:22:45.715 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/JP/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 31 12:22:52.224 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Mar 31 12:22:52.226 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\JP\GNS3\projects\GUIAO3\AulaP7\AulaP7-4\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Mar 31 12:22:52.226 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 31 12:22:52.233 HYPERVISOR: exec_cmd: vm set_config R3 configs\i2_startup-config.cfg configs\i2_private-config.cfg 
+Mar 31 12:22:52.233 HYPERVISOR: exec_cmd: vm start R3 
+Mar 31 12:29:22.729 HYPERVISOR: exec_cmd: vm extract_config R3 
+Mar 31 12:53:02.439 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 31 12:53:02.440 HYPERVISOR: exec_cmd: vm stop R3 
+Mar 31 12:53:02.635 VM: VM R3 shutdown.
+Mar 31 12:53:02.636 HYPERVISOR: exec_cmd: vm extract_config R3 
