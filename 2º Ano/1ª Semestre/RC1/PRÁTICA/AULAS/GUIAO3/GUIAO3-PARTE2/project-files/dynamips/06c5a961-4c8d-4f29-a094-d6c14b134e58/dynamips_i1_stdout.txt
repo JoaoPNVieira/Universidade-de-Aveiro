@@ -1,0 +1,28 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/JP/Desktop/RC1/GUIAO3/GUIAO3-PARTE2/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Cisco Router Simulation Platform (version 0.2.17-x86/Windows stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Aug 28 2017 08:26:42
+
+Log file: writing to dynamips_i1_log.txt
+Hypervisor TCP control server started (IP 127.0.0.1 port 60904).
+NIO udp-ed13f81e-0793-49c5-964b-ed99393b7bcf: capturing to file 'C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\Switch1_Ethernet1_to_Route1_FastEthernet00.pcap'
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: capturing to file 'C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap'
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: ending packet capture.
+NIO udp-ed13f81e-0793-49c5-964b-ed99393b7bcf: ending packet capture.
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: capturing to file 'C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap'
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: ending packet capture.
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: capturing to file 'C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap'
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: ending packet capture.
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: capturing to file 'C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap'
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: ending packet capture.
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: capturing to file 'C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap'
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+NIO udp-63f5b953-76f0-4a26-95ff-350367082a8e: ending packet capture.
+Shutdown completed.

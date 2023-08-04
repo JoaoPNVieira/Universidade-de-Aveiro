@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {portuguese}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introdução Teórica}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Software}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Implementação}{2}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Análise de Resultados:}{3}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusão:}{4}{chapter.4}%

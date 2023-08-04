@@ -1,0 +1,31 @@
+Nov 07 16:59:29.942 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 07 16:59:29.942 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60904.
+Nov 07 16:59:30.098 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 16:59:30.098 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\dynamips 
+Nov 07 16:59:30.098 GENERAL: working_dir=C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\dynamips
+Nov 07 16:59:30.098 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Nov 07 17:00:26.098 HYPERVISOR: exec_cmd: nio create_udp udp-63f5b953-76f0-4a26-95ff-350367082a8e 10001 127.0.0.1 10000 
+Nov 07 17:00:26.098 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-63f5b953-76f0-4a26-95ff-350367082a8e 
+Nov 07 17:00:26.114 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-63f5b953-76f0-4a26-95ff-350367082a8e 1 
+Nov 07 17:00:31.429 HYPERVISOR: exec_cmd: nio create_udp udp-ed13f81e-0793-49c5-964b-ed99393b7bcf 10002 127.0.0.1 10003 
+Nov 07 17:00:31.429 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-ed13f81e-0793-49c5-964b-ed99393b7bcf 
+Nov 07 17:00:31.460 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-ed13f81e-0793-49c5-964b-ed99393b7bcf 1 
+Nov 07 17:16:02.234 HYPERVISOR: exec_cmd: nio bind_filter udp-ed13f81e-0793-49c5-964b-ed99393b7bcf 2 capture 
+Nov 07 17:16:02.234 HYPERVISOR: exec_cmd: nio setup_filter udp-ed13f81e-0793-49c5-964b-ed99393b7bcf 2 en10mb C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\Switch1_Ethernet1_to_Route1_FastEthernet00.pcap 
+Nov 07 17:16:09.390 HYPERVISOR: exec_cmd: nio bind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 capture 
+Nov 07 17:16:09.391 HYPERVISOR: exec_cmd: nio setup_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 en10mb C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap 
+Nov 07 17:21:07.031 HYPERVISOR: exec_cmd: nio unbind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 
+Nov 07 17:21:09.508 HYPERVISOR: exec_cmd: nio unbind_filter udp-ed13f81e-0793-49c5-964b-ed99393b7bcf 2 
+Nov 07 17:22:48.805 HYPERVISOR: exec_cmd: nio bind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 capture 
+Nov 07 17:22:48.805 HYPERVISOR: exec_cmd: nio setup_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 en10mb C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap 
+Nov 07 17:31:45.138 HYPERVISOR: exec_cmd: nio unbind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 
+Nov 07 17:32:25.477 HYPERVISOR: exec_cmd: nio bind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 capture 
+Nov 07 17:32:25.478 HYPERVISOR: exec_cmd: nio setup_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 en10mb C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap 
+Nov 07 17:39:40.507 HYPERVISOR: exec_cmd: nio unbind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 
+Nov 07 17:40:09.220 HYPERVISOR: exec_cmd: nio bind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 capture 
+Nov 07 17:40:09.221 HYPERVISOR: exec_cmd: nio setup_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 en10mb C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap 
+Nov 07 17:41:37.706 HYPERVISOR: exec_cmd: nio unbind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 
+Nov 07 17:50:36.172 HYPERVISOR: exec_cmd: nio bind_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 capture 
+Nov 07 17:50:36.172 HYPERVISOR: exec_cmd: nio setup_filter udp-63f5b953-76f0-4a26-95ff-350367082a8e 2 en10mb C:\Users\JP\Desktop\RC1\GUIAO3\GUIAO3-PARTE2\project-files\captures\LabComServer2-1_Ethernet0_to_Switch1_Ethernet0.pcap 
+Nov 07 17:58:55.226 HYPERVISOR: Stopped.
+Nov 07 17:58:55.265 GENERAL: reset done.

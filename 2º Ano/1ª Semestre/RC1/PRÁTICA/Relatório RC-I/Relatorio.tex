@@ -1,0 +1,122 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%IMPORTS:
+
+\input{packages.tex} 
+\begin{document}	
+	\input{definições.tex}
+	\input{capa.tex}
+	\input{página_título.tex}
+	\input{resumo.tex}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%INDICE:
+
+\renewcommand{\contentsname}{Índice}
+\tableofcontents
+\listoffigures
+\pagenumbering{roman}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%ACRÓNIMOS:
+
+\chapter*{Acrónimos}
+\begin{acronym}
+
+\acro{ua}[UA]{Universidade de Aveiro}
+\acro{leci}[LECI]{Licenciatura em Engenharia de Computadores e Informática}
+\acro{uc}[UC]{Unidade Curricular}
+\acro{rci}[RC-I]{Redes de Comunicações I}
+\acro{ipv4}[IPv4]{Internet Protocol version 4}
+\acro{ipv6}[IPv6]{Internet Protocol version 6}
+\end{acronym}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%HEADERS & FOOTERS:
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\titulo}
+\lhead{Introdução}
+\cfoot{\thepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%INTRODUÇÃO:
+
+\chapter{Introdução Teórica}
+\label{chap.Intro}
+\pagenumbering{arabic}
+\begin{multicols}{2}
+
+Introdução teória (...)
+ 
+\end{multicols}
+
+\section{Software}
+\label{sec.software}
+
+
+
+\begin{itemize}
+	\item \textsl{item:} (...)
+\end{itemize}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%1ª PARTE: Implementação
+
+\chapter{Implementação}	
+\label{chap.implementacao}
+\lhead{Implementação}
+
+(...)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%2ª Parte: Testes
+%
+\chapter{Análise de Resultados:}
+\label{chap.analise}
+\lhead{Conclusão}
+
+(...)
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%CAPÍTULO 3: CONCLUSÃO
+%
+\chapter{Conclusão:}
+\label{chap.conclusão}
+\lhead{Conclusão}
+
+(...)
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%BIBLIOGRAFIA:
+%
+\begin{thebibliography}{9}
+
+\bibitem{thinkpython} 
+Allen Downey
+\textit{Think Python - How to Think Like a Computer Scientist}. |
+Green Tea Press, 2nd Edition, Version 2.4.0, 2015
+
+\bibitem{pycryptome}
+PyCryptodome documentation. |
+\text{ pycryptodome.readthedocs.io, acedido 18/05/2021.}
+
+\bibitem{Wikipedia}
+Wikipédia: Enciclopédia livre. |
+\text{ pt.wikipedia.org, acedido 19/05/2021.}
+
+\bibitem{serverfault}
+ServerFault Website. |
+\text{ serverfault.com, acedido 22/05/2021.}
+
+\bibitem{iana}
+Internet Assigned Numbers Authority. |
+\text{ www.iana.org, acedido 22/05/2021.}
+
+
+\end{thebibliography}
+\end{document}
