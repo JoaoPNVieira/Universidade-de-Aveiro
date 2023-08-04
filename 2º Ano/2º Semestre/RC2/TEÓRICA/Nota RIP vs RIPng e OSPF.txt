@@ -1,0 +1,9 @@
+RIP usa o nº de hops (15 no máximo -> 16+ é unreachable)
+RIPng usa OSPF. 
+RIPng e OSPF usam o custo!
+
+RIPng & OSPF - O Router designado é o que tem ID maior. É ao contrário no Spamming Tree.
+
+
+RIP nºHops
+OSPF total cost
