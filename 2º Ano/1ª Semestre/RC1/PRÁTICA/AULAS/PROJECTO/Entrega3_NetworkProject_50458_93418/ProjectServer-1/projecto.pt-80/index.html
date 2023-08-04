@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset= "utf-8"/>
+    <title>Projecto Final - Redes e Comunicações I</title>
+  </head>
+  <body>
+    <h1>DETI - Universidade de Aveiro - Ano Lectivo 2022/23!</h1>
+    <h2>Servidor de Internet Simulada: IP Address: 120.100.20.2</h2>
+    <p>Esta página serve para demonstrar a comunicação entre VM cliente e o Servidor 
+	de Internet simulada. Clique neste botão para obter um número aleatório:</p>
+    <button onclick="getRandomNumber()">Clica aqui!</button>
+    <p id="output"></p>
+    
+    <script>
+      function getRandomNumber() {
+        var num = Math.floor(Math.random() * 10);
+        document.getElementById("output").innerHTML = "Your random number is: " + num;
+      }
+    </script>
+  </body>
+</html>

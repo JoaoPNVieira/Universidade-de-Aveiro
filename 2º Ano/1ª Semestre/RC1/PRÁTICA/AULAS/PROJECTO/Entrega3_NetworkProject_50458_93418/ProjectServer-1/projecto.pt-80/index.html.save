@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Projecto Final - Redes e Comunicação I</title>
+  </head>
+  <body>
+    <h1>Servidor de Internet Simulada</h1>
+    <p>Clica neste botão para obter um número:</p>
+    <button onclick="getRandomNumber()">Get Random Number</button>
+    <p id="output"></p>
+    
+    <script>
+      function getRandomNumber() {
+        var num = Math.floor(Math.random() * 10);
+        document.getElementById("output").innerHTML = "Your random number is: " + num;
+      }
+    </script>
+  </body>
+</html>
+
