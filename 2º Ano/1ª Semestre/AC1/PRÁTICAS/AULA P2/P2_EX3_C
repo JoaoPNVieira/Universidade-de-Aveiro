@@ -1,0 +1,28 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 1 ######################
+###########################################################
+
+# Ex3.:  
+#	Mapa de Registos:
+#
+
+	.data
+str1:	.asciiz "So para chatear"
+str2:	.asciiz "AC - P"
+	.eqv	print_string, 4
+	
+	.text
+	.globl	main
+main:	la  $a0, str2			# instrução virtual: decomposta em 2 nativas pelo assembler
+	ori $v0, $0, print_string	# load print_string: $v0 = 4
+	syscall				# print_String(str2)
+	jr  $ra				# END

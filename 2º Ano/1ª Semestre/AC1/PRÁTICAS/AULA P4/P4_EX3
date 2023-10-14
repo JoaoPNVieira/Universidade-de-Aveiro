@@ -1,0 +1,41 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 4 ######################
+###########################################################
+
+# Ex3.:  
+#	Mapa de Registos:
+#	p:		$t0
+#	pultimo:	$t1
+#	*p:		$t2
+#	soma:		$t3
+	.data
+array:	.word	7692, 23, 5, 234	# 4 Bytes x 4 números = 16 Bytes	
+	.eqv 	SIZE, 4
+	.text
+	.globl 	main
+main:	li	$t3, 0			# soma = 0;
+	li	$t4, SIZE		# 
+	addi	$t4, $t4, -1		# $t4 = 3 (usar em addu a seguir!)
+	sll	$t4, $t4, 2		# $t4 = $t4 x 4
+	la	$t0, array		# p = array;
+	addu	$t1, $t0, $t4		# pultimo = array + SIZE-1;
+					# pultimo é inicializado com o endereço do último 
+					# elemento do array, i.e., &array[SIZE-1]
+while:	bgtu	$t0, $t1, ewhile	# while( p <= pultimo ){
+	lw	$t2, 0($t0)		# $t2 = *p
+	add	$t3, $t3, $t2		# soma = soma + (*p)
+	addiu	$t0, $t0, 4		# p++;
+	j	while			# }
+ewhile:	li	$v0, 36			#
+	move 	$a0, $t3		#
+	syscall				# print_int10(soma)
+	jr	$ra			# }

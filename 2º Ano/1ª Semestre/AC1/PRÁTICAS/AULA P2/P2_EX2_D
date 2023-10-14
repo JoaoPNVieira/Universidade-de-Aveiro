@@ -1,0 +1,31 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 1 ######################
+###########################################################
+
+# Ex2.:  
+#	Mapa de Registos:
+#
+#	Binary: $t0 
+#	Grey:  $t1
+#	Temp: $t2
+
+	.data # (0x10010000)
+	.text # (0x00400000)
+	.eqv Bin, 5
+	.eqv Grey, 2
+	.eqv amount, 1
+	.globl main
+main:	li  $t0, Bin		# Bin: $t0 = Bin (.eqv)
+	srl $t2, $t0, amount	# Shift Right Logical de x amount (.eqv)
+	xor $t1, $t0, $t2	# XOR: gray = bin ^ (bin >> 1); 	
+	jr  $ra			# END -------------
+	

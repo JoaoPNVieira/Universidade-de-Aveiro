@@ -1,0 +1,42 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 1 ######################
+###########################################################
+
+# Ex3.:  
+#	Mapa de Registos:
+#
+
+	.data
+str1:	.asciiz "Introduza 2 numeros\n"
+str2: 	.asciiz "A soma dos dois numeros e': "
+	.eqv	print_string, 4
+	.eqv	read_int, 5
+	.eqv	print_int10, 36
+	
+	.text
+	.globl 	main
+main:	la  $a0, str1
+	ori $v0, $0, print_string
+	syscall          		# print_string(str1)
+	ori $v0, $0, read_int
+	syscall				# leitura do 1º interiro e colocado em $v0
+	or  $t0, $v0, $0		# $t0 = read_int(a)
+	syscall				# leitura do 2º inteiro que é colocado em $v0
+	or  $t1, $v0, $0		# $t1 = read_int(b)
+	la  $a0, str2
+	ori $v0, $0, print_string
+	syscall          		# print_string(str2)
+	and $a0, $a0, $0
+	add $a0, $t1, $t2		# $a0 = a+b
+	ori $v0, $0, print_int10	
+	syscall				# Print de Resultado (a+b)
+	jr  $ra				# END

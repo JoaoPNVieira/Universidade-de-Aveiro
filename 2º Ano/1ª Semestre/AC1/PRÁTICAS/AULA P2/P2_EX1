@@ -1,0 +1,43 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 1 ######################
+###########################################################
+
+# Ex1.:  Codifique um programa em assembly do MIPS que 
+#	determine o resultado das operações lógicas bit a bit 
+#	(bitwise) AND, OR, NOR e XOR. considerando como 
+
+#	Mapa de Registos:
+#
+#	Operandos: $t0 e $t1; 
+#	Resultados: $t2, $t3, $t4 e $t5. 
+#	Negação: $t6
+
+
+	.data 			# ---> Segmento de Dados (0x10010000)
+	.text 			# ---> Segmento de código a partir daqui (0x00400000) 
+	.eqv val1, 0x5C1B
+	.eqv val2, 0xA3E4
+	.eqv nega, 0xE543
+	
+	.globl 	main		# ---> main é global
+main:	ori $t0, $0, val1	# $t0 = val1
+	ori $t1, $0, val2	# $t1 = val2
+	ori $t6, $0, nega	# $t6 = nega
+	and $t2, $t1, $t0 	# $t2 = $t0 & $t1
+	or  $t3, $t1, $t0	# $t3 = $t0 | $t1
+	nor $t4, $t1, $t0	# $t4 = $t0 nor $t1
+	xor $t5, $t1, $t0	# $t5 = $t0 xor $t1
+	
+	# Usar $t0 e $t1 é estúpido. Uso é $t6 e siga a marinha
+	nor $t6, $t6, $t0
+	
+	jr  $ra			# END ------------------------------------------

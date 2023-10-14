@@ -1,0 +1,65 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 3 ######################
+###########################################################
+
+# Ex2.:  
+#	Mapa de Registos:
+#	value:	$t0
+#	bit:	$t1
+#	i:	$t2
+#	restantes variaveis : $t3 - $t8
+#	flag:	$t9
+
+	.data
+str1:	.asciiz	"Introduza um numero: "
+str2:	.asciiz "\nO valor em binário e': "
+	.eqv 	print_string, 4
+	.eqv 	read_int, 5
+	.eqv 	print_char, 11
+	.text
+	.globl 	main
+main:	la    $a0, str1		
+	li    $t9, 0
+	li    $v0, print_string
+	syscall			# print_string(str1)
+	li    $v0, read_int	
+	syscall			# read_int()
+	move  $t0, $v0		# value = read_int()
+	la    $a0, str2
+	li    $v0, print_string
+	syscall			# print_string(str2)
+	li    $t2, 0		# i = 0
+for:	bge   $t2, 32, endfor	# for( i < 32) {
+	li    $t3, 0x80000000	#
+	and   $t5, $t0, $t3	# bit = value & 0x80000000
+	srl   $t1, $t5, 31      # bit = (value & 0x80000000) >> 31
+if:	beq   $t9, 1,   then
+	bne   $t1, 0,   then
+	j     endif
+then:
+	li    $t9, 1
+	rem   $t4, $t2, 4	# i % 4
+	bne   $t4, 0, nospace	# if((i % 4) == 0)
+	li    $a0, ' '	
+	li    $v0, print_char
+	syscall			# print_char(' ')
+nospace:
+	addi  $t3, $t1, '0'	# 0x30 + bit
+	move  $a0, $t3
+	li    $v0, print_char
+	syscall			# print_char(0x30 + bit);
+endif:	
+	sll   $t0, $t0, 1       # value = value << 1
+	addi  $t2, $t2, 1	# i++
+	j          for		# }
+endfor:
+	jr    $ra		# }

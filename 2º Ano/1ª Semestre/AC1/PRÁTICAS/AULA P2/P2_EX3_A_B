@@ -1,0 +1,25 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 1 ######################
+###########################################################
+
+# Ex3.:  
+#	Mapa de Registos:
+#
+
+	.data # (0x10010000)
+str1:	.asciiz "Uma string qualquer"
+str2:	.asciiz "AC1 - P"
+
+	.text # (0x00400000)
+	.globl main
+main:	jr $ra
+	

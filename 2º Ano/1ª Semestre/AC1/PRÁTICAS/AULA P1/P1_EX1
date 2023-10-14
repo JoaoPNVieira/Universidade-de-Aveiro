@@ -1,0 +1,31 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 1 ######################
+###########################################################
+
+# Ex1.: Programa que implementa expressão y = 2x + 8
+#
+# 	Mapa de Registos:
+#	x:	$t0 (ie, $8)
+#	y:	$t1 (ie, $9)
+
+
+	.data 		# ---> Segmento de Dados
+	.eqv val_x, 3 	# ---> val_x substituido por integer
+	.text 		# ---> Segmento de Código
+
+	.globl 	main
+main:	ori	$t0, $0	, val_x	# $t0 = x
+	ori	$t2, $0	, 8	# $t2 = 8
+	add	$t1, $t0, $t0	# $t1 = 2.$t0 (ie, 2x)
+	add	$t1, $t1, $t2	# $t1 = $t1 + $t2 (ie, y = 2x+8)
+	jr	$ra		# END --------------------------
+	

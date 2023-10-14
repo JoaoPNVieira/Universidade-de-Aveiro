@@ -1,0 +1,29 @@
+# Ex3.: Programa que implementa expressão y = 2x - 8
+#
+# 	Mapa de Registos:
+#	x:	$t0 (ie, $8)
+#	y:	$t1 (ie, $9)
+
+
+	.data 		# ---> Segmento de Dados
+	.text 		# ---> Segmento de Código
+
+	.globl 	main
+main:	ori	$v0, $0, 5	# load de syscall read_int()
+	syscall			# call da syscall anterior 
+	or	$t0, $0	, $v0	# $t0 = $v0 = x (lido do teclado)
+	ori	$t2, $0	, 8	# $t2 = 8
+	add	$t1, $t0, $t0	# $t1 = 2.$t0 (ie, 2x)
+	sub	$t1, $t1, $t2	# $t1 = $t1 - $t2 (ie, y = 2x-8)
+	or 	$a0, $0 , $t1	# $a0 = y (para efectuar impressão por syscall posterior)
+	
+	ori	$v0, $0 , 1	# load de syscall print_int10()
+	syscall			# call da syscall anteriror ( print_int10() ) 
+	
+	ori	$v0, $0 , 34	# load de syscall print_int16()
+	syscall			# call da syscall anteriror ( print_int16() )
+	
+	ori	$v0, $0 , 36	# load de syscall print_intu10()
+	syscall			# call da syscall anteriror ( print_intu10() )
+	
+	jr	$ra		# END --------------------------

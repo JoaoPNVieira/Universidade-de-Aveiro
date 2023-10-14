@@ -1,0 +1,28 @@
+##########################################################
+###### UNIVERSIDADE DE AVEIRO - ANO LETIVO 2023/24 #######
+############# ARQUITETURA DE COMPUTADORES I ##############
+##########################################################
+
+# Licenciatura em Engenharia de Computadores e Informática
+# Aluno: João Pedro Nunes Vieira
+# NMec.: 50458
+
+###########################################################
+##################### Aula Prática 1 ######################
+###########################################################
+
+# Ex2.: 
+#	Mapa de Registos:
+#
+#	Operandos: $t0 e Imm; 
+#	Resultados: $t2, $t3 e $t4. 
+
+	.data # (0x10010000)
+	.text # (0x00400000)
+	.eqv Imm, 4
+	.globl main
+main:	li  $t0, 0x862A5C1B 	# Instrução Virtual (decomposição: 2 nativas)
+	sll $t2, $t0, Imm 	# Shift Left Logical
+	srl $t3, $t0, Imm 	# Shift Right Logical
+	sra $t4, $t0, Imm 	# Shift Right Arithmetical (preserva sinal)
+	jr  $ra			# END ----------------------------------------
