@@ -1,0 +1,29 @@
+\babel@toc {portuguese}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Resultado da Auditoria: Validity Percentage\relax }}{2}{figure.caption.12}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Resultado da Auditoria: Results Tabel\relax }}{2}{figure.caption.13}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3}{\ignorespaces Detecção Bandit - Requisito: 4.0.2-5.2.5 - (app\_sec.py)\relax }}{1}{figure.caption.16}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Correcção Bandit - Requisito: 4.0.2-5.2.5 - (app\_sec.py)\relax }}{2}{figure.caption.17}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Detecção Bandit - Requisito: 4.0.2-5.2.5 - (app\_sec.py)\relax }}{2}{figure.caption.19}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Correcção Bandit - Requisito: 4.0.2-5.2.5 - (app\_sec.py)\relax }}{2}{figure.caption.20}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Detecção Bandit - Requisito: 4.0.2-5.2.5 - (app\_sec.py)\relax }}{3}{figure.caption.22}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Correcção Bandit - Requisito: 4.0.2-5.2.5 - (app\_sec.py)\relax }}{3}{figure.caption.23}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de Detecção - Requisito: 4.0.2-8.2.1 - (app\_sec.py, rota signup )\relax }}{3}{figure.caption.25}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Correcção - Requisito: 4.0.2-8.2.1 - (app\_sec.py, rota \_signup )\relax }}{4}{figure.caption.26}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Correção do Requisito: 4.0.2-14.3.2 - (app\_sec.py)\relax }}{5}{figure.caption.32}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo da correção do requisito: 4.0.2-14.4.3 - (app\_sec.py)\relax }}{6}{figure.caption.34}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Correcção - Requisito: 4.0.2-2.1.1 e 2.1.2 - (app\_sec.py)\relax }}{6}{figure.caption.36}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Correcção - Requisito: 4.0.2-2.1.1 e 2.1.2 - (app\_sec.py)\relax }}{7}{figure.caption.37}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Correcção - Requisito: 4.0.2-2.1.7 - (app\_sec.py)\relax }}{7}{figure.caption.39}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Correcção - Requisito: 4.0.2-2.1.8 - (RegisterPage.js)\relax }}{7}{figure.caption.41}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Correcção - Requisito: 4.0.2-2.1.8 - (RegisterPage.js)\relax }}{7}{figure.caption.42}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Correcção - Requisito: 4.0.2-8.3.3\relax }}{8}{figure.caption.48}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {19}{\ignorespaces Função de verificação da password - (app\_sec.py)\relax }}{9}{figure.caption.49}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Função lookup\_pwned\_api\_password - (app\_sec.py)\relax }}{10}{figure.caption.50}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Função responsável pela obtenção do \ac {jwt} Token\relax }}{11}{figure.caption.51}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Função responsável pelo envio do \ac {jwt} Token para o backend\relax }}{11}{figure.caption.52}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Rota responável pela verificação do \ac {jwt} Token e o login do utilizador\relax }}{12}{figure.caption.53}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Função verify\_google\_token\relax }}{12}{figure.caption.54}%

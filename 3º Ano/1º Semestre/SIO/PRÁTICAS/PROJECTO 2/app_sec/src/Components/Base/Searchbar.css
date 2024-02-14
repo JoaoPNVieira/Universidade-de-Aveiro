@@ -1,0 +1,61 @@
+
+/*********** Searchbar Structure **********/
+.searchDropdown{
+    position: fixed;
+    top: 75px;
+    left: calc(270px + 19vw);
+    width: calc(33vw - 80px);
+    max-height: 300px;
+    border: 2px solid #242424;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 3000;
+    overflow-y: scroll;
+}
+
+/*********** Displayed Item **********/
+.searchItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+/* On Hover */
+.searchItems:hover{
+    background-color: #242424;
+    color: #fff;
+}
+
+/* Item Image */
+.searchImage{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #242424;
+}
+
+/* Item Name */
+.searchName{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Expletus Sans', sans-serif;
+}
+
+/*********** On Small Screens **********/
+
+@media screen and (max-width: 960px) {
+    .searchDropdown{
+        position: fixed;
+        top: 130px;
+        left: 40px;
+        right: 40px;
+        width: auto;
+        max-height: 150px;
+    }
+}

@@ -1,0 +1,221 @@
+
+/************* Navbar Stucture ************/
+.navbar {
+  background: #0B0B0B;
+  height: 80px;
+  position: fixed;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/************* Logo ************/
+.nav-logo{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+/************* Search Bar ************/
+.menu-search {
+  position: relative;
+  left: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-search button{
+  position: relative;
+  left: -45px;
+  background-color: #242424;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none;
+  width: 45px;
+  height: 38px;
+  cursor: pointer;
+  color: white;
+
+}
+
+.search-box{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Expletus Sans', sans-serif;
+}
+
+/************* Icons ************/
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+  
+.nav-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+  
+.nav-icon:hover {
+  border-bottom: 4px solid #BE9F5B;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+/************* Users Dropdown ************/
+
+/* Hidden Dropdown */
+.user-dropdown{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 60px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 40px;
+  width: 180px;
+  height: 0px;
+  background-color: transparent;
+  transition: all 1s ease;
+}
+
+/* Show Dropdown */
+.user-dropdown.active{
+  height: 105px;
+  cursor: pointer;
+  background-color: #393939;
+  border: #BE9F5B 4px solid;
+  transition: all 1s ease;
+  
+}
+
+/* Options While Hidden */
+.dropdown-link{
+  position: relative;
+  display: flex;
+  right: -400px;
+  text-decoration: none;
+  font-size: 0px;
+  font-family: 'Expletus Sans', sans-serif;
+  padding: 0.5rem 1rem;
+  border: none;
+  transition-delay: 0.5s;
+  transition: font-size 1.2s ease;
+}
+
+/* Options While Shown */
+.dropdown-link.active{
+  right: 0;
+  color: #BE9F5B;
+  border-radius: 40px;
+  font-size: 20px;
+  transition: font-size 1.2s ease;
+  transition-delay: 0.2s;
+}
+
+.dropdown-link.active:hover{
+  background-color: #242424;
+  
+}
+
+.dpd-p{
+  position: absolute;
+  left: 50px;
+  top: 6px;
+}
+
+/************* Users Dropdown When Logged ************/
+
+/* Hidden Dropdown */
+.user-dropdown2{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 60px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 40px;
+  width: 200px;
+  height: 0px;
+  background-color: transparent;
+  transition: all 1s ease;
+}
+
+/* Show Dropdown */
+.user-dropdown2.active{
+  height: 170px;
+  cursor: pointer;
+  background-color: #393939;
+  border: #BE9F5B 4px solid;
+  transition: all 1s ease;
+  
+}
+
+/************* Cart Number ************/
+.nav-cart-number{
+  position: absolute;
+  top: 23px;
+  right: 18px;
+  background-color: #BE9F5B;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  font-size: 11px;
+  color: #0B0B0B;
+  text-align: center;
+  font-family: 'Expletus Sans', sans-serif;
+}
+  
+/************* Nav On Small Screens ************/
+@media screen and (max-width: 960px) {
+
+  .navbar{
+    height: 140px;
+  }
+
+  .nav-item {
+    align-items: baseline;
+    margin-top: 25px;
+  }
+
+  .nav-logo{
+    width: 250px;
+    margin-top: 10px;
+  }
+
+  .nav-logo-img{
+    width: 250px;
+    height: 50px;
+  }
+  
+
+  /************* Search Bar ************/
+  .menu-search {
+    position: absolute;
+    top:75px;
+    left: 25px;
+    width: 100vw;
+    height: 50px;
+  }
+
+}

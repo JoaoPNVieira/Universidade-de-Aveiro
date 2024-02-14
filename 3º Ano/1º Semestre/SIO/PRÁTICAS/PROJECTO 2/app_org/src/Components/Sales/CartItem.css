@@ -1,0 +1,166 @@
+
+/************* Cart Item Stucture ************/
+.cartItem-card{
+    background: linear-gradient(135deg, #0D0D0D 0%, #494949 110%);
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-bottom: 11px;
+    border: #494949 solid 2px;
+    border-radius: 10px;
+}
+
+/************* Cart Item Image ************/
+.cartItem-img{
+    width: 150px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/************* Cart Item Name And Remove ************/
+.cartItem-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+    align-items: flex-start;
+}
+
+/* Cart Item Name */
+.cartItem-name{
+    font-size: 25px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    color: #BE9F5B;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cart Item Remove */
+.cartItem-remove{
+    font-size: 20px;
+    color: #BE9F5B;
+    cursor: pointer;
+}
+
+/************* Cart Item Price and Quantity ************/
+.cartItem-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    height: 30px;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartItem-quantity{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Cart Item Quantity Button */
+.cartItem-quantity-button{
+    background-color: #F4F4F4;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+/* Cart Item Quantity Display*/
+.cartItem-quantity-text{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #F4F4F4;
+}
+
+/* Cart Item Price */
+.cartItem-price{
+    color:#BE9F5B;
+}
+
+/************* For Empty Card ************/
+.cartItem-nullcard{
+    background: linear-gradient(135deg, #0D0D0D 0%, #494949 110%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 58vh;
+    min-height: 450px;
+    margin-bottom: 10px;
+    border: #494949 solid 2px;
+    border-radius: 10px;
+}
+
+.cartItem-nullcard i{
+    font-size: 40px;
+    color: #BE9F5B;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cartItem-nullcard-title{
+    font-size: 20px;
+    color: #BE9F5B;
+    text-align: center;
+}
+
+.cartItem-nullcard-text{
+    font-size: 15px;
+    text-align: center;
+}
+
+/************* On Small Screens ************/
+@media screen and (max-width: 960px) {
+    .cartItem-nullcard{
+        height: 200px;
+        min-height: 200px;
+        
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cartItem-name{
+        font-size: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .cartItem-remove{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .cartItem-name{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        
+    }
+
+    .cartItem-remove{
+        font-size: 15px;
+        position: relative;
+        top: 135px;
+        left: -10px;
+    }
+
+    .cartItem-info{
+        flex-direction: column;
+        margin-top: 60px;
+        justify-content: center;
+    }
+
+    .cartItem-price{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,45 @@
+
+/************* Filter Dropdown Stucture ************/
+.filterDropdown{
+    position: fixed;
+    top: 75px;
+    left: 63vw;
+    width: 130px;
+    max-height: 300px;
+    border: 2px solid #242424;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 3000;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+/************* Filter Buttons Stucture ************/
+.filterButton{
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #242424;
+}
+
+/* Change Color When Active */
+.filterButton.active{
+    background-color: #242424;
+    color: #fff;
+}
+
+/************* Filter On Small Screens ************/
+@media screen and (max-width: 960px) {
+    .filterDropdown{
+        top: 140px;
+        right: 0;
+        width: 35vw;
+    }
+}

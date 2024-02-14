@@ -1,0 +1,65 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {paragraph}{}{1}{section*.1}%
+\contentsline {paragraph}{}{1}{section*.4}%
+\contentsline {paragraph}{}{1}{section*.5}%
+\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Enquadramento}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Funcionamento Previsto do Website}{1}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Home Page}{1}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Pesquisa}{1}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Sign up}{1}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Login}{1}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Customer Area}{1}{section.2.5}%
+\contentsline {subsubsection}{Shopping Cart}{2}{section*.16}%
+\contentsline {subsubsection}{Safe Cart}{2}{section*.17}%
+\contentsline {subsubsection}{Wishlist}{2}{section*.18}%
+\contentsline {subsubsection}{Pagamentos}{2}{section*.19}%
+\contentsline {chapter}{\numberline {3}Vulnerabilidades e Correcções}{1}{chapter.3}%
+\contentsline {section}{\numberline {3.1}CWE-20: Improper Input Validation}{2}{section.3.1}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{2}{section*.20}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{3}{section*.22}%
+\contentsline {section}{\numberline {3.2}CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')}{3}{section.3.2}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{4}{section*.24}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{6}{section*.29}%
+\contentsline {section}{\numberline {3.3}CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')}{7}{section.3.3}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{7}{section*.31}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{9}{section*.35}%
+\contentsline {section}{\numberline {3.4}CWE-200: Exposure of Sensitive Information to an Unauthorized Actor}{9}{section.3.4}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{10}{section*.37}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{11}{section*.41}%
+\contentsline {section}{\numberline {3.5}CWE-256: Plaintext Storage of a Password}{12}{section.3.5}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{12}{section*.44}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{12}{section*.47}%
+\contentsline {section}{\numberline {3.6}CWE-284: Improper Access Control}{13}{section.3.6}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{13}{section*.50}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{14}{section*.53}%
+\contentsline {section}{\numberline {3.7}CWE-307: Improper Restriction of Excessive Authentication Attempts}{15}{section.3.7}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{16}{section*.56}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{16}{section*.58}%
+\contentsline {section}{\numberline {3.8}CWE-311: Missing Encryption of Sensitive Data}{18}{section.3.8}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{18}{section*.62}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{19}{section*.66}%
+\contentsline {section}{\numberline {3.9}CWE-319: Cleartext Transmission of Sensitive Information}{19}{section.3.9}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{19}{section*.68}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{20}{section*.70}%
+\contentsline {section}{\numberline {3.10}CWE-472: External Control of Assumed-Immutable Web Parameter}{21}{section.3.10}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{21}{section*.72}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{22}{section*.75}%
+\contentsline {section}{\numberline {3.11}CWE-521: Weak Password Requirements}{24}{section.3.11}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{24}{section*.79}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{24}{section*.81}%
+\contentsline {section}{\numberline {3.12}CWE-541: Inclusion of Sensitive Information in an Include File}{25}{section.3.12}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{25}{section*.84}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{27}{section*.87}%
+\contentsline {section}{\numberline {3.13}CWE-549: Missing Password Field Masking}{27}{section.3.13}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{27}{section*.89}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{28}{section*.93}%
+\contentsline {section}{\numberline {3.14}CWE-620: Unverified Password Change}{29}{section.3.14}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{29}{section*.97}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{30}{section*.100}%
+\contentsline {section}{\numberline {3.15}CWE-710: Improper Adherence to Coding Standards e CWE-1006: Bad Coding Practices}{31}{section.3.15}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{32}{section*.103}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{33}{section*.106}%
+\contentsline {section}{\numberline {3.16}Vulnerabilidade subtil - Light Analysis Failure}{34}{section.3.16}%
+\contentsline {subsubsection}{Demonstração e Impacto (app)}{34}{section*.108}%
+\contentsline {subsubsection}{Correcção (app\_sec):}{34}{section*.110}%
